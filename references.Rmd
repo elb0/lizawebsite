@@ -1,0 +1,43 @@
+---
+title: "Reference letters"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+If you're aiming for grad school, you'll most likely need a few Profs to agree to write letters/fill out forms in support of your application, be prepared for this and start thinking about it early. You should also always ask first, before you put someone's name down. This is also true for job reference etiquette generally.
+
+# Grad school references
+
+My policy is not to agree to write a reference for students if they have not __completed__ a course with me.
+
+To be able to write a reference that would actually strengthen your application, AND to have fair criteria considering that I get easily 100—150 requests per year and can usually only write for about 20–25 students (I know that sounds small...but it still takes a whole work week of time), my usual minimum criteria is at least two out of the following activities with me: 
+
+* active on Piazza/office hours + good mark in a standard class-based course (like STA303), 
+* student representative role, 
+* RA work, 
+* TA work 
+* a reading course. 
+
+Some examples from 2020/21 of students I said yes to:
+
+* several students who had high marks in STA303 and were active and doing well in STA490 with me,
+* students who had done STA303 and gone on to do great work as TAs or peer mentors for STA130 when I was teaching, and
+* a student who had done STA303 and was working on a reading course with me.
+
+## What should you do if you fit my criteria?
+
+**COMING SOON**
+
+Further things to keep in mind:
+
+* I need at least 3 week's notice before your reference is due.
+* I will write in support of 3 programs per student.
+
+Complete this form [not live yet]
+
+
+# References for other things?
+
+This will be on a bit more of a case-by-case basis. I really do want to support as many of you as I can! Email me directly to discuss jobs/scholarships etc. __Please keep in mind, if all I can say about you is that you did my course and got x grade, I'm not going to be very useful to you.__

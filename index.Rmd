@@ -1,18 +1,33 @@
 ---
-title: "Liza Bolton"
+title: "Hi, I'm Liza!"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Statistics Enthusiast and Assistant Professor, Teaching Stream
 site: distill::distill_website
+image: "images/liza.png"
+links:
+  - label: U of T profile
+    url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
+  - label: Twitter
+    url: "https://twitter.com/Liza_Bolton"
+  - label: GitHub
+    url: "https://github.com/elb0"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/lizabolton/"
+
+output:
+  postcards::trestles
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+Hello and kia ora! 
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+I'm a statistics enthusiast and Assistant Professor, Teaching Stream in the Department of Statistical Sciences at the University of Toronto, Canada.
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
+I grew up between Canada and New Zealand and so sometimes my slang is confusing.
 
-```
+#### Do you have to talk to or about me for some reason? Here are some things that might be useful to know:
 
+* What are my pronouns? she/her 
+* How do you pronounce my name?
+  * Google's pronunciation for Liza Koshy is the same as mine. Search "pronounce liza" if you want to hear it.
+  ![](images/pronunciation.png){width=100% .external}
+  * My last name is Bolton (__bowl__·tn), and the pronunciation Google provides is correct for that, too.
