@@ -730,15 +730,16 @@
             /*-- Main font sizes --*/
             --title-size:      50px;
             --body-size:       1.06rem;
-            --code-size:       14px;
+            --code-size:       0.9rem;
             --aside-size:      12px;
             --fig-cap-size:    13px;
             /*-- Main font colors --*/
             --title-color:     #000000;
             --header-color:    #612464;
             --body-color:      #000000;
-            --aside-color:     #612464;
-            --fig-cap-color:   #000000;
+            --aside-color:     rgba(0, 0, 0, 0.6);
+            --fig-cap-color:   rgba(0, 0, 0, 0.6);
+
             /*-- Specify custom fonts ~~~ must be imported above   --*/
             --heading-font:    'Libre Baskerville', serif;
             --mono-font:       'Fira Mono', monospace;     /* edited */
@@ -776,7 +777,7 @@
             --text-color:       rgba(255, 255, 255, 0.8);
             --text-size:        15px;
             --hover-color:      white;
-            --bkgd-color:       #612464;
+            --bkgd-color:       #4f1e52;
           }
 
           .distill-site-footer {
@@ -788,7 +789,38 @@
 
           /*-- Additional custom styles --*/
           /* Add any additional CSS rules below                      */
-          </style>
+          a {
+            color: #612464;
+          }
+
+          a:hover, a:active {
+            color: #612464;
+            text-decoration: underline;
+          }
+
+          ul > li::marker {
+            color: #612464;
+          }
+
+          .distill-site-header .logo img{
+            max-height: 30px; /* Makes logo bigger, default was 20px */
+          }
+
+          .distill-site-header {
+            padding-top: 1rem;
+          }
+
+          d-title h1,
+          d-article h2,
+          .posts-list .description h2,
+          .posts-list > h1 {
+              font-weight: 300;
+          }
+
+          d-appendix {
+            background-color: #faf7fd;
+            border-top: none;
+          }</style>
           <style type="text/css">
           /* base style */
 
@@ -986,6 +1018,12 @@
           </div>
           <a href="talks.html">Talks</a>
           <a href="fun.html">Fun stuff</a>
+          <a href="https://twitter.com/Liza_bolton">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/elb0">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
           <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
           </div>
           </nav>

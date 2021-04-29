@@ -7,20 +7,15 @@ image: "images/liza.png"
 links:
   - label: U of T profile
     url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
-  - label: Twitter
-    url: "https://twitter.com/Liza_Bolton"
-  - label: GitHub
-    url: "https://github.com/elb0"
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/lizabolton/"
-
 output:
   postcards::trestles
 ---
 
 Hello and kia ora! 
 
-I'm a statistics enthusiast and Assistant Professor, Teaching Stream in the Department of Statistical Sciences at the University of Toronto, Canada.
+# This site is still under construction! Only proceed if you are wearing a hard hat.
+
+I'm a statistics enthusiast and Assistant Professor, Teaching Stream in the [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) at the University of Toronto, Canada.
 
 I grew up between Canada and New Zealand and so sometimes my slang is confusing.
 

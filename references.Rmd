@@ -1,14 +1,22 @@
 ---
 title: "Reference letters"
+description: | 
+  A guide to requesting reference letters from me
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-If you're aiming for grad school, you'll most likely need a few Profs to agree to write letters/fill out forms in support of your application, be prepared for this and start thinking about it early. You should also always ask first, before you put someone's name down. This is also true for job reference etiquette generally.
+
 
 ## Grad school references
+
+If you're aiming for grad school, you'll most likely need a few Profs to agree to write letters/fill out forms in support of your application. Be prepared for this and start thinking about it early. You should also always ask first, before you put someone's name down. This is also true for job reference etiquette generally.
 
 My policy is not to agree to write a reference for students if they have not __completed__ a course with me.
 
@@ -41,3 +49,5 @@ Complete this form [not live yet]
 ## References for other things?
 
 This will be on a bit more of a case-by-case basis. I really do want to support as many of you as I can! Email me directly to discuss jobs/scholarships/internships etc. __Please keep in mind, if all I can say about you is that "Student X took my course and got grade Y", I'm not going to be very useful to you.__
+
+Please also note that you  should also always ask first, before you put someone's name down.

@@ -29,4 +29,8 @@ navbar:
       href: talks.html
     - text: "Fun stuff"
       href: fun.html
+    - icon: fa fa-twitter
+      href: https://twitter.com/Liza_bolton
+    - icon: fa fa-github
+      href: https://github.com/elb0
 output: distill::distill_article
