@@ -13,7 +13,7 @@ navbar:
       href: index.html
     - text: "Teaching and projects"
       menu:
-        - text: "Current teaching"
+        - text: "Teaching"
           href: teaching.html
         - text: "Research"
           href: projects.html

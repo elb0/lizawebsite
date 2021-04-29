@@ -1,5 +1,7 @@
 ---
-title: "Current teaching"
+title: "Teaching"
+description: |
+  A history of courses I've taught.
 date: "Last updated: `r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -10,31 +12,42 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Academic year: 2021–22
 
-### STA130/1002
-
-### STA490
-
-### STA303
+In 2021-22 I will be teaching (TBC) STA130 in the Fall, STA490 for the whole year and STA303 in the Winter.
 
 ## 2020–21
 
-### ST490
-
-https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1
-
-
-### STA303/1002
+### STA303/1002 (Winter)
 600 students across 2 sections.
 
-Syllabus: 
+[Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf)
+
+### ST490 (Year)
+
+Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
+
+[Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf)
+
+[Special enrollment information for STA490 from the department](https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1)
+
+### STA496 (Year)
+
+Samantha Pierre
+
+Joanna Lo
+
+### STA130 (Fall)
+
+Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
+
+[Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf)
 
 #### Course trailer
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen></iframe>
 
-## Winter 2020
+## 2019-20
 
-This was my first semeter at the University of Toronto. Due to the COVID-19 pandemic, U of T rapidly transitioned online in mid-March.
+Winter 2020 was my first semeter at the University of Toronto. Due to the COVID-19 pandemic, U of T rapidly transitioned online in mid-March.
 
 ### STA130
 
