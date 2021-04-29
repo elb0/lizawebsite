@@ -1,0 +1,34 @@
+---
+title: "Talks"
+description: |
+  Sometimes I say stuff. 
+output: distill::distill_article
+---
+
+## Panel on teaching data-focussed topics, Toronto Data Workshop
+
+
+_2020-12-17_
+
+Big thank you to [Rohan Alexander](https://rohanalexander.com/) for organising this panel on teaching data-focussed topics. This was one of my favourite talks I've ever done because I got to get creative with it. Unfortunately my use of music kept getting Rohan copyright stuck on YouTube. Sorry, Rohan!
+
+<iframe width="560" height="450" src="https://www.youtube.com/embed/c3R6pZisvm0?start=894"  allowfullscreen></iframe>
+
+My bit starts at 14:51 but I'd highly recommend the other speakers' sections!
+
+#### Fellow panellists:
+
+* [Nathalie Moon, Univeristy of Toronto](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
+* [Maria Tackett, Duke University](https://www.mariatackett.net/)
+* [Teon Brooks, Mozilla Firefox](https://teonbrooks.com/)
+
+## Don’t cha wish your ggplot had colours like me?, R Ladies Auckland
+
+_2019-06-12_
+
+A lightning talk about using colour when plotting data with `ggplot`.
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://www.dataembassy.co.nz/Liza-colours-in-R#1", ratio = "16:9")
+```
+
