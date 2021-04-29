@@ -10,10 +10,38 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Academic year: 2021–22
 
-### STA130
+### STA130/1002
 
 ### STA490
 
 ### STA303
 
 ## 2020–21
+
+### ST490
+
+https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1
+
+
+### STA303/1002
+600 students across 2 sections.
+
+Syllabus: 
+
+#### Course trailer
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen></iframe>
+
+## Winter 2020
+
+This was my first semeter at the University of Toronto. Due to the COVID-19 pandemic, U of T rapidly transitioned online in mid-March.
+
+### STA130
+
+Co-taught with Nathalie Moon.
+
+[Syllabus]("https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf")
+
+### STA303
+
+Co-taught with Patrick Brown.
