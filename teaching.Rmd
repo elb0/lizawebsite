@@ -1,0 +1,19 @@
+---
+title: "Current teaching"
+date: "Last updated: `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Academic year: 2021–22
+
+### STA130
+
+### STA490
+
+### STA303
+
+## 2020–21

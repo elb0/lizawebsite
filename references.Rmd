@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 If you're aiming for grad school, you'll most likely need a few Profs to agree to write letters/fill out forms in support of your application, be prepared for this and start thinking about it early. You should also always ask first, before you put someone's name down. This is also true for job reference etiquette generally.
 
-# Grad school references
+## Grad school references
 
 My policy is not to agree to write a reference for students if they have not __completed__ a course with me.
 
@@ -26,7 +26,7 @@ Some examples from 2020/21 of students I said yes to:
 * students who had done STA303 and gone on to do great work as TAs or peer mentors for STA130 when I was teaching, and
 * a student who had done STA303 and was working on a reading course with me.
 
-## What should you do if you fit my criteria?
+### What should you do if you think you fit my criteria?
 
 **COMING SOON**
 
@@ -38,6 +38,6 @@ Further things to keep in mind:
 Complete this form [not live yet]
 
 
-# References for other things?
+## References for other things?
 
-This will be on a bit more of a case-by-case basis. I really do want to support as many of you as I can! Email me directly to discuss jobs/scholarships etc. __Please keep in mind, if all I can say about you is that you did my course and got x grade, I'm not going to be very useful to you.__
+This will be on a bit more of a case-by-case basis. I really do want to support as many of you as I can! Email me directly to discuss jobs/scholarships/internships etc. __Please keep in mind, if all I can say about you is that "Student X took my course and got grade Y", I'm not going to be very useful to you.__

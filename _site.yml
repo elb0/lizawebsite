@@ -11,12 +11,12 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Teaching and research"
+    - text: "Teaching and projects"
       menu:
         - text: "Current teaching"
           href: teaching.html
         - text: "Research"
-          href: research.html
+          href: projects.html
     - text: "For students"
       menu:
         - text: "Reference letters"
@@ -25,6 +25,8 @@ navbar:
           href: reading.html
         - text: "Opportunities"
           href: opportunities.html
+    - text: "Talks"
+      href: talks.html
     - text: "Fun stuff"
       href: fun.html
 output: distill::distill_article
