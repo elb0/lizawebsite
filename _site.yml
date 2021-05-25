@@ -4,6 +4,7 @@ theme: theme.css
 description: |
   Liza Bolton
 output_dir: "docs"
+favicon: images/favicon.ico
 navbar:
   logo:
     image: images/BarsOnly.png
@@ -11,24 +12,16 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Teaching and projects"
-      menu:
-        - text: "Teaching"
-          href: teaching.html
-        - text: "Research"
-          href: projects.html
+    - text: "Teaching"
+      href: teaching.html
     - text: "For students"
       menu:
         - text: "Reference letters"
           href: references.html
         - text: "Reading courses"
-          href: reading.html
-        - text: "Opportunities"
-          href: opportunities.html
+          href: reading_courses.html
     - text: "Talks"
       href: talks.html
-    - text: "Fun stuff"
-      href: fun.html
     - icon: fa fa-twitter
       href: https://twitter.com/Liza_bolton
     - icon: fa fa-github
