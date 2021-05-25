@@ -21,6 +21,10 @@ In 2021-22 I will be teaching (TBC) STA130 in the Fall, STA490 for the whole yea
 
 [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf)
 
+#### Course trailer
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen></iframe>
+
 ### ST490 (Year)
 
 Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
@@ -40,10 +44,6 @@ Joanna Lo
 Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
 
 [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf)
-
-#### Course trailer
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen></iframe>
 
 ## 2019-20
 

@@ -1,11 +1,11 @@
 ---
-title: "Talks"
+title: "Talks and media"
 description: |
   Sometimes I say stuff. Actually, quite often...but sometimes it's worth sharing!
 output: distill::distill_article
 ---
 
-## Panel on teaching data-focussed topics, Toronto Data Workshop
+## _Panel on teaching data-focussed topics_, Toronto Data Workshop
 
 
 _2020-12-17_
@@ -22,7 +22,15 @@ My bit starts at 14:51 but I'd highly recommend the other speakers' sections!
 * [Maria Tackett, Duke University](https://www.mariatackett.net/)
 * [Teon Brooks, Mozilla Firefox](https://teonbrooks.com/)
 
-## Don’t cha wish your ggplot had colours like me?, R Ladies Auckland
+## _Everything you need to fall in love with Statistics_, an interview with [storyo.co](https://www.storyo.co/)
+
+_2019-07-11_    
+
+> I met Liza (pronounced Lie-zuh, like Liza Minnelli) at the R-Ladies meetup in Auckland, New Zealand where she was giving a talk on colour palettes. If you ever meet Liza, you will see that it is absolutely impossible to not get a massive positive energy recharge after talking to her. Liza is currently doing her PhD in Statistics, running a consultancy called The Data Embassy, speaking at events, teaching, mentoring. It would be my absolute pleasure to learn more about Liza and share her wonderful story.
+
+[Read the full interview here](https://www.storyo.co/stories/liza-bolton)
+
+## _Don’t cha wish your ggplot had colours like me?_, R Ladies Auckland
 
 _2019-06-12_
 
