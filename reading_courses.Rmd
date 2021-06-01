@@ -15,36 +15,49 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What are reading courses?
 
-The [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) offers [STA496: Readings in Statistics](https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1#several-statistics-courses-have-special-enrolment-procedures-so-enrolment-in-these-courses-cannot-be-done-on-acorn-please-select-the-course-you-are-interested-in-from-the-list-below-for-information-on-the-enrolment-process-prerequisites-and-instructions-on-how-to-request-enrolment-accordion-3). This course allows high achieving statistics students to expand their knowledge in an area/to a level of depth that is usually outside what is offered in other undergraduate statistics courses. 
+The [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) offers [STA496: Readings in Statistics](https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1#several-statistics-courses-have-special-enrolment-procedures-so-enrolment-in-these-courses-cannot-be-done-on-acorn-please-select-the-course-you-are-interested-in-from-the-list-below-for-information-on-the-enrolment-process-prerequisites-and-instructions-on-how-to-request-enrolment-accordion-3). This course allows high achieving statistics students to expand their knowledge in an area/to a level of depth that is usually outside what is offered in other undergraduate statistics courses.
 
 It can be a great opportunity to test out if you like conducting research and it can help you think about whether you're interested in graduate level studies. It is also a good way to get a high quality [reference letter](https://www.lizabolton.com/references.html) (assuming things go well) for graduate school.
 
 ### Calendar description
-_Independent study under the direction of a faculty member. Students wishing to take this course must have the permission of the Department of Statistical Sciences and of the prospective supervisor. Not eligible for CR/NCR option._
+
+*Independent study under the direction of a faculty member. Students wishing to take this course must have the permission of the Department of Statistical Sciences and of the prospective supervisor. Not eligible for CR/NCR option.*
 
 ### Prerequisite
 
 At least 1.0 FCE 300+ level STA courses with a minimum grade of 80% in each course.
 
-## Doing a reading course with _me_
+## Doing a reading course with *me*
 
 First and foremost, here are some key things to know about my personal policies for reading courses:
 
-- I only supervise the Fall to Winter ('year'-long), half credit version of this course.
-- I do not supervise reading courses over the Spring/Summer semesters.
-- I can only supervise a small number of students in a given year.
-- You must come up with their own topic proposal in either __applied statistics__ or __statistics education__ to pitch to me.
-- You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.
+-   I only supervise the Fall to Winter ('year'-long), half credit version of this course.
+-   I do not supervise reading courses over the Spring/Summer semesters.
+-   I can only supervise a small number of students in a given year.
+-   You must come up with their own topic proposal in either **applied statistics** or **statistics education** to pitch to me.
+-   You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.
 
-__More information about applications coming soon.__
+**More information about applications coming soon.**
 
-## Previous students 
+## Previous students
 
-___This section is still being developed.___
+***This section is still being developed.***
+
+### Samantha Pierre, 2020--21
+
+Title: *And the nominees are...An empirical study of the effects of a Tony Award Win and Nomination on a Show's Success*
+
+You can hear Sam discuss the results of her project and her experience undertaking a reading course in her invited talk at the Toronto Data Workshop in May 2021.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rFojvBN0qGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+Follow Sam on Twitter, [\@WhamBamGAM](https://twitter.com/WhamBamGAM).
 
 ## Other
 
 Prof. Rohan Alexander has written up two of the reading courses he's offered and provided the details on his website.
 
-- [Ethics and Data Science](https://rohanalexander.com/reading_course-ethics.html)
-- [Natural Language Processing](https://rohanalexander.com/reading_course-nlp.html)
+-   [Ethics and Data Science](https://rohanalexander.com/reading_course-ethics.html)
+-   [Natural Language Processing](https://rohanalexander.com/reading_course-nlp.html)
