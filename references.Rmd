@@ -1,7 +1,7 @@
 ---
 title: "Reference letters"
 description: | 
-  A guide to requesting reference letters from me
+  A guide to requesting reference letters from me.
 output:
   distill::distill_article:
     toc: true
