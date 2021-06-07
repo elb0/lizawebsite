@@ -22,6 +22,8 @@ navbar:
           href: reading_courses.html
     - text: "Talks"
       href: talks.html
+    - text: "Blog"
+      href: https://blog.lizabolton.com
     - icon: fa fa-twitter
       href: https://twitter.com/Liza_bolton
     - icon: fa fa-github

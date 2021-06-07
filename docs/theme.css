@@ -94,7 +94,7 @@ ul > li::marker {
 }
 
 body {
-  background-color: ##fffcfa;
+  background-color: #fffcfa;
 }
 
 .distill-site-header .logo img{
@@ -130,3 +130,4 @@ a.button {
     text-decoration: none;
     color: initial;
 }
+
