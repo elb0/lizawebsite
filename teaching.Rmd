@@ -1,8 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught.
-date: "Last updated: `r Sys.Date()`"
+  A history of courses I've taught. *Last updated: `r Sys.Date()`*.
 output: distill::distill_article
 ---
 
@@ -10,20 +9,46 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Academic year: 2021–22
+## Academic year: 2021--22
 
-In 2021-22 I will be teaching (TBC) STA130 in the Fall, STA490 for the whole year and STA303 in the Winter.
+In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and STA303 in the Winter.
 
-## 2020–21
+-   R is the programming language used in these courses. 
+  -  I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for vizualization. 
+  -  If you're not familiar with these, consider checking out chapters 3 and 5 of [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garret Grolemund and the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
+
+-   Delivery is subject to change due to the evolving pandemic situation.
+
++--------------------------------------------------------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Course                                                             | Session                                       | Delivery                                                                                                    | Notes                                                                                                                                                                                                    |
++====================================================================+===============================================+=============================================================================================================+==========================================================================================================================================================================================================+
+| STA130: An Introduction to Statistical Reasoning and Data Science  | F                                             | Online synchronous for lectures and tutorials.                                                              | The timetable may say I'm teaching section L0201, but Prof. Sam Caetano and I will likely be co-teaching both sections.                                                                                  |
+|                                                                    |                                               |                                                                                                             |                                                                                                                                                                                                          |
+|                                                                    |                                               |                                                                                                             | This course is likely to have **flipped** components, where students can watch videos and access resources at times convenient to them.                                                                  |
++--------------------------------------------------------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STA490: Statistical Consultation, Communication, and Collaboration | Y                                             | Online synchronous for lectures. Choice between online synchronous and in-person synchronous for tutorials. | This course is required for the Methods and Practice specialist and there is often limited or no places for folks outside that POSt.                                                                     |
+|                                                                    |                                               |                                                                                                             |                                                                                                                                                                                                          |
+|                                                                    |                                               |                                                                                                             | This course has special enrolment requirements. Contact ug.statistics\@utoronto.ca for more information.                                                                                                 |
++--------------------------------------------------------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STA303: Methods of Data Analysis II                                | S                                             | Online synchronous for lectures. Choice between online synchronous and in-person synchronous for tutorials. | I am teaching both sections (L0101 and L0201)                                                                                                                                                            |
+|                                                                    |                                               |                                                                                                             |                                                                                                                                                                                                          |
+|                                                                    |                                               |                                                                                                             | This course is likely to have flipped components, where students can watch videos and access resources at times convenient to them. Expect to have work to do *before* classes on Wednesdays to prepare. |
++--------------------------------------------------------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+## 2020--21
 
 ### STA303/1002 (Winter)
+
 600 students across 2 sections.
 
 [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf)
 
 #### Course trailer
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen>
+
+</iframe>
 
 ### ST490 (Year)
 
@@ -53,7 +78,7 @@ Winter 2020 was my first semeter at the University of Toronto. Due to the COVID-
 
 Co-taught with Nathalie Moon.
 
-[Syllabus]("https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf")
+[Syllabus](%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22)
 
 ### STA303
 
