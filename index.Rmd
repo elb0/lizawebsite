@@ -11,20 +11,24 @@ output:
   postcards::trestles
 ---
 
-Hello and kia ora! 
+Hello and kia ora!
 
-# _This site is still under construction! Only proceed if you are wearing a hard hat._
+I'm a statistics enthusiast and an Assistant Professor, Teaching Stream in the [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) at the University of Toronto, Canada. My statistics education interests include: teaching and assessing ethical professional practice and writing for statisticians, online learning, supporting student mental health, building undergraduate student community, large classroom teaching and innovative assessments.
 
-I'm a statistics enthusiast and Assistant Professor, Teaching Stream in the [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) at the University of Toronto, Canada.
+My background is in understanding how people's social and economic experiences relate to risk of death in Aotearoa New Zealand, using methods appropriate for longitudinally linked census data. I also used to run a small consulting company, the Data Embassy, working with a range of business, education and not-for-profit clients.
 
-I grew up between Canada and New Zealand and so sometimes my slang is confusing.
+I grew up between Canada and New Zealand and so sometimes my slang is confusing. But don't worry, *she'll be right, eh?*
 
-#### Do you have to talk _to_ or _about_ me for some reason? Here are some things that might be useful to know:
+#### Do you have to talk *to* or *about* me for some reason? Here are some things that might be useful to know:
 
-* What are my __pronouns__? she/her 
-* How should you introduce me or address emails to me? I honestly prefer just 'Liza', but Prof. Bolton is fine, too.
-* How do you __pronounce__ my name?
-  * Google's pronunciation for Liza Koshy is the same as mine. Search "pronounce liza" if you want to hear it.
-  
-  ![](images/pronunciation.png){width=80% .external}
-  * My last name is Bolton (__bowl__·tn), and the pronunciation Google provides is correct for that, too.
+-   What are my **pronouns**? she/her
+
+-   How should you introduce me for a talk or address emails to me? I honestly prefer just 'Liza', but 'Prof. Bolton' is fine, too.
+
+-   How do you **pronounce** my name?
+
+    -   Google's pronunciation for Liza Koshy is the same as mine. Search "pronounce liza" if you want to hear it.
+
+    ![](images/pronunciation.png){.external width="80%"}
+
+    -   My last name is Bolton (**bowl**·tn), and the pronunciation Google provides is correct for that, too.

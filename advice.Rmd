@@ -1,0 +1,125 @@
+---
+title: "General advice"
+description: | 
+  I often get asked for advice from students on the same topics, and so am trying to curate my best bits here.
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+_This page was last updated 2021-07-13._
+
+You can also see my current email autoresponder, that has more practical admin information, [here](https://blog.lizabolton.com/posts/2021-07-13_autoresponder/).
+
+## Data cleaning/wrangling/visualization experience or personal projects
+
+I recommend you try out Tidy Tuesday! Tidy Tuesday is a weekly social data project in R and a great way to start getting used to GitHub and building your portfolio with bitesize efforts.
+
+<https://github.com/rfordatascience/tidytuesday>
+
+Benefits to in taking part (and in the spirit of going "beyond coursework"):
+
+-   experience with tidying data
+
+-   practice generating interesting questions that you can approach with stats (harder than you think!)
+
+-   practice with data visualisation
+
+There is a podcast, <https://www.tidytuesday.com/and>, a Slack group, [r4ds.io](http://r4ds.io/), and even [YouTube livestreams/videos](https://www.youtube.com/user/safe4democracy/videos).
+
+#### To do
+
+Check out previous week's topics and work folks have done through [\#TidyTuesday on Twitter'(<https://twitter.com/search?q=%23TidyTuesday>). 
+
+Read the [list of community guidelines](https://github.com/rfordatascience/tidytuesday) so you know what to do and how to behave. 
+
+When the new dataset is posted on Monday, come chat about it in the \#portfolio-building channel here on Slack. If you use Twitter, follow @thomas_mock and @R4DScommunity.
+
+## Get research opportunities?
+
+* Check out the [Department of Statistical Sciences page](https://www.statistics.utoronto.ca/current-students/research-opportunities-scholarships-awards) on research opportunities, acholarships & awards
+
+* [My page on reading courses.](https://www.lizabolton.com/reading_courses.html)
+
+## Reference letters
+
+You can read more about _my_ requirements [here.](https://www.lizabolton.com/references.html)
+
+Every Prof is different, but it is generally good advice to __make sure they know who you are__. I know this can be hard or intimidating in large classes, but it can be really important. __Introduce yourself__, __come to office hours__, if there are opportunities to talk about what your interests are, take them. While you don't want to be giving your networking elevator pitch every week in office hour, taking a bit of that networking attitude into your interactions isn't a bad thing. I'm interested in what you're doing and what you're passionate about! Additionally, many reference questionnaires ask us to talk about your speaking skills. An instructor you've never spoken to, especially in a large class, is unlikely to be able to meet with you just to see if you communicate well before deciding whether or not to write for you—they should already have an idea of this when your request lands in their inbox!
+
+Rohan Alexander, in a [post about grad school applications](https://rohanalexander.com/posts/2021-03-13-grad-school-applications/), says "The best letters are from folks that know you and your work. You need to spend a huge amount of effort getting decent letters. They’re as important, if not more, as your GPA." I'd definitely recommend you check out the rest of his [advice on how to think about reference letters](https://rohanalexander.com/posts/2021-03-13-grad-school-applications/#letters). 
+
+## Git/GitHub skills
+
+See <a href="#happygit">'Happy Git with R'</a> below for more information.
+
+## Teamwork tips (from Google)
+
+Being able to work in a team is often listed as a key skill in job ads and is an important part of many data competitions and courses your may undertake. Effective team work isn't a given and really is a skill you can develop. And guess what? Google has spent years researching effective teamwork! They took a data-driven approach to understand how to form effective teams. __"The researchers found that what really mattered was less about who is on the team, and more about how the team worked together."__
+
+Here were some of the most important findings:
+
+🤷️ Personality mix doesn't matter
+
+🧠 Psychological safety matters the most and you can foster it with:
+
+🗣️"Equality in conversational turn-talking", i.e. taking turns and talking an equal amount
+
+👂Listening (what are your strategies for showing you're really listening when working online? 🤔)
+
+I'd highly recommend taking a look at the [re:work guide](https://rework.withgoogle.com/print/guides/5721312655835136/), it has some things you can discuss as a group and links to lots of other resources.
+
+#### Other related links:
+
+📺 [Amy Edmondson's TED Talk on psychological safety](https://youtu.be/LhoLuui9gX8)
+
+📺 [The re:work YouTube channel](https://www.youtube.com/channel/UCbQ1BMqrwJcrAaTFAJjNwNg/videos)—consider starting with [_Teams, psychological safety, and Saturday Night Live_ by Charles Duhigg](https://www.youtube.com/watch?v=uohJLoyu70M).
+
+📺 A 4 minute summary: https://www.youtube.com/watch?v=hHIikHJV9fI
+
+
+# Recommended reading
+
+## *R for Data Science* by Garrett Grolemund and Hadley Wickham
+
+<https://r4ds.had.co.nz>
+
+If you've been my student I've probably already told you about this amazing free textbook by New Zealander and rock star of the R world, Hadley Wickham ([\@hadleywickham](https://twitter.com/hadleywickham)).
+
+-   [Chapter 3](https://r4ds.had.co.nz/data-visualisation.html) covers basics of ggplot (using the same data as Danielle Navarro does in her videos) 🚗\
+-   [Chapter 5](https://r4ds.had.co.nz/transform.html) covers the basics of dplyr, a package that has saved me many hours of work when data wrangling
+
+📖Anecdote time: I always recommend this book because back in NZ when one of my friends wanted to pivot from working as an organic chemist and get in to statistical consulting he worked through this book and in the space of only 2--3 months was taking on large chunks of client work for my consulting business. A fabulous crash course in being useful in R.
+
+## *Happy Git with R* by Jenny Bryan, the STAT 545 TAs and Jim Hester {#happygit}
+
+<https://happygitwithr.com/>
+
+### What is Git and why do you want it?
+
+If you haven't already, get yourself setup with GitHub as a key component of your portfolio building. It will supercharge your version control and your ability to collaborate with others and provides a great way to host a website on which to share your portfolio.
+
+I think Jenny Bryan has a great introduction in her Happy Git with R, so I'll let her explain the rest:
+
+> "Git is a version control system. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files -- called a repository -- in a sane, highly structured way. If you have no idea what I'm talking about, think of it as the "Track Changes" features from Microsoft Word on steroids.
+>
+> Git has been re-purposed by the data science community. In addition to using it for source code, we use it to manage the motley collection of files that make up typical data analytical projects, which often consist of data, figures, reports, and, yes, source code.
+>
+> A solo data analyst, working on a single computer, will benefit from adopting version control. But not nearly enough to justify the pain of installation and workflow upheaval. There are much easier ways to get versioned back ups of your files, if that's all you're worried about.
+>
+> In my opinion, for new users, the pros of Git only outweigh the cons when you factor in the overhead of communicating and collaborating with other people. Who among us does not need to do that? Your life is much easier if this is baked into your workflow, as opposed to being a separate process that you dread or neglect."
+>
+> \- Jenny Bryan, Happy Git with R, Section 1.1: Why Git? [\<https://happygitwithr.com/big-picture.html\>](https://happygitwithr.com/big-picture.html){.uri}
+
+There is also lots of great practical professional advice in here, too, like "Pick a username you will be comfortable revealing to your future boss." Save gamerangel420 for Reddit. (The first example I thought of I had to change...it actually was someone's Reddit username.)
+
+#### To do
+
+-   Work through Jenny Bryan's awesome '[Happy Git with R](https://happygitwithr.com/)'
+
+-   Sign up for the [GitHub Education Student Developer Pack](https://education.github.com/pack) (access to hundreds of dollars worth of tools and training AND a GitHub pro account while you're a student)

@@ -16,6 +16,8 @@ navbar:
       href: teaching.html
     - text: "For students"
       menu:
+        - text: "General advice"
+          href: advice.html
         - text: "Reference letters"
           href: references.html
         - text: "Reading courses"
