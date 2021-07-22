@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-_This page was last updated 2021-07-13._
+_This page was last updated 2021-07-21._
 
 You can also see my current email autoresponder, that has more practical admin information, [here](https://blog.lizabolton.com/posts/2021-07-13_autoresponder/).
 
@@ -40,7 +40,7 @@ Read the [list of community guidelines](https://github.com/rfordatascience/tidyt
 
 When the new dataset is posted on Monday, come chat about it in the \#portfolio-building channel here on Slack. If you use Twitter, follow @thomas_mock and @R4DScommunity.
 
-## Get research opportunities?
+## Research opportunities
 
 * Check out the [Department of Statistical Sciences page](https://www.statistics.utoronto.ca/current-students/research-opportunities-scholarships-awards) on research opportunities, acholarships & awards
 
@@ -57,6 +57,12 @@ Rohan Alexander, in a [post about grad school applications](https://rohanalexand
 ## Git/GitHub skills
 
 See <a href="#happygit">'Happy Git with R'</a> below for more information.
+
+## Building a personal website
+
+Once your <a href="#happygit">Git & GitHub</a> skills are sharp you'll be able to use GitHub pages to host a personal profile and portfolio for free. In summer 2021 there was a workshop series for the Independent Summer Statistics Community about this and you can __access the resources [here](https://uoft-doss-issc.github.io/website-workshop/).__
+
+__Is this worth your time? __ I tend to think it is, as the effort of thinking about how you want to present yourself and what you value (personal brand), as well as what your brief elevator pitch/bio is, are useful and transferable to writing cover letters, personal statements and networking. Having a place where people can view your projects so that you can really demonstrate what you can do is also really valuable, and building the site with Distill for R and GitHub as a bit of a portfolio item in and of itself.
 
 ## Teamwork tips (from Google)
 

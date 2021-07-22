@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught. *Last updated: `r Sys.Date()`*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: `r Sys.Date()`*.
 output: distill::distill_article
 ---
 
@@ -23,7 +23,9 @@ In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and 
 
         -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
 
--   Delivery is subject to change due to the evolving pandemic situation, but **all assessments will be able to be completed and submitted online.**
+-   Delivery for STA490 and STA303 is subject to change due to the evolving pandemic situation, but **all assessments will be able to be completed and submitted online.** STA130 will remain online regardless as it is officially an online course.
+
+-   Please note that while I try to ensure this page is accurate and up-to-date, it is in no way *official*. ACORN, official time table information and communications from the Department or Faculty are the most accurate sources of information. If they conflict with what is written here, believe *them*.
 
 +--------------------------------------------------------------------+---+-------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Course                                                             |   | Delivery                                                                                                    | Assessment                                                  | Notes                                                                                                                                                                                                    |
