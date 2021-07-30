@@ -16,6 +16,8 @@ navbar:
       href: teaching.html
     - text: "For students"
       menu:
+        - text: "2021–22"
+          href: https://www.lizabolton.com/teaching.html#academic-year-202122
         - text: "General advice"
           href: advice.html
         - text: "Reference letters"
