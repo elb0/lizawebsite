@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: Reading courses</title>
@@ -93,8 +94,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/>
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-07-30"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-07-30"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-08-08"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-08-08"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Liza Bolton: Reading courses"/>
@@ -112,7 +113,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Reading courses"]},{"type":"character","attributes":{},"value":["What are they and how do you do one?\n"]},{"type":"character","attributes":{},"value":["2021-07-30"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Reading courses"]},{"type":"character","attributes":{},"value":["What are they and how do you do one?\n"]},{"type":"character","attributes":{},"value":["2021-08-08"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -459,7 +460,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1866,7 +1867,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2402,7 +2406,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7.12/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.10.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2422,7 +2426,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Reading courses","description":"What are they and how do you do one?","authors":[],"publishedDate":"2021-07-30T00:00:00.000+00:00"}
+{"title":"Reading courses","description":"What are they and how do you do one?","authors":[],"publishedDate":"2021-08-08T00:00:00.000-04:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2451,6 +2455,7 @@ For students
 <a href="reading_courses.html">Reading courses</a>
 </div>
 </div>
+<a href="projects.html">Passions</a>
 <a href="talks.html">Talks</a>
 <a href="https://blog.lizabolton.com">Blog</a>
 <a href="https://twitter.com/Liza_bolton">
@@ -2489,12 +2494,17 @@ For students
 <li><a href="#what-are-reading-courses">What are reading courses?</a>
 <ul>
 <li><a href="#calendar-description">Calendar description</a></li>
-<li><a href="#prerequisite">Prerequisite</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
 </ul></li>
-<li><a href="#doing-a-reading-course-with-me">Doing a reading course with <em>me</em></a></li>
+<li><a href="#doing-a-reading-course-with-me">Doing a reading course with <em>me</em></a>
+<ul>
+<li><a href="#topics-and-projects-on-which-im-interested-in-working-with-students">Topics and projects on which I’m interested in working with students</a></li>
+<li><a href="#how-register-your-interest-new">How register your interest <span style="background-color: #FFD700">(new!)</span></a></li>
+</ul></li>
 <li><a href="#previous-students">Previous students</a>
 <ul>
 <li><a href="#samantha-pierre-202021">Samantha Pierre, 2020–21</a></li>
+<li><a href="#joanna-lo-202021">Joanna Lo, 2020–21</a></li>
 </ul></li>
 <li><a href="#other">Other</a></li>
 </ul>
@@ -2505,7 +2515,7 @@ For students
 <p>It can be a great opportunity to test out if you like conducting research and it can help you think about whether you’re interested in graduate level studies. It is also a good way to get a high quality <a href="https://www.lizabolton.com/references.html">reference letter</a> (assuming things go well) for graduate school.</p>
 <h3 id="calendar-description">Calendar description</h3>
 <p><em>Independent study under the direction of a faculty member. Students wishing to take this course must have the permission of the Department of Statistical Sciences and of the prospective supervisor. Not eligible for CR/NCR option.</em></p>
-<h3 id="prerequisite">Prerequisite</h3>
+<h3 id="prerequisites">Prerequisites</h3>
 <p>At least 1.0 FCE 300+ level STA courses with a minimum grade of 80% in each course.</p>
 <h2 id="doing-a-reading-course-with-me">Doing a reading course with <em>me</em></h2>
 <p>First and foremost, here are some key things to know about my personal policies for reading courses:</p>
@@ -2516,15 +2526,45 @@ For students
 <li>You must come up with their own topic proposal in either <strong>applied statistics</strong> or <strong>statistics education</strong> to pitch to me.</li>
 <li>You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.</li>
 </ul>
-<p><strong>More information about applications coming soon.</strong></p>
+<h3 id="topics-and-projects-on-which-im-interested-in-working-with-students">Topics and projects on which I’m interested in working with students</h3>
+<p>There are two styles of reading course you could consider proposing:s</p>
+<h4 id="project-based">1. Project-based</h4>
+<p>You propose a topic for which data is available that you wish to apply statistical methods to and produce a report. This style of project may be useful if you’re considering a thesis-based Master’s in an applied statistics area as it lets you dip your toe in and see if you like it.</p>
+<p>I tend to be most interested in topics on social and economic issues, but part of the reason I am a Statistician is because I love learning new things. Convince me your topic is interesting and/or relevant to making the world a better place and if I have the right skills to support you, I’ll be interested.</p>
+<p>I do <em>not</em> use a lot of Bayesian, machine learning or time series methods in my own work, and personally use R. Topics using these methods or other programming languages aren’t necessarily ruled out, but you’ll need to demonstrate a plan for reasonable pre-/co-requisite courses and previous experience.</p>
+<p>I am also open to <strong>co-supervising</strong> with faculty from other disciplines for cross-disciplinary work.</p>
+<h4 id="literature-and-task-based">2. Literature and task-based</h4>
+<p>You choose a topic, related to one of my interest areas below, and together we create a reading and task list for your to work through across the year. You might write a literature review, prepare a workshop or talk, write blog posts, etc. This is more similar to a traditional course experience than option 1, but is an opportunity to explore a topic not covered in other statistics course, build professional skills relevant to research/future employment.</p>
+<h5 id="topics-areas-of-interest">Topics areas of interest</h5>
+<ul>
+<li><p>ethical professional practice for statisticians</p>
+<ul>
+<li><p>indigenous data sovereignty</p></li>
+<li><p>ethics of web scraping</p></li>
+<li><p>graphicacy and how not to lie with charts</p></li>
+<li><p>sampler platter of ethics topics, e.g. algorithmic bias, disclosure risk, privacy/confidenitality, accessibility, reproducibility, professional codes of conduct</p></li>
+</ul></li>
+<li><p>statistics education</p>
+<ul>
+<li><p>assessment practices for ethical professional practice</p></li>
+<li><p>teaching and learning simulation-based inference</p></li>
+<li><p>trauma-informed pedagogy for statistics classrooms</p></li>
+<li><p>online learning (potential data from STA130)</p></li>
+</ul></li>
+<li><p>I may consider some other topics, but the above are best aligned with my current research.</p></li>
+</ul>
+<h3 id="how-register-your-interest-new">How register your interest <span style="background-color: #FFD700">(new!)</span></h3>
+<p><span style="background-color: #FFD700">Please register your interest by <strong>6:00 p.m. ET September 1, 2021</strong>. I will aim to respond to all submitters by September 5.</span></p>
+<p><span style="background-color: #FFD700">You can register your interest and propose your reading course topic to me using <a href="https://forms.office.com/r/wx9Je4vRuf"><strong>this form</strong></a>. You will be asked to <a href="https://utoronto-my.sharepoint.com/:w:/g/personal/liza_bolton_utoronto_ca/ESsQy3JNNqJIkr7ISpmdGVYBRcuP05cmzUlDe0fM9V3WIg?e=fXLhsv"><strong>complete this proposal document</strong></a> and submit it, as well. (Note: You will need to be signed in with your U of T account to access the form and document.)</span></p>
 <h2 id="previous-students">Previous students</h2>
-<p><strong><em>This section is still being developed.</em></strong></p>
 <h3 id="samantha-pierre-202021">Samantha Pierre, 2020–21</h3>
 <p>Title: <em>And the nominees are…An empirical study of the effects of a Tony Award Win and Nomination on a Show’s Success</em></p>
 <p>You can hear Sam discuss the results of her project and her experience undertaking a reading course in her invited talk at the Toronto Data Workshop in May 2021.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rFojvBN0qGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <p>Follow Sam on Twitter, <a href="https://twitter.com/WhamBamGAM">@WhamBamGAM</a>.</p>
+<h3 id="joanna-lo-202021">Joanna Lo, 2020–21</h3>
+<p>Title: <em>How do consumer attitudes and behaviours change in the light of current events? A comparison of notable events in the United States, 2000–2009</em></p>
 <h2 id="other">Other</h2>
 <p>Prof. Rohan Alexander has written up two of the reading courses he’s offered and provided the details on his website.</p>
 <ul>

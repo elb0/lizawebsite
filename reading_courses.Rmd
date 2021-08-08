@@ -23,7 +23,7 @@ It can be a great opportunity to test out if you like conducting research and it
 
 *Independent study under the direction of a faculty member. Students wishing to take this course must have the permission of the Department of Statistical Sciences and of the prospective supervisor. Not eligible for CR/NCR option.*
 
-### Prerequisite
+### Prerequisites
 
 At least 1.0 FCE 300+ level STA courses with a minimum grade of 80% in each course.
 
@@ -37,11 +37,55 @@ First and foremost, here are some key things to know about my personal policies 
 -   You must come up with their own topic proposal in either **applied statistics** or **statistics education** to pitch to me.
 -   You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.
 
-**More information about applications coming soon.**
+### Topics and projects on which I'm interested in working with students
+
+There are two styles of reading course you could consider proposing:s
+
+#### 1. Project-based
+
+You propose a topic for which data is available that you wish to apply statistical methods to and produce a report. This style of project may be useful if you're considering a thesis-based Master's in an applied statistics area as it lets you dip your toe in and see if you like it.
+
+I tend to be most interested in topics on social and economic issues, but part of the reason I am a Statistician is because I love learning new things. Convince me your topic is interesting and/or relevant to making the world a better place and if I have the right skills to support you, I'll be interested.
+
+I do *not* use a lot of Bayesian, machine learning or time series methods in my own work, and personally use R. Topics using these methods or other programming languages aren't necessarily ruled out, but you'll need to demonstrate a plan for reasonable pre-/co-requisite courses and previous experience.
+
+I am also open to **co-supervising** with faculty from other disciplines for cross-disciplinary work.
+
+#### 2. Literature and task-based
+
+You choose a topic, related to one of my interest areas below, and together we create a reading and task list for your to work through across the year. You might write a literature review, prepare a workshop or talk, write blog posts, etc. This is more similar to a traditional course experience than option 1, but is an opportunity to explore a topic not covered in other statistics course, build professional skills relevant to research/future employment.
+
+##### Topics areas of interest
+
+-   ethical professional practice for statisticians
+
+    -   indigenous data sovereignty
+    
+    -   ethics of web scraping
+    
+    -   graphicacy and how not to lie with charts
+    
+    -  sampler platter of ethics topics, e.g. algorithmic bias, disclosure risk, privacy/confidenitality, accessibility, reproducibility, professional codes of conduct
+
+-   statistics education
+
+    -   assessment practices for ethical professional practice
+
+    -   teaching and learning simulation-based inference
+
+    -    trauma-informed pedagogy for statistics classrooms
+
+    -   online learning (potential data from STA130)
+    
+-  I may consider some other topics, but the above are best aligned with my current research.    
+
+### How register your interest <span style="background-color: #FFD700">(new!)</span>
+
+<span style="background-color: #FFD700">Please register your interest by __6:00 p.m. ET September 1, 2021__. I will aim to respond to all submitters by September 5.</span>
+
+<span style="background-color: #FFD700">You can register your interest and propose your reading course topic to me using [__this form__](https://forms.office.com/r/wx9Je4vRuf). You will be asked to [__complete this proposal document__](https://utoronto-my.sharepoint.com/:w:/g/personal/liza_bolton_utoronto_ca/ESsQy3JNNqJIkr7ISpmdGVYBRcuP05cmzUlDe0fM9V3WIg?e=fXLhsv) and submit it, as well. (Note: You will need to be signed in with your U of T account to access the form and document.)</span>
 
 ## Previous students
-
-***This section is still being developed.***
 
 ### Samantha Pierre, 2020--21
 
@@ -54,6 +98,10 @@ You can hear Sam discuss the results of her project and her experience undertaki
 </iframe>
 
 Follow Sam on Twitter, [\@WhamBamGAM](https://twitter.com/WhamBamGAM).
+
+### Joanna Lo, 2020--21
+
+Title: *How do consumer attitudes and behaviours change in the light of current events? A comparison of notable events in the United States, 2000--2009*
 
 ## Other
 
