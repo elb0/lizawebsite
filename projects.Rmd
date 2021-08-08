@@ -1,7 +1,7 @@
 ---
 title: "Passions "
 description: | 
-  I.e., projects, committees and other stuff I'm working on
+  I.e., projects, committees and other stuff I'm working on.
 output:
   distill::distill_article:
     toc: true
