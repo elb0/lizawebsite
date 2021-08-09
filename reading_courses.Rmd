@@ -79,11 +79,18 @@ You choose a topic, related to one of my interest areas below, and together we c
     
 -  I may consider some other topics, but the above are best aligned with my current research.    
 
-### How register your interest <span style="background-color: #FFD700">(new!)</span>
+### How register your interest
 
+```{r, echo=FALSE, eval=FALSE}
 <span style="background-color: #FFD700">Please register your interest by __6:00 p.m. ET September 1, 2021__. I will aim to respond to all submitters by September 5.</span>
 
 <span style="background-color: #FFD700">You can register your interest and propose your reading course topic to me using [__this form__](https://forms.office.com/r/wx9Je4vRuf). You will be asked to [__complete this proposal document__](https://utoronto-my.sharepoint.com/:w:/g/personal/liza_bolton_utoronto_ca/ESsQy3JNNqJIkr7ISpmdGVYBRcuP05cmzUlDe0fM9V3WIg?e=fXLhsv) and submit it, as well. (Note: You will need to be signed in with your U of T account to access the form and document.)</span>
+
+```
+
+
+See the information on the [Special Enrolment Sharepoint Page for the Department](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx). Note: Applications have __closed__ for the 2021–22 year. I don't yet know if late applications will be considered. 
+
 
 ## Previous students
 
