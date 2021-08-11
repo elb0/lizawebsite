@@ -12,59 +12,71 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-_This page was last updated 2021-08-08._
+*This page was last updated 2021-08-08.*
 
-_Warning: This page is still a work in progress!_
+*Warning: This page is still a work in progress!*
 
 ### Integrating meaningful ethics education across the undergraduate statistics curriculum: A multi-course and career education curriculum design project
 
-_Watch this space! We have some exciting funding and an amazing team._
+*Watch this space! We have some exciting funding and an amazing team.*
 
 ### Equity, diversity and inclusion
 
-As a white, settler Canadian statistician, I have a lot of learning to do about Indigenous Data Sovereignty and and decolonizing methodologies and higher education. I want Statistics to become a more equitable, diverse and inclusive discipline and seek to work with likeminded individuals to learn and take meaningful action.
+As a white, settler Canadian statistician, I have a lot of learning to do about Indigenous Data Sovereignty and and decolonizing methodologies and higher education. I want Statistics to become a more equitable, diverse and inclusive discipline and seek to work with like-minded individuals to learn and take meaningful action.
 
-- Member of the Faculty of Arts and Science Indigenous Teaching, Learning Research
-- Member of the Department of Statistical Sciences EDI Committee 2021–
-- Department liaison and instructor for the Pursue Stem program 2021–
-- Institutional Strategic Initiatives Data Science Institute writing group for Equity, Diversity and Inclusion, member, March 2021
+-   Member of the Faculty of Arts and Science Indigenous Teaching, Learning and Research Committee 2020--
 
-  - [Read an article about Pursue STEM](https://www.artsci.utoronto.ca/news/black-high-school-students-explore-stem-faculty-arts-science), featuring Nnenna Asidianya.
+-   Member of the Department of Statistical Sciences EDI Committee 2021--
 
+-   Department liaison and instructor for the Pursue Stem program 2021--
+
+    -   [Read an article about Pursue STEM](https://www.artsci.utoronto.ca/news/black-high-school-students-explore-stem-faculty-arts-science), featuring DoSS PhD candidate Nnenna Asidianya.
+
+-   Institutional Strategic Initiatives Data Science Institute writing group for Equity, Diversity and Inclusion, member, March 2021
 
 ### Building community among Undergraduate Statistics students: The Independent Summer Statistics Community
 
-For the second summer of covid-19, the Department of Statistical Sciences (DoSS) created a community for students in our programs of study. About 300 students signed up this summer and we had a student lead Python learning community, several awesome guest speakers, student-led workshops and we held a case competition about ‘Livable Toronto' as a chance for students to think about moving back to the city, as well as build up their portfolios and get relevant experience with data analysis, communication and teamwork. The faculty team involved is so proud of the students! We're currently thinking about what this kind of community building looks like going forwards.
+For the second summer of COVID-19, the Department of Statistical Sciences (DoSS) created a community for students in our programs of study. About 300 students signed up this summer and we had a student lead Python learning community, several awesome guest speakers, student-led workshops and we held a case competition about 'Livable Toronto' as a chance for students to think about moving back to the city, as well as build up their portfolios and get relevant experience with data analysis, communication and teamwork. The faculty team involved is so proud of the students! We're currently thinking about what this kind of community building looks like going forwards.
 
 ### Supporting student mental health
 
-I hope that the challenges of the last 16 months accelerated our progress in lasting ways when it comes to having a shared vocabulary and approaches to supporting mental health in our community. In some ways, having everything be so topsy-turvy felt like it created greater permission to bring mental health resources into the classroom in bigger ways where I think I would have been fearful of ‘ew this is feelings not stats' pushback from some quarters in the past. 
+I hope that the challenges of the last 16 months accelerated our progress in lasting ways when it comes to having a shared vocabulary and approaches to supporting mental health in our community. In some ways, having everything be so topsy-turvy felt like it created greater permission to bring mental health resources into the classroom in bigger ways where I think I would have been fearful of 'ew this is feelings not stats' pushback from some quarters in the past.
 
 Other things I've introduced over the course of the last year that I'm going to keep include making time to include wellness resources in my modules, and trying to speak to strategies I've found helpful in my own learning journey.
 
-In STA303 we created a ‘reading week lite' to break up the long stretch between the real reading week and the end of semester. During this week students had a lot of choice in how they interacted with the course. They could take an almost complete break, with no new content or required quizzes, if that's what they needed, and/or work on some revision and/or get bonus points for attending or watching the recording of two events, one on 5 Ways to Wellbeing and one Academic Resilience. This was the only time I have ever hit the 300 person Zoom cap! It was so rewarding to see that, when you put your money (or your class time and your bonus points) where your mouth is as a prof, students will really sincerely and positively engage. We're currently looking at how to adapt this kind of programming and pacing to future courses when we're not in the middle of a pandemic and I've also invited mental health resource people into my STA490 class and taken up opportunities to get further training myself.
+In STA303 we created a 'reading week lite' to break up the long stretch between the real reading week and the end of semester. During this week students had a lot of choice in how they interacted with the course. They could take an almost complete break, with no new content or required quizzes, if that's what they needed, and/or work on some revision and/or get bonus points for attending or watching the recording of two events, one on 5 Ways to Wellbeing and one Academic Resilience. This was the only time I have ever hit the 300 person Zoom cap! It was so rewarding to see that, when you put your money (or your class time and your bonus points) where your mouth is as a prof, students will really sincerely and positively engage. We're currently looking at how to adapt this kind of programming and pacing to future courses when we're not in the middle of a pandemic and I've also invited mental health resource people into my STA490 class and taken up opportunities to get further training myself.
 
-- Empathy and well-being panel, invited speaker Center for Teaching Support & Innovation, University of Toronto (2021-02-24)
-- Developed and delivered _Initiate and Facilitate: Strategies and technology for supporting mental health and well-being in large online classes_ workshop with partners from FAS Mental Health Team and CTSI
-- Identify-Assist-Refer COVID training delivered by Faculty of Arts and Science Mental Health team (2020-06-12)
-- LivingWorks training (2021-06-22), learning the TASC steps to recognize thoughts of suicide and engage safety resources
+-   Empathy and well-being panel, invited speaker Center for Teaching Support & Innovation, University of Toronto (2021-02-24)
+-   Developed and delivered *Initiate and Facilitate: Strategies and technology for supporting mental health and well-being in large online classes* workshop with partners from FAS Mental Health Team and CTSI
+-   Identify-Assist-Refer COVID training delivered by Faculty of Arts and Science Mental Health team (2020-06-12)
+-   LivingWorks training (2021-06-22), learning the TASC steps to recognize thoughts of suicide and engage safety resources
 
 ### Student voice
 
-In DoSS, we're going to be continuing a pilot of a student voice initiative: the Undergraduate Consultative Committee. Interested students from participating classes could put themselves forward for a lottery to become a rep for their section. The consultative committee, which included the students the instructors and also department staff, met twice a semester with contact directly between instructors and the reps in between. This really helped the participating instructors make useful tweaks to their courses while they were in progress, instead of waiting to to have “oh, duh!” moments when reading course evaluations after it was too late. It creates opportunities for student reps to gain leadership experience as well.
+In DoSS, we're going to be continuing a pilot of a student voice initiative: the Undergraduate Consultative Committee. Interested students from participating classes could put themselves forward for a lottery to become a rep for their section. The consultative committee, which included the students the instructors and also department staff, met twice a semester with contact directly between instructors and the reps in between. This really helped the participating instructors make useful tweaks to their courses while they were in progress, instead of waiting to to have "oh, duh!" moments when reading course evaluations after it was too late. It creates opportunities for student reps to gain leadership experience as well.
 
 ### Trauma-informed pedagogy, pedagogy for reopening
 
-Something I'm in the early stages of is learning more about is trauma-informed pedagogy. I'm working with a cross-disciplinary group of faculty to build our skills and share this approach more broadly at U of T. It links to a lot of the above ideas about flexibility, student voice, community, mental health, as well as universal design principles for accessibility and I think is going to be a very important lens for us to be able to recover from the pandemic together and to improve teaching practice more generally, for the long term. Some additional key ideas include safety, trust & transparency, and awareness of cultural/historical/gender issues. 
-
+Something I'm in the early stages of is learning more about is trauma-informed pedagogy. I'm working with a cross-disciplinary group of faculty to build our skills and share this approach more broadly at U of T. It links to a lot of the above ideas about flexibility, student voice, community, mental health, as well as universal design principles for accessibility and I think is going to be a very important lens for us to be able to recover from the pandemic together and to improve teaching practice more generally, for the long term. Some additional key ideas include safety, trust & transparency, and awareness of cultural/historical/gender issues.
 
 ### Other things I should write more about
 
-- Helping students become better statistical communications, Writing Integrated Teaching Liaison
-- Innovative assessments
-- Experiential learning (STA130 and STA490 collaborative projects, ASA DataFest@UofT)
-- Arts & Science Computational and Data Science Education Working Group, member 2020¬2021
-- Arts & Science Digital Learning Strategy Steering Committee, member, January–May 2021
-- Census @ School Committee member, Statistical Society of Canada (2020¬present)
-- Department of Statistics Undergraduate Committee, member, ongoing
-- Applied Research and Education Seminar Series (CANSSI Ontario and DoSS), committee member 2020–2021
+-   Helping students become better statistical communicators, Writing Integrated Teaching Liaison
+
+-   Innovative assessments
+
+    -   'Mixed assessment' timed/untimed to make large course tests more 'real-world'
+
+    -   'Explain like I'm a...' presentations, communicating concepts at a range of levels
+
+-   Experiential learning (STA130 and STA490 collaborative projects, ASA [DataFest\@UofT](mailto:DataFest@UofT){.email})
+
+-   Arts & Science Computational and Data Science Education Working Group, member 2020¬2021
+
+-   Arts & Science Digital Learning Strategy Steering Committee, member, January--May 2021
+
+-   Census \@ School Committee member, Statistical Society of Canada (2020¬present)
+
+-   Department of Statistics Undergraduate Committee, member, ongoing
+
+-   Applied Research and Education Seminar Series (CANSSI Ontario and DoSS), committee member 2020--2021

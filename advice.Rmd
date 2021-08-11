@@ -12,9 +12,9 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-_This page was last updated 2021-07-21._
+*This page was last updated 2021-08-11.*
 
-You can also see my current email autoresponder, that has more practical admin information, [here](https://blog.lizabolton.com/posts/2021-07-13_autoresponder/).
+You can also see my current email autoresponder, that has more practical admin information, [here](https://blog.lizabolton.com/posts/2021-08-11_autoresponder/).
 
 ## Data cleaning/wrangling/visualization experience or personal projects
 
@@ -34,25 +34,25 @@ There is a podcast, <https://www.tidytuesday.com/and>, a Slack group, [r4ds.io](
 
 #### To do
 
-Check out previous week's topics and work folks have done through [\#TidyTuesday on Twitter'(<https://twitter.com/search?q=%23TidyTuesday>). 
+Check out previous week's topics and work folks have done through [\#TidyTuesday on Twitter'(<https://twitter.com/search?q=%23TidyTuesday>).
 
-Read the [list of community guidelines](https://github.com/rfordatascience/tidytuesday) so you know what to do and how to behave. 
+Read the [list of community guidelines](https://github.com/rfordatascience/tidytuesday) so you know what to do and how to behave.
 
 When the new dataset is posted on Monday, come chat about it in the \#portfolio-building channel here on Slack. If you use Twitter, follow @thomas_mock and @R4DScommunity.
 
 ## Research opportunities
 
-* Check out the [Department of Statistical Sciences page](https://www.statistics.utoronto.ca/current-students/research-opportunities-scholarships-awards) on research opportunities, acholarships & awards
+-   Check out the [Department of Statistical Sciences page](https://www.statistics.utoronto.ca/current-students/research-opportunities-scholarships-awards) on research opportunities, acholarships & awards
 
-* [My page on reading courses.](https://www.lizabolton.com/reading_courses.html)
+-   [My page on reading courses.](https://www.lizabolton.com/reading_courses.html)
 
 ## Reference letters
 
-You can read more about _my_ requirements [here.](https://www.lizabolton.com/references.html)
+You can read more about *my* requirements [here.](https://www.lizabolton.com/references.html)
 
-Every Prof is different, but it is generally good advice to __make sure they know who you are__. I know this can be hard or intimidating in large classes, but it can be really important. __Introduce yourself__, __come to office hours__, if there are opportunities to talk about what your interests are, take them. While you don't want to be giving your networking elevator pitch every week in office hour, taking a bit of that networking attitude into your interactions isn't a bad thing. I'm interested in what you're doing and what you're passionate about! Additionally, many reference questionnaires ask us to talk about your speaking skills. An instructor you've never spoken to, especially in a large class, is unlikely to be able to meet with you just to see if you communicate well before deciding whether or not to write for you—they should already have an idea of this when your request lands in their inbox!
+Every Prof is different, but it is generally good advice to **make sure they know who you are**. I know this can be hard or intimidating in large classes, but it can be really important. **Introduce yourself**, **come to office hours**, if there are opportunities to talk about what your interests are, take them. While you don't want to be giving your networking elevator pitch every week in office hour, taking a bit of that networking attitude into your interactions isn't a bad thing. I'm interested in what you're doing and what you're passionate about! Additionally, many reference questionnaires ask us to talk about your speaking skills. An instructor you've never spoken to, especially in a large class, is unlikely to be able to meet with you just to see if you communicate well before deciding whether or not to write for you---they should already have an idea of this when your request lands in their inbox!
 
-Rohan Alexander, in a [post about grad school applications](https://rohanalexander.com/posts/2021-03-13-grad-school-applications/), says "The best letters are from folks that know you and your work. You need to spend a huge amount of effort getting decent letters. They’re as important, if not more, as your GPA." I'd definitely recommend you check out the rest of his [advice on how to think about reference letters](https://rohanalexander.com/posts/2021-03-13-grad-school-applications/#letters). 
+Rohan Alexander, in a [post about grad school applications](https://rohanalexander.com/posts/2021-03-13-grad-school-applications/), says "The best letters are from folks that know you and your work. You need to spend a huge amount of effort getting decent letters. They're as important, if not more, as your GPA." I'd definitely recommend you check out the rest of his [advice on how to think about reference letters](https://rohanalexander.com/posts/2021-03-13-grad-school-applications/#letters).
 
 ## Git/GitHub skills
 
@@ -60,13 +60,13 @@ See <a href="#happygit">'Happy Git with R'</a> below for more information.
 
 ## Building a personal website
 
-Once your <a href="#happygit">Git & GitHub</a> skills are sharp you'll be able to use GitHub pages to host a personal profile and portfolio for free. In summer 2021 there was a workshop series for the Independent Summer Statistics Community about this and you can __access the resources [here](https://uoft-doss-issc.github.io/website-workshop/).__
+Once your <a href="#happygit">Git & GitHub</a> skills are sharp you'll be able to use GitHub pages to host a personal profile and portfolio for free. In summer 2021 there was a workshop series for the Independent Summer Statistics Community about this and you can **access the resources [here](https://uoft-doss-issc.github.io/website-workshop/).**
 
-__Is this worth your time? __ I tend to think it is, as the effort of thinking about how you want to present yourself and what you value (personal brand), as well as what your brief elevator pitch/bio is, are useful and transferable to writing cover letters, personal statements and networking. Having a place where people can view your projects so that you can really demonstrate what you can do is also really valuable, and building the site with Distill for R and GitHub as a bit of a portfolio item in and of itself.
+**Is this worth your time?** I tend to think it is, as the effort of thinking about how you want to present yourself and what you value (personal brand), as well as what your brief elevator pitch/bio is, are useful and transferable to writing cover letters, personal statements and networking. Having a place where people can view your projects so that you can really demonstrate what you can do is also really valuable, and building the site with Distill for R and GitHub as a bit of a portfolio item in and of itself.
 
 ## Teamwork tips (from Google)
 
-Being able to work in a team is often listed as a key skill in job ads and is an important part of many data competitions and courses your may undertake. Effective team work isn't a given and really is a skill you can develop. And guess what? Google has spent years researching effective teamwork! They took a data-driven approach to understand how to form effective teams. __"The researchers found that what really mattered was less about who is on the team, and more about how the team worked together."__
+Being able to work in a team is often listed as a key skill in job ads and is an important part of many data competitions and courses your may undertake. Effective team work isn't a given and really is a skill you can develop. And guess what? Google has spent years researching effective teamwork! They took a data-driven approach to understand how to form effective teams. **"The researchers found that what really mattered was less about who is on the team, and more about how the team worked together."**
 
 Here were some of the most important findings:
 
@@ -84,10 +84,19 @@ I'd highly recommend taking a look at the [re:work guide](https://rework.withgoo
 
 📺 [Amy Edmondson's TED Talk on psychological safety](https://youtu.be/LhoLuui9gX8)
 
-📺 [The re:work YouTube channel](https://www.youtube.com/channel/UCbQ1BMqrwJcrAaTFAJjNwNg/videos)—consider starting with [_Teams, psychological safety, and Saturday Night Live_ by Charles Duhigg](https://www.youtube.com/watch?v=uohJLoyu70M).
+📺 [The re:work YouTube channel](https://www.youtube.com/channel/UCbQ1BMqrwJcrAaTFAJjNwNg/videos)---consider starting with [*Teams, psychological safety, and Saturday Night Live* by Charles Duhigg](https://www.youtube.com/watch?v=uohJLoyu70M).
 
-📺 A 4 minute summary: https://www.youtube.com/watch?v=hHIikHJV9fI
+📺 A 4 minute summary: <https://www.youtube.com/watch?v=hHIikHJV9fI>
 
+## Presentations
+
+-   **Put slide numbers on your slides.** If you can add the total number of slides (e.g. 2/10) even better. This makes it easier for people to record the slide number for asking a question later.
+
+-   R user? Learn to use [Xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html) and host your slides online. Easy for people to follow along (increases accessibility!) and for you to promote your work. This is also possible with Google Slides and I imagine PowerPoint online, but Xaringan is especially great for code heavy presentations, whether you're walking people through that code or using it to create your graphs and tables, without having to re-copy and paste and reformat any time there is a change.
+
+## Public speaking
+
+-   Plant your feet! My drama teacher used to warn against 'happy feet' while speaking. It can be distracting for your audience and give a sense of nervous energy. It is okay to be nervous---I kinda love public speaking but still get nervous each and every time---but your message is often better received if people aren't distracted thinking "oh poor thing, they are so nervous right now!"
 
 # Recommended reading
 

@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: `r Sys.Date()`*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2021-08-11*.
 output: distill::distill_article
 ---
 
@@ -73,7 +73,7 @@ Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
 
 [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf)
 
-[Special enrollment information for STA490 from the department](https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1)
+[Special enrollment information for STA490 from the department](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx)
 
 ### STA496 (Year)
 

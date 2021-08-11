@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #20794d; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,14 +77,13 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.sc { color: #20794d; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
-
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: Passions </title>
@@ -1864,10 +1863,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refs = $(this).attr('data-cites').split(" ");
-        var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
-        }).join("\n");
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2503,18 +2499,18 @@ For students
 <h3 id="integrating-meaningful-ethics-education-across-the-undergraduate-statistics-curriculum-a-multi-course-and-career-education-curriculum-design-project">Integrating meaningful ethics education across the undergraduate statistics curriculum: A multi-course and career education curriculum design project</h3>
 <p><em>Watch this space! We have some exciting funding and an amazing team.</em></p>
 <h3 id="equity-diversity-and-inclusion">Equity, diversity and inclusion</h3>
-<p>As a white, settler Canadian statistician, I have a lot of learning to do about Indigenous Data Sovereignty and and decolonizing methodologies and higher education. I want Statistics to become a more equitable, diverse and inclusive discipline and seek to work with likeminded individuals to learn and take meaningful action.</p>
+<p>As a white, settler Canadian statistician, I have a lot of learning to do about Indigenous Data Sovereignty and and decolonizing methodologies and higher education. I want Statistics to become a more equitable, diverse and inclusive discipline and seek to work with like-minded individuals to learn and take meaningful action.</p>
 <ul>
-<li><p>Member of the Faculty of Arts and Science Indigenous Teaching, Learning Research</p></li>
+<li><p>Member of the Faculty of Arts and Science Indigenous Teaching, Learning and Research Committee 2020–</p></li>
 <li><p>Member of the Department of Statistical Sciences EDI Committee 2021–</p></li>
-<li><p>Department liaison and instructor for the Pursue Stem program 2021–</p></li>
-<li><p>Institutional Strategic Initiatives Data Science Institute writing group for Equity, Diversity and Inclusion, member, March 2021</p>
+<li><p>Department liaison and instructor for the Pursue Stem program 2021–</p>
 <ul>
-<li><a href="https://www.artsci.utoronto.ca/news/black-high-school-students-explore-stem-faculty-arts-science">Read an article about Pursue STEM</a>, featuring Nnenna Asidianya.</li>
+<li><a href="https://www.artsci.utoronto.ca/news/black-high-school-students-explore-stem-faculty-arts-science">Read an article about Pursue STEM</a>, featuring DoSS PhD candidate Nnenna Asidianya.</li>
 </ul></li>
+<li><p>Institutional Strategic Initiatives Data Science Institute writing group for Equity, Diversity and Inclusion, member, March 2021</p></li>
 </ul>
 <h3 id="building-community-among-undergraduate-statistics-students-the-independent-summer-statistics-community">Building community among Undergraduate Statistics students: The Independent Summer Statistics Community</h3>
-<p>For the second summer of covid-19, the Department of Statistical Sciences (DoSS) created a community for students in our programs of study. About 300 students signed up this summer and we had a student lead Python learning community, several awesome guest speakers, student-led workshops and we held a case competition about ‘Livable Toronto’ as a chance for students to think about moving back to the city, as well as build up their portfolios and get relevant experience with data analysis, communication and teamwork. The faculty team involved is so proud of the students! We’re currently thinking about what this kind of community building looks like going forwards.</p>
+<p>For the second summer of COVID-19, the Department of Statistical Sciences (DoSS) created a community for students in our programs of study. About 300 students signed up this summer and we had a student lead Python learning community, several awesome guest speakers, student-led workshops and we held a case competition about ‘Livable Toronto’ as a chance for students to think about moving back to the city, as well as build up their portfolios and get relevant experience with data analysis, communication and teamwork. The faculty team involved is so proud of the students! We’re currently thinking about what this kind of community building looks like going forwards.</p>
 <h3 id="supporting-student-mental-health">Supporting student mental health</h3>
 <p>I hope that the challenges of the last 16 months accelerated our progress in lasting ways when it comes to having a shared vocabulary and approaches to supporting mental health in our community. In some ways, having everything be so topsy-turvy felt like it created greater permission to bring mental health resources into the classroom in bigger ways where I think I would have been fearful of ‘ew this is feelings not stats’ pushback from some quarters in the past.</p>
 <p>Other things I’ve introduced over the course of the last year that I’m going to keep include making time to include wellness resources in my modules, and trying to speak to strategies I’ve found helpful in my own learning journey.</p>
@@ -2531,14 +2527,18 @@ For students
 <p>Something I’m in the early stages of is learning more about is trauma-informed pedagogy. I’m working with a cross-disciplinary group of faculty to build our skills and share this approach more broadly at U of T. It links to a lot of the above ideas about flexibility, student voice, community, mental health, as well as universal design principles for accessibility and I think is going to be a very important lens for us to be able to recover from the pandemic together and to improve teaching practice more generally, for the long term. Some additional key ideas include safety, trust &amp; transparency, and awareness of cultural/historical/gender issues.</p>
 <h3 id="other-things-i-should-write-more-about">Other things I should write more about</h3>
 <ul>
-<li>Helping students become better statistical communications, Writing Integrated Teaching Liaison</li>
-<li>Innovative assessments</li>
-<li>Experiential learning (STA130 and STA490 collaborative projects, ASA <a href="mailto:DataFest@UofT" class="email">DataFest@UofT</a>)</li>
-<li>Arts &amp; Science Computational and Data Science Education Working Group, member 2020¬2021</li>
-<li>Arts &amp; Science Digital Learning Strategy Steering Committee, member, January–May 2021</li>
-<li>Census @ School Committee member, Statistical Society of Canada (2020¬present)</li>
-<li>Department of Statistics Undergraduate Committee, member, ongoing</li>
-<li>Applied Research and Education Seminar Series (CANSSI Ontario and DoSS), committee member 2020–2021</li>
+<li><p>Helping students become better statistical communicators, Writing Integrated Teaching Liaison</p></li>
+<li><p>Innovative assessments</p>
+<ul>
+<li><p>‘Mixed assessment’ timed/untimed to make large course tests more ‘real-world’</p></li>
+<li><p>‘Explain like I’m a…’ presentations, communicating concepts at a range of levels</p></li>
+</ul></li>
+<li><p>Experiential learning (STA130 and STA490 collaborative projects, ASA <a href="mailto:DataFest@UofT" class="email">DataFest@UofT</a>)</p></li>
+<li><p>Arts &amp; Science Computational and Data Science Education Working Group, member 2020¬2021</p></li>
+<li><p>Arts &amp; Science Digital Learning Strategy Steering Committee, member, January–May 2021</p></li>
+<li><p>Census @ School Committee member, Statistical Society of Canada (2020¬present)</p></li>
+<li><p>Department of Statistics Undergraduate Committee, member, ongoing</p></li>
+<li><p>Applied Research and Education Seminar Series (CANSSI Ontario and DoSS), committee member 2020–2021</p></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

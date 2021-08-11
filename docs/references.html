@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #20794d; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,14 +77,13 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.sc { color: #20794d; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
-
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: Reference letters</title>
@@ -1864,10 +1863,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refs = $(this).attr('data-cites').split(" ");
-        var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
-        }).join("\n");
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2513,14 +2509,14 @@ For students
 <li>students who had done STA303 and gone on to do great work as TAs or peer mentors for STA130 when I was teaching, and</li>
 <li>a student who had done STA303 and was working on a reading course with me.</li>
 </ul>
-<h3 id="what-should-you-do-if-you-think-you-fit-my-criteria">What should you do if you think you fit my criteria?</h3>
-<p><strong>COMING SOON</strong></p>
 <p>Further things to keep in mind:</p>
 <ul>
 <li>I need at least 3 week’s notice before your reference is due.</li>
 <li>I will write in support of 3 programs per student.</li>
 </ul>
-<p>Complete this form [not live yet]</p>
+<h3 id="what-should-you-do-if-you-think-you-fit-my-criteria">What should you do if you think you fit my criteria?</h3>
+<p><strong>COMING SOON</strong></p>
+<p>There will be a form to submit your request that I will then accept or decline based on whether I feel I can strengthen your application.</p>
 <h2 id="references-for-other-things">References for other things?</h2>
 <p>This will be on a bit more of a case-by-case basis. I really do want to support as many of you as I can! Email me directly to discuss jobs/scholarships/internships etc. <strong>Please keep in mind, if all I can say about you is that “Student X took my course and got grade Y”, I’m not going to be very useful to you.</strong></p>
 <p>Please also note that you should also always ask first, before you put someone’s name down.</p>

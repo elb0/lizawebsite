@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #20794d; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,14 +77,13 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.sc { color: #20794d; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
-
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: General advice</title>
@@ -1864,10 +1863,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refs = $(this).attr('data-cites').split(" ");
-        var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
-        }).join("\n");
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2494,6 +2490,8 @@ For students
 <li><a href="#gitgithub-skills">Git/GitHub skills</a></li>
 <li><a href="#building-a-personal-website">Building a personal website</a></li>
 <li><a href="#teamwork-tips-from-google">Teamwork tips (from Google)</a></li>
+<li><a href="#presentations">Presentations</a></li>
+<li><a href="#public-speaking">Public speaking</a></li>
 <li><a href="#recommended-reading">Recommended reading</a>
 <ul>
 <li><a href="#r-for-data-science-by-garrett-grolemund-and-hadley-wickham"><em>R for Data Science</em> by Garrett Grolemund and Hadley Wickham</a></li>
@@ -2505,8 +2503,8 @@ For students
 </ul>
 </nav>
 </div>
-<p><em>This page was last updated 2021-07-21.</em></p>
-<p>You can also see my current email autoresponder, that has more practical admin information, <a href="https://blog.lizabolton.com/posts/2021-07-13_autoresponder/">here</a>.</p>
+<p><em>This page was last updated 2021-08-11.</em></p>
+<p>You can also see my current email autoresponder, that has more practical admin information, <a href="https://blog.lizabolton.com/posts/2021-08-11_autoresponder/">here</a>.</p>
 <h2 id="data-cleaningwranglingvisualization-experience-or-personal-projects">Data cleaning/wrangling/visualization experience or personal projects</h2>
 <p>I recommend you try out Tidy Tuesday! Tidy Tuesday is a weekly social data project in R and a great way to start getting used to GitHub and building your portfolio with bitesize efforts.</p>
 <p><a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a></p>
@@ -2534,7 +2532,7 @@ For students
 <p>See <a href="#happygit">‘Happy Git with R’</a> below for more information.</p>
 <h2 id="building-a-personal-website">Building a personal website</h2>
 <p>Once your <a href="#happygit">Git &amp; GitHub</a> skills are sharp you’ll be able to use GitHub pages to host a personal profile and portfolio for free. In summer 2021 there was a workshop series for the Independent Summer Statistics Community about this and you can <strong>access the resources <a href="https://uoft-doss-issc.github.io/website-workshop/">here</a>.</strong></p>
-<p><strong>Is this worth your time? </strong> I tend to think it is, as the effort of thinking about how you want to present yourself and what you value (personal brand), as well as what your brief elevator pitch/bio is, are useful and transferable to writing cover letters, personal statements and networking. Having a place where people can view your projects so that you can really demonstrate what you can do is also really valuable, and building the site with Distill for R and GitHub as a bit of a portfolio item in and of itself.</p>
+<p><strong>Is this worth your time?</strong> I tend to think it is, as the effort of thinking about how you want to present yourself and what you value (personal brand), as well as what your brief elevator pitch/bio is, are useful and transferable to writing cover letters, personal statements and networking. Having a place where people can view your projects so that you can really demonstrate what you can do is also really valuable, and building the site with Distill for R and GitHub as a bit of a portfolio item in and of itself.</p>
 <h2 id="teamwork-tips-from-google">Teamwork tips (from Google)</h2>
 <p>Being able to work in a team is often listed as a key skill in job ads and is an important part of many data competitions and courses your may undertake. Effective team work isn’t a given and really is a skill you can develop. And guess what? Google has spent years researching effective teamwork! They took a data-driven approach to understand how to form effective teams. <strong>“The researchers found that what really mattered was less about who is on the team, and more about how the team worked together.”</strong></p>
 <p>Here were some of the most important findings:</p>
@@ -2547,6 +2545,15 @@ For students
 <p>📺 <a href="https://youtu.be/LhoLuui9gX8">Amy Edmondson’s TED Talk on psychological safety</a></p>
 <p>📺 <a href="https://www.youtube.com/channel/UCbQ1BMqrwJcrAaTFAJjNwNg/videos">The re:work YouTube channel</a>—consider starting with <a href="https://www.youtube.com/watch?v=uohJLoyu70M"><em>Teams, psychological safety, and Saturday Night Live</em> by Charles Duhigg</a>.</p>
 <p>📺 A 4 minute summary: <a href="https://www.youtube.com/watch?v=hHIikHJV9fI" class="uri">https://www.youtube.com/watch?v=hHIikHJV9fI</a></p>
+<h2 id="presentations">Presentations</h2>
+<ul>
+<li><p><strong>Put slide numbers on your slides.</strong> If you can add the total number of slides (e.g. 2/10) even better. This makes it easier for people to record the slide number for asking a question later.</p></li>
+<li><p>R user? Learn to use <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html">Xaringan</a> and host your slides online. Easy for people to follow along (increases accessibility!) and for you to promote your work. This is also possible with Google Slides and I imagine PowerPoint online, but Xaringan is especially great for code heavy presentations, whether you’re walking people through that code or using it to create your graphs and tables, without having to re-copy and paste and reformat any time there is a change.</p></li>
+</ul>
+<h2 id="public-speaking">Public speaking</h2>
+<ul>
+<li>Plant your feet! My drama teacher used to warn against ‘happy feet’ while speaking. It can be distracting for your audience and give a sense of nervous energy. It is okay to be nervous—I kinda love public speaking but still get nervous each and every time—but your message is often better received if people aren’t distracted thinking “oh poor thing, they are so nervous right now!”</li>
+</ul>
 <h1 id="recommended-reading">Recommended reading</h1>
 <h2 id="r-for-data-science-by-garrett-grolemund-and-hadley-wickham"><em>R for Data Science</em> by Garrett Grolemund and Hadley Wickham</h2>
 <p><a href="https://r4ds.had.co.nz" class="uri">https://r4ds.had.co.nz</a></p>
