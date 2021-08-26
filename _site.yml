@@ -24,6 +24,8 @@ navbar:
           href: references.html
         - text: "Reading courses"
           href: reading_courses.html
+        - text: "My autoresponder"
+          href: autoresponder.html
     - text: "Passions"
       href: projects.html
     - text: "Talks"

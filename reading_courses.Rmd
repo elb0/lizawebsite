@@ -34,12 +34,12 @@ First and foremost, here are some key things to know about my personal policies 
 -   I only supervise the Fall to Winter ('year'-long), half credit version of this course.
 -   I do not supervise reading courses over the Spring/Summer semesters.
 -   I can only supervise a small number of students in a given year.
--   You must come up with their own topic proposal in either **applied statistics** or **statistics education** to pitch to me.
+-   You must come up with a topic proposal in either **applied statistics** or **statistics education** to pitch to me. We will develop it together, but I want you to be interested in the topic and feel ownership of the project.
 -   You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.
 
 ### Topics and projects on which I'm interested in working with students
 
-There are two styles of reading course you could consider proposing:s
+There are two styles of reading course you could consider:
 
 #### 1. Project-based
 
@@ -89,7 +89,7 @@ You choose a topic, related to one of my interest areas below, and together we c
 ```
 
 
-See the information on the [Special Enrolment Sharepoint Page for the Department](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx). Note: Applications have __closed__ for the 2021–22 year. I don't yet know if late applications will be considered. 
+See the information on the [Special Enrolment Sharepoint Page for the Department](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx). Note: Applications have __closed__ for the 2021–22 year.
 
 
 ## Previous students
