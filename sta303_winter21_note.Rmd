@@ -103,7 +103,7 @@ Note: If you're a fellow instructor and interested in using any of this, reach o
 
 #### Rubric
 
-pdfs/sta303_project_rubric.pdf
+[See the rubric here](pdfs/sta303_project_rubric.pdf).
 
 #### Submission information
 
