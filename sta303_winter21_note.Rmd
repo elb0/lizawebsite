@@ -1,7 +1,7 @@
 ---
 title: "STA303 Winter 2021: A note from the Prof"
 description: |
-  Information about the final project for STA303 to help prospective employers/clients, interested 2nd cousins and whoever else better understand these students' achievements and skills.
+  Information about the final project for STA303 to help prospective employers/clients, interested 2nd cousins and whoever else better understand these student achievements and skills.
 output: 
   distill::distill_article:
     toc: true
@@ -12,27 +12,33 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-If you're reading this, you may have been directed to this link by a former student of mine to provide you with more information about the project they completed in my course. This page doesn't have student specific information, but should give you a sense of the kinds of skills students who completed this project successfully will have. You may wish to [skip directly to the skills description](#skills).
+If you're reading this, you may have been directed to this link by a former student of [mine](https://www.lizabolton.com/) in order to provide you with more information about the large project they completed in my course. This page doesn't have information about specific student projects, but should give you a sense of the kinds of skills students who completed this project will have. You may wish to [skip directly to the skills description](#skills).
 
-***The project in one sentence:** Students merged, wrangled, visualized, summarized and modelled data on hiring, salary and promotion to meet a client brief, and reported on their methods and findings appropriately for a general executive audience and, separately, for a technical audience.*
+***One sentence description:** Students merged, wrangled, visualized, summarized and modelled data on hiring, salary and promotion to meet a client brief, and reported on their methods and findings appropriately for a general executive audience and, separately, for a technical audience.*
 
 ## But first, some context
 
 *STA303: Methods of Data Analysis II* is a course delivered by the [Department of Statistical Sciences at the University of Toronto](https://www.statistics.utoronto.ca/).
 
-In Winter semester 2021 (January to April), STA303 was run completely online due to COVID-19. Students rose to this challenge remarkably well, but it was a significant challenge to wellbeing and focus, none-the-less.
+In Winter 2021 (January to April), STA303 was run completely online due to COVID-19. Students rose to this challenge remarkably well, but it was a significant challenge to wellbeing and focus, none-the-less.
 
-STA303 is a communication- and application-focused course where students learn: - to merge, wrangle, summarize and visualize data, - about several statistical modelling approaches and how to choose and implement these, as well as - how to write about their methods and results for a range of audiences.
+STA303 is a communication- and application-focused course where students learn:
 
-The methods covered are: linear mixed models, generalized linear models, generalized linear mixed models and generalized additive models.
+-   to merge, wrangle, summarize and visualize data,
+
+-   about several statistical modelling approaches and how to choose and implement these, as well as
+
+-   how to write about their methods and results for a range of audiences.
+
+The models covered include: linear mixed models, generalized linear models, generalized linear mixed models and generalized additive models.
 
 ## Project task summary
 
-I've included full information on this assessment at the end of this page, but it is not needed to understand it well. The project was worth 30% of their final grade and students could choose to complete it individually or as a team. Teamwork was recommended, but the task was the same either way. Team work was not mandated, as students had good reasons for completing individually, such as being located in a challenging time zone, lack of access to internet appropriate for calling, or other caring or work obligations that made scheduling meetings untenable.
+I've included full information on this assessment at the end of this page, but it is not needed to understand it. The project was worth 30% of students' final grades and students could choose to complete it individually or as a team. **Teamwork** was recommended, but the task was the same either way. Teams were not required as students had good reasons for completing individually, such as being located in a challenging time zone, lack of access to internet appropriate for calling, or other caring or work obligations that made scheduling meetings untenable.
 
-Students were consulting for Black Saber Software, analyzing their hiring and employee data and tasked with **creating a report appropriate for the Board of Directors on the topic of gender parity in hiring, wages and promotion**. Note: Black Saber isn't a real company, it would be massively reckless to provide 600 people with employee data with this level of detail. It would be very easy to identify individuals from data like this. That said, this dataset is based on real research and employment trends and draws on my own consulting experiences.
+Students were consulting for Black Saber Software, analyzing their hiring and employee data and tasked with **creating a report appropriate for the Board of Directors on the topic of gender parity in hiring, wages and promotion**. Note: Black Saber isn't a real company, it would be massively reckless to provide 600 people with employee data with this level of detail. It would be very easy to identify individuals from data like this. That said, this dataset was simulated based on real research and employment trends and draws on my own consulting experiences.
 
-Each team or individual created a consulting company name, for the purposes of this activity and to register their group/individual status completed a pseudo-NDA, of which the only real part was reminding them that they had already agreed to several codes of conduct as part of their enrolment at U of T and made clear my expectations of their professionalism.
+Each team or individual created a consulting company for the purposes of this activity and to register their group/individual status completed a pseudo-NDA, of which the only real part was reminding them that they had already agreed to several codes of conduct as part of their enrolment at U of T and made clear my expectations of their professionalism. It also gave them a chance to familiarize themselves with a common requirement for consulting.
 
 ### The deliverable
 
@@ -41,11 +47,12 @@ The final submission was a report that included:
 -   a cover page
 -   an executive summary (2 pages max)
 -   a technical report
--   consultant bio(s) and company ethics statement (note: these bios are meant to be 'fun' illustrations of their aspirations and interests and are not necessarily true).
+-   consultant bio(s) (note: these bios were meant to be 'fun' illustrations of their aspirations and interests and are not necessarily accurate), and
+-   a company ethics statement.
 
-They were tasked to answer the research questions posed by the client, communicate their findings in ways appropriate to the audience for each section of the report, choose appropriate methods and create professional visualizations and tables to explain their results.
+Students were tasked to answer the research questions posed by the client, communicate their findings in ways appropriate to the audience for each section of the report, choose appropriate methods and create professional visualizations and tables to explain their results.
 
-Reports were written in a reproducible Rmd (a code and text file type popular for use with the programming language R). Students were provided with a basic template that they could choose to use.
+Reports were written in a reproducible R Markdown file (a code and text file type popular for use with the programming language R). Students were provided with a basic template that they could choose to use.
 
 ## Skills demonstrated  {#skills}
 
@@ -171,11 +178,11 @@ The package contains:
 
 #### Additional files
 
-[Rubric](pdfs/sta303_project_rubric.pdf)
+-   [Rubric](pdfs/sta303_project_rubric.pdf)
 
-[Data dictionary](pdfs/Data-dictionary.pdf)
+-   [Data dictionary](pdfs/Data-dictionary.pdf)
 
-["NDA" (not a real NDA)](pdfs/Black%20Saber%20NDA.pdf)
+-   ["NDA" (not a real NDA)](pdfs/Black%20Saber%20NDA.pdf)
 
 #### Submission information
 
