@@ -5,6 +5,13 @@ description: |
   Liza Bolton
 output_dir: "docs"
 favicon: images/favicon.ico
+google_analytics: "G-LMV8VS6LCJ"
+cookie_consent:
+  style: headline
+  type: express
+  palette: light
+  lang: en
+  cookies_policy:
 navbar:
   logo:
     image: images/BarsOnly.png
