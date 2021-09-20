@@ -102,6 +102,31 @@ The plan is be to have \~6 meetings each semester, so equivalent to having 12 cl
 
 ##### Fall
 
+-   **September 15**: Introductions and discussion of goals and syllabus
+
+    -   Homework tasks:
+
+        -   (Re-)Read at least **ONE** of:
+
+            -   [SSC Code of Ethical Statistical Practice](https://ssc.ca/sites/default/files/data/Members/public/Accreditation/ethics_e.pdf) \*\*OR\*\*
+
+            -   [AMSTAT Ethical Guidelines for Statistical Practice.](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx#:~:text=of%20the%20data.-,The%20ethical%20statistician%3A,imputation%20and%20missing%20data%20mechanisms)
+
+        ```{=html}
+        <!-- -->
+        ```
+        -   Read and take notes on (it is okay to skim/not understand everything!) at least **ONE** of:
+
+            -   [Ethics in statistical practice and communication: Five recommendations](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01193.x) by Andrew Gelman**OR**
+
+            -   [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) by Bender, Gebru, McMillian-Major and Shmargaret Shmitchell (who is definitely *not* Margaret Mitchell, whom [Google also fired](https://www.zdnet.com/article/google-fires-top-ethical-ai-expert-margaret-mitchell/)), (\~60 minutes) (*You might also like this [video](https://www.youtube.com/watch?v=lsWLSl5xEAQ) reading group, but totally optional. Please also don't take this as 'being ethical gets you fired from Google', as I think this is more just a notable bump along the way as organizations do try to improve, or at the very least to limit their liability!)* **OR**
+
+            -   Another reading you propose to me by 11:59 a.m. ET this Friday.
+
+        -   Based on these readings, and your own knowledge and interests, do a brainstorm (\~15--20 minutes) and then organize it into a mind map (\~15--20 minutes) of concepts in ethical practice for statisticians. **Bring it to the next meeting, prepared to chat through it.**
+
+-   **September 29**: Confirm syllabus; Discuss readings and mind maps/brainstorms; Confirm individual topics; Annotated bibliographies
+
 -   **October 13**: My example seminar on graphicacy (or other topic TBD)
 
 -   **October 27**: Wrap-up from seminar; Bring a reading from your annotated bibliography and present the key points to the group; Mid-year presentation expectations
