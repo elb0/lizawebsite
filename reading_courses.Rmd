@@ -96,6 +96,8 @@ See the information on the [Special Enrolment Sharepoint Page for the Department
 
 **Syllabus**: [Draft as of 2021-09-20](pdfs/2021_STA497_draft-syllabus-2.pdf)
 
+Meet my students: [Zhixing Hong <i class="fab fa-github"></i>](https://github.com/ZhixingHong), [David Pham <i class="fab fa-github"></i>](https://thegort.github.io/)
+
 #### Preliminary schedule
 
 The plan is be to have \~6 meetings each semester, so equivalent to having 12 classes for a normal single-semester, half-credit course. No meetings planned during the final assessment periods.
@@ -112,9 +114,8 @@ The plan is be to have \~6 meetings each semester, so equivalent to having 12 cl
 
             -   [AMSTAT Ethical Guidelines for Statistical Practice.](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx#:~:text=of%20the%20data.-,The%20ethical%20statistician%3A,imputation%20and%20missing%20data%20mechanisms)
 
-        ```{=html}
         <!-- -->
-        ```
+
         -   Read and take notes on (it is okay to skim/not understand everything!) at least **ONE** of:
 
             -   [Ethics in statistical practice and communication: Five recommendations](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01193.x) by Andrew Gelman**OR**
