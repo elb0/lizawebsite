@@ -54,7 +54,7 @@ Students were tasked to answer the research questions posed by the client, commu
 
 Reports were written in a reproducible R Markdown file (a code and text file type popular for use with the programming language R). Students were provided with a basic template that they could choose to use.
 
-## Skills demonstrated  {#skills}
+## Skills demonstrated {#skills}
 
 Students who completed this project to a reasonable standard can do the following (organized under broad headings):
 
@@ -183,6 +183,8 @@ The package contains:
 -   [Data dictionary](pdfs/Data-dictionary.pdf)
 
 -   ["NDA" (not a real NDA)](pdfs/Black%20Saber%20NDA.pdf)
+
+-   [Template with instructions/tips](pdfs/STA303-Final-Project.pdf)
 
 #### Submission information
 
