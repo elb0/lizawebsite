@@ -1,7 +1,7 @@
 ---
 title: "Current opportunities"
 description: |
-  Any TA, RA or work study opportunities with me (and sometime selected colleagues) will be listed here. *Last updated: 2021-09-09*.
+  Any TA, RA or work study opportunities with me (and sometime selected colleagues) will be listed here. *Last updated: 2021-10-04*.
 output: 
   distill::distill_article:
     toc: true
@@ -24,9 +24,6 @@ No work study students currently being recruited.
 - 2021–22 Ethical Statistical Practice & Career Education Assistant 
 
 # Teaching Assistants
-
-<span style="background-color: #FFD700">[EMERGENCY POSTINGS for STA130 and STA490 up now, closing Sept 10!](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1)</span>
-
 
 See the [Department Website for full information](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1#teaching-assistants-accordion-1).
 

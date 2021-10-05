@@ -39,37 +39,25 @@ Liza
 
     -   For grad courses, please email [grad.statistics\@utoronto.ca](mailto:grad.statistics@utoronto.ca).
 
--   **If your email is about STA130**, please send it to [sta130\@utoronto.ca](mailto:sta130@utoronto.ca) instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza (once the course is live). <span style="background-color: #FFD700">If you are on the **waitlist**, and would like to receive information about the course in the meantime, please fill out [this form](https://forms.office.com/r/iq2VrynHjk).</span> _Note: As stated above, I cannot add you to the course or influence the waitlist in any way._
+-   **If your email is about STA130**, please send it to [sta130\@utoronto.ca](mailto:sta130@utoronto.ca) instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza.
 
--   ***"**Will [STA130/STA490/STA303/STA1002] be able to be **completed online-only?"*** *Yes*. More information below.
-
-    -   **STA130** is a completely online course (look for the '99' code in the section number. More information in the [Arts & Science FAQ](https://www.artsci.utoronto.ca/covid19-artsci-student-faqs "https://www.artsci.utoronto.ca/covid19-artsci-student-faqs").) All content and assessment will be accessed/completed online.
-
-    -   **STA490** lectures will be online, and you will have a choice (subject to health advice) about whether you sign up for in-person or online project meeting sections. All assessments will be completed and submitted online.
+-   ***"**Will STA303/STA1002 be able to be **completed online-only?"*** *Yes*. More information below.
 
     -   **STA303** will be a flipped course, with content delivered online and opportunities for activities both in-person (subject to health advice) and online. All assessments will be completed and submitted online.
 
     -   See also https://www.lizabolton.com/teaching.html. (Mostly just the same info as above).
 
--   **STA490 FAQs**
-
-    -   *"Can I still apply for this course?"* Enrolment has closed for this course. Reach out to the UG stats team ([ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca)) for more information.
-
-    -   *"Can I select/swap the section I am enrolled in?"* Nope. Sections have been assigned based on the range of experiences and focus subjects among the selected students.
-
 -   ***"**Can I have the the Winter 2022 **STA303/1002 syllabus?"***This syllabus is not available to students yet. You can see past versions and more information about the course on my [teaching page](https://www.lizabolton.com/teaching.html).
 
 -   *"Where is your **office**?"*/*"Can I come see you in-person?"* At this stage, I cannot offer in-person office hours nor student meetings in my office. Drop-ins are not currently allowed for any instructors or TAs in Statistical Sciences, unless they have told you they have organized another meeting space for this purpose.
 
--   **Reading courses:** STA496: Readings in Statistics must be registered for as part of [special enrolment during July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx "https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx"). I will not be taking on any further students.
+-   **Reading courses:** STA496/497: Readings in Statistics must be registered for as part of [special enrolment during July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx "https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx"). I will not be taking on any further students.
 
     -   If you're thinking about the future, I usually consider taking on a small number of STA496 students for a **half-credit, year long version.**
 
     -   There is much more information about my past students, research interests and what a course with me might be like on my website: https://www.lizabolton.com/reading_courses.html.
 
 -   **Research/work study/teaching assistant opportunities:**
-
-    - <span style="background-color: #FFD700">[EMERGENCY POSTINGS for STA130 and STA490 up now, closing Sept 10!](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1)</span>
 
     -   See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1 "https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1"). The main round of TA recruitment occurs during the summer but there are occasionally emergency postings.
 
