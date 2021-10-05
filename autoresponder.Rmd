@@ -1,7 +1,7 @@
 ---
 title: "My autoresponder"
 description: |
-  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2021-09-09*.
+  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2021-10-04*.
 output: 
   distill::distill_article:
     toc: true
@@ -22,16 +22,16 @@ Hi there,
 
 Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save everybody time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online [here](https://www.lizabolton.com/autoresponder.html).
 
-[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries.**]{style="background-color: #FFD700"}
+[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries**]{style="background-color: #FFD700"}[**—see the new form for requesting references.**]{style="background-color:#FEFF00"}
 
 If your question isn't related to the below, I will respond when I can. Please allow *at least* 24 hours, Monday--Friday, for a response before following up. Do not *expect* answers during evenings, weekends or holidays (Toronto time). I'm still teaching online this semester and that tends to come with a high volume of emails, please be patient with me and kind to yourself.
 
 Best, \
 Liza
 
- _Last updated 2021-09-09_
+ _Last updated 2021-10-04_
 
--   **References**: I'm currently working with the undergraduate team to sort out an application process for asking me if I can be an academic referee for your grad school applications and logging the deadlines. I'm not *currently* saying yes or no until that is in place, but you can take a look at my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you under, but basically, a good mark in one class is not sufficient and you need to have at least two 'activities' with me. I'll add the link here and on the references page when it is available.
+-   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two ‘activities’ with me. [If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru).]{style="background-color: #FFD700"} I will then accept or decline based on the the information provided.
 
 -   **Course enrolment:** I cannot add students to a course, waive prerequisites or move you off a waitlist. Please **reach out to the UG stats team ([ug.statistics\@utoronto.ca](ug.statistics@utoronto.ca))** about questions of this nature.
 
