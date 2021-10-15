@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 *This page was last updated 2021-10-15.*
 
-You can also see my current email autoresponder, that has more practical admin information, [here](https://blog.lizabolton.com/posts/2021-08-11_autoresponder/).
+You can also see my current email autoresponder, that has more practical admin information, [here](https://www.lizabolton.com/autoresponder.html).
 
 ## Data cleaning/wrangling/visualization experience or personal projects
 
