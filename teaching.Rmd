@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2021-09-17*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2021-12-16*.
 output: distill::distill_article
 ---
 
