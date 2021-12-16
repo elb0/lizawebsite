@@ -1,7 +1,7 @@
 ---
 title: "Current opportunities"
 description: |
-  Any TA, RA or work study opportunities with me (and sometime selected colleagues) will be listed here. *Last updated: 2021-10-04*.
+  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2021-12-16*.
 output: 
   distill::distill_article:
     toc: true
@@ -14,14 +14,31 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Research Assistants
 
-None currently, though we may be looking for a few to work on the future of the Independent Summer Statistics Community and for a grant about ethical professional practice for statisticians.
+None currently, though we may be looking for a few to work on the future of the Independent Summer Statistics Community.
+
+### Past/current positions I'm connected with
+
+-   Ethical Professional Practice (2021--2022)
+
+    -   **Project Description**: Our team is looking for one to two lead RAs to provide coordination and research support for a project on the development and implementation of teaching materials on ethical practice for 6 undergraduate courses. The larger project will also seek to identify additional complementary programming for career development and mentoring. This project will run until March, 2022.
+
+-   ISSC RAs (2020, 2021)
+
+    -   The Independent Summer Statistics Community (ISSC) is a community for Department of Statistical Sciences undergraduate students. Some of the RA roles related included:
+
+        -   Undergraduate and graduate program evaluation
+
+        -   Sports analytics workshop development
+
+        -   Python student learning community
 
 # Work study
 
-No work study students currently being recruited. 
+No work study students currently being recruited.
 
 ### Past/current positions I'm connected with
-- 2021–22 Ethical Statistical Practice & Career Education Assistant 
+
+-   2021--22 Ethical Statistical Practice & Career Education Assistant
 
 # Teaching Assistants
 
