@@ -13,6 +13,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and STA303 in the Winter. I am also supervising 3 students in a [reading course on ethical practice](https://www.lizabolton.com/reading_courses.html).
 
+-   [U of T update from Dec 15: courses are online until Jan 31, 2022.](https://www.utoronto.ca/utogether/covid-19-planning-update)
+
 -   R is the programming language used in these courses.
 
 -   I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
@@ -24,6 +26,10 @@ In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and 
         -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
 
 -   Delivery for STA490 and STA303 is subject to change due to the evolving pandemic situation, but **all assessments will be able to be completed and submitted online.** STA130 will remain online regardless as it is officially an online course.
+
+    -   If you are enrolled in an in-person tutorial, you will have an option to attend online instead.
+
+    -   For STA303, synchronous attendance is NOT required to pass the course, but being able to attend (online) synchronously at the times in the timetable may make things easier for you.
 
 -   I cannot add students to a course, waive prerequisites or move you off a waitlist. Please reach out to the UG stats team ([ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca)) about questions of this nature.
 
@@ -57,13 +63,13 @@ In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and 
 
 ### STA130 (Fall)
 
-Co-taught 2 sections of 288 students each with [Prof. Sam Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano). 
+Co-taught 2 sections of 288 students each with [Prof. Sam Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano).
 
 [Syllabus](pdfs/STA130_F21_syllabus.pdf)
 
 ### STA490 (Full Year)
 
-Taught one section of 26 students, course co-designed with [Michael Moon](https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon). 
+Taught one section of 26 students, course co-designed with [Michael Moon](https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon).
 
 [Syllabus](pdfs/2021_STA490_syllabus.pdf)
 

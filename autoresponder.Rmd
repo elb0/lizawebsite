@@ -22,16 +22,18 @@ Hi there,
 
 Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save everybody time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online [here](https://www.lizabolton.com/autoresponder.html).
 
-[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries**]{style="background-color: #FFD700"}[**—see the new form for requesting references.**]{style="background-color:#FEFF00"}
+[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries---see the new form for requesting references.**]{style="background-color: #FFD700"}
+
+[U of T update from Dec 15: courses are online until Jan 31, 2022.](https://www.utoronto.ca/utogether/covid-19-planning-update)
 
 If your question isn't related to the below, I will respond when I can. Please allow *at least* 24 hours, Monday--Friday, for a response before following up. Do not *expect* answers during evenings, weekends or holidays (Toronto time). I'm still teaching online this semester and that tends to come with a high volume of emails, please be patient with me and kind to yourself.
 
-Best, \
+Best,\
 Liza
 
- _Last updated 2021-10-04_
+*Last updated 2021-12-16*
 
--   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two ‘activities’ with me. [If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru).]{style="background-color: #FFD700"} I will then accept or decline based on the the information provided.
+-   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two 'activities' with me. [If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru).]{style="background-color: #FFD700"} I will then accept or decline based on the the information provided.
 
 -   **Course enrolment:** I cannot add students to a course, waive prerequisites or move you off a waitlist. Please **reach out to the UG stats team ([ug.statistics\@utoronto.ca](ug.statistics@utoronto.ca))** about questions of this nature.
 
@@ -39,23 +41,31 @@ Liza
 
     -   For grad courses, please email [grad.statistics\@utoronto.ca](mailto:grad.statistics@utoronto.ca).
 
--   **If your email is about STA130**, please send it to [sta130\@utoronto.ca](mailto:sta130@utoronto.ca) instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza.
+-   **If your email is about STA130 (Fall or Winter)**, please send it to [sta130\@utoronto.ca](mailto:sta130@utoronto.ca) instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza.
+
+    -   Final grades will be available in early January.
+
+    -   We do not do ad hoc adjust grades unless we have made a mistake in your calculation. It is not appropriate to request we change your grade because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
 
 -   ***"**Will STA303/STA1002 be able to be **completed online-only?"*** *Yes*. More information below.
 
     -   **STA303** will be a flipped course, with content delivered online and opportunities for activities both in-person (subject to health advice) and online. All assessments will be completed and submitted online.
 
-    -   See also https://www.lizabolton.com/teaching.html. (Mostly just the same info as above).
+    -   If you are enrolled in an **in-person tutorial**, you will have an option to attend online instead.
 
--   ***"**Can I have the the Winter 2022 **STA303/1002 syllabus?"***This syllabus is not available to students yet. You can see past versions and more information about the course on my [teaching page](https://www.lizabolton.com/teaching.html).
+    -   Synchronous attendance is NOT required to pass this course, but being able to attend (online) synchronously at the times in the timetable may make things easier for you.
+
+    -   See also <https://www.lizabolton.com/teaching.html>. (Mostly just the same info as above).
+
+-   ***"**Can I have the the Winter 2022 **STA303/1002 syllabus?"*** This syllabus is not available to students yet. You can see past versions and more information about the course on my [teaching page](https://www.lizabolton.com/teaching.html). [The course home page has also been soft-launched.](https://q.utoronto.ca/courses/253305)
 
 -   *"Where is your **office**?"*/*"Can I come see you in-person?"* At this stage, I cannot offer in-person office hours nor student meetings in my office. Drop-ins are not currently allowed for any instructors or TAs in Statistical Sciences, unless they have told you they have organized another meeting space for this purpose.
 
 -   **Reading courses:** STA496/497: Readings in Statistics must be registered for as part of [special enrolment during July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx "https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx"). I will not be taking on any further students.
 
-    -   If you're thinking about the future, I usually consider taking on a small number of STA496 students for a **half-credit, year long version.**
+    -   If you're thinking about the future, I usually consider taking on a small number of STA497 students for a **half-credit, year long version.**
 
-    -   There is much more information about my past students, research interests and what a course with me might be like on my website: https://www.lizabolton.com/reading_courses.html.
+    -   There is much more information about my past students, research interests and what a course with me might be like on my website: <https://www.lizabolton.com/reading_courses.html>.
 
 -   **Research/work study/teaching assistant opportunities:**
 
@@ -63,11 +73,10 @@ Liza
 
     -   Some information about opportunities with me on my [website](https://www.lizabolton.com/opportunities.html).
 
--   **Masters/PhDs:** I am not taking on Masters or PhD students. Please see the graduate section of our Department website for more information: [https://www.statistics.utoronto.ca/graduate](https://www.statistics.utoronto.ca/graduate){.uri}.
+-   **Masters/PhDs:** I am not taking on Masters or PhD students. Please see the graduate section of our Department website for more information: <https://www.statistics.utoronto.ca/graduate>.
 
-```{=html}
 <!-- -->
-```
+
 -   ***Doing okay?*** Reach out for support!
 
     -   [My Student Support Program -- My SSP](https://studentlife.utoronto.ca/hwc/myssp) offers mental health support for all U of T students. Free, confidential, immediate support. Available 24/7 in multiple languages. Download the My SSP App or call 1-844-451-9700. [[uoft.me/myssp]{.ul}](http://www.uoft.me/myssp)
