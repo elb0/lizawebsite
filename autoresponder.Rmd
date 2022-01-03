@@ -61,6 +61,8 @@ Liza
 
     -   See also <https://www.lizabolton.com/teaching.html>. (Mostly just the same info as above).
 
+    -   **Course email:** [sta303\@utoronto.ca](mailto:sta303@utoronto.ca).
+
 -   ***"**Can I have the the Winter 2022 **STA303/1002 syllabus?"*** This syllabus is not available to students yet. You can see past versions and more information about the course on my [teaching page](https://www.lizabolton.com/teaching.html). [The course home page has also been soft-launched.](https://q.utoronto.ca/courses/253305)
 
 -   *"Where is your **office**?"*/*"Can I come see you in-person?"* At this stage, I cannot offer in-person office hours nor student meetings in my office. Drop-ins are not currently allowed for any instructors or TAs in Statistical Sciences, unless they have told you they have organized another meeting space for this purpose.
