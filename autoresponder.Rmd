@@ -1,7 +1,7 @@
 ---
 title: "My autoresponder"
 description: |
-  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2021-10-04*.
+  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2022-01-03*.
 output: 
   distill::distill_article:
     toc: true
@@ -18,13 +18,11 @@ Below is a lightly reformatted version of my current message, just in case you f
 
 ------------------------------------------------------------------------
 
-❄️❄️❄️_Hope you are having/about to have a wonderful winter break and may your email boundaries be merry and bright this holiday season. I will not be responding to emails from 6:00 p.m. ET, December 17 until 10:00 a.m. January 3. That said, read on (Comet! on, Cupid! on, Donder and Blitzen!), if you had a question, it may meet its answer under the mistletoe below._❄️❄️❄️
-
 Hi there,
 
 Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save everybody time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online [here](https://www.lizabolton.com/autoresponder.html).
 
-[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries---see the new form for requesting references.**]{style="background-color: #FFD700"}
+[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries**]{style="background-color: #FFD700"}**---see the form and information below for requesting references.**
 
 [U of T update from Dec 15: courses are online until Jan 31, 2022.](https://www.utoronto.ca/utogether/covid-19-planning-update)
 
@@ -33,7 +31,7 @@ If your question isn't related to the below, I will respond when I can. Please a
 Best,\
 Liza
 
-*Last updated 2021-12-16*
+*Last updated 2022-01-03*
 
 -   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two 'activities' with me. [If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru).]{style="background-color: #FFD700"} I will then accept or decline based on the the information provided.
 
@@ -45,13 +43,17 @@ Liza
 
 -   **If your email is about STA130 (Fall or Winter)**, please send it to [sta130\@utoronto.ca](mailto:sta130@utoronto.ca) instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza.
 
-    -   Final grades will be available in early January.
+    -   Final grades will be available in early January. Regrades (for assessments other than the final) should be done processing by Jan 10.
 
-    -   We do not do ad hoc adjust grades unless we have made a mistake in your calculation. It is not appropriate to request we change your grade because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
+    -   We **do not** do ad hoc final grade adjustments unless we have made a mistake in your calculation. It is not appropriate to request we change your grade because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
+
+    -   To **view your final assessment**, you can schedule an appointment with the Statistics Undergraduate Office using [this link](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2FDoSSFinalAssessmentViewings%40utoronto.onmicrosoft.com%2Fbookings%2F&data=04%7C01%7Cliza.bolton%40utoronto.ca%7C4226a600ac5a46b6d89b08d9bc03941e%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C637747545817807363%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=XLX%2BBztLS9zxKRx2kobJLWdecoshFWavtuH3aHPfcBc%3D&reserved=0 "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2FDoSSFinalAssessmentViewings%40utoronto.onmicrosoft.com%2Fbookings%2F&data=04%7C01%7Cliza.bolton%40utoronto.ca%7C4226a600ac5a46b6d89b08d9bc03941e%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C637747545817807363%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=XLX%2BBztLS9zxKRx2kobJLWdecoshFWavtuH3aHPfcBc%3D&reserved=0"). Please note, appointments become bookable 2 days prior, and will be available **Jan 17--28, 2022.**
+
+    -   To **request a regrade for your final assessment** (you must have viewed it first), please complete the [DoSS Regrade Request Form](https://www.statistics.utoronto.ca/resources/resources-students-faculty-staff#current-students-resources-accordion-4 "https://www.statistics.utoronto.ca/resources/resources-students-faculty-staff#current-students-resources-accordion-4") and submit it to the Undergraduate Statistics Office at [ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca) by **Jan 28, 2022.**
 
 -   ***"**Will STA303/STA1002 be able to be **completed online-only?"*** *Yes*. More information below.
 
-    -   **STA303** will be a flipped course, with content delivered online and opportunities for activities both in-person (subject to health advice) and online. All assessments will be completed and submitted online.
+    -   **STA303** will be a flipped course, with content delivered online and opportunities for activities both in-person (after Jan 31, subject to health advice) and online. **All assessments will be completed and submitted online.**
 
     -   If you are enrolled in an **in-person tutorial**, you will have an option to attend online instead.
 
