@@ -34,7 +34,7 @@ There is a podcast, <https://www.tidytuesday.com/and>, a Slack group, [r4ds.io](
 
 #### To do
 
-Check out previous week's topics and work folks have done through [\#TidyTuesday on Twitter'(<https://twitter.com/search?q=%23TidyTuesday>).
+Check out previous week's topics and work folks have done through [\#TidyTuesday on Twitter'](https://twitter.com/search?q=%23TidyTuesday).
 
 Read the [list of community guidelines](https://github.com/rfordatascience/tidytuesday) so you know what to do and how to behave.
 
