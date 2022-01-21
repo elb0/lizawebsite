@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and STA303 in the Winter. I am also supervising 3 students in a [reading course on ethical practice](https://www.lizabolton.com/reading_courses.html).
 
--   [U of T update from Dec 15: courses are online until Jan 31, 2022.](https://www.utoronto.ca/utogether/covid-19-planning-update)
+-   [~~U of T update from Dec 15: courses are online until Jan 31, 2022.~~](https://www.utoronto.ca/utogether/covid-19-planning-update)
+
+-  [Update from Jan 19: courses are hybrid or online until Reading Week and in-person resumes after that.](https://www.artsci.utoronto.ca/news/winter-term-update-dean-woodin)
 
 -   **R** is the programming language used in these courses.
 
