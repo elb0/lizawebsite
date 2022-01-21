@@ -4,7 +4,7 @@ theme: theme.css
 description: |
   Liza Bolton
 output_dir: "docs"
-favicon: images/favicon.ico
+favicon: "images/favicon.ico"
 google_analytics: "G-LMV8VS6LCJ"
 navbar:
   logo:

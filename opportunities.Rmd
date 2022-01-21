@@ -1,7 +1,7 @@
 ---
 title: "Current opportunities"
 description: |
-  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2021-12-16*.
+  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2022-01-21*.
 output: 
   distill::distill_article:
     toc: true
@@ -14,7 +14,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Research Assistants
 
-None currently, though we may be looking for a few to work on the future of the Independent Summer Statistics Community.
+**The Department of Statistical Sciences is currently accepting applications for up to four Research Assistants to provide support to Liza Bolton, Samantha-Jo Caetano, Megan Whitehead-Douglas and Ivan Nguyen.**
+
+The team is looking for up to four undergraduate students to take part in designing and running a statistics-themed online Escape Room event for Department of Statistical Sciences (DoSS) students. This event is a Winter semester extension of the Independent Summer Statistics Community. Students of any year level welcome to apply.
+
+**Duties include:**
+
+-   Meetings with Prof. Caetano (main supervisor)
+
+-   Planning and developing activities and materials for the Escape Room activity
+
+-   Supporting the delivery of the Escape Room Event
+
+**Job Closing Date: Wednesday, January 26, 2022 at 6:00 p.m. ET** 
+
+[**To apply for this position, [please complete this form by 6:00 p.m. ET on January 26.](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2Fr%2FW0YyTUYTy1&data=04%7C01%7Cliza.bolton%40utoronto.ca%7C2a93fac23a404652648708d9dcf19eb2%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C637783752568534584%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=Rz88XMjQtxukeIs1WbvGqI25V9HKVEaupC9obZ7s2fk%3D&reserved=0 "Original URL: https://forms.office.com/r/W0YyTUYTy1. Click or tap if you trust this link.")**]{style="background-color: #FFD700"}
 
 ### Past/current positions I'm connected with
 
@@ -31,6 +45,56 @@ None currently, though we may be looking for a few to work on the future of the 
         -   Sports analytics workshop development
 
         -   Python student learning community
+
+# Looking for student representatives for STA303 {#studentrep}
+
+Our course is part of a small pilot of student representative pilot for the Department of Statistical Sciences and I am looking for two undergraduate student representatives to work with me to represent our course. (STA1002 students, there isn't a grad version of this, but you can also provide feedback to these reps and I encourage you to also reach out to me directly!)
+
+Student representatives work with their instructor to solicit and respond to student feedback throughout the semester. Representatives talk with their instructors about how the course is going, provide feedback to the department about student needs more generally and learn about department resources so that they can help connect students to these, as relevant.
+
+You can learn more about the experience from previous reps [here](https://www.statistics.utoronto.ca/news/new-pilot-program-enhances-academic-experience-giving-students-voice).
+
+#### The role of a student representative
+
+Once a rep is selected, they will:
+
+-   Attend a mandatory training session.
+
+-   Have their email made available to the class on Quercus so students can contact them. They may also introduce themselves in a synchronous class, or write a small blurb for an announcement or create a pre-recorded video. This is up to the student/instructor team.
+
+-   Reach out to students to elicit feedback. Additional tasks (e.g., helping with optional student pulse surveys or organising study groups or class events, etc.) would be left to the discretion of the student representative and instructor (they are *not* a required part of the program).  
+
+-   Keep in regular contact with the instructor as issues or concerns arise.
+
+#### Benefits of being a student representative
+
+-   Being part of creating a great learning experience for themselves and others.
+
+-   Networking with other students and members of the Department.
+
+-   Opportunities to work closely with an instructor that may mean they could be a strong referee for you and/or lead to taking a reading course with them etc.
+
+-   A chance to demonstrate and improve communication, leadership, and organisational skills.
+
+-   Something to put on a CV.
+
+#### How to become a rep
+
+**If you are eligible (see below), you can put yourself forward via [this form](https://forms.office.com/r/3ZjP0TBpQd).** Please make sure you choose the correct section, where applicable! Student representatives for each section will be selected via lottery from the eligible students that have expressed interest by Monday, January 24 at 6:00 p.m. ET.  
+
+#### Eligibility criteria
+
+-   You will need to be available to attend an online training, 11:10 a.m.--12:00 p.m. ET on Friday, 28 January 2022.
+
+-   You must be enrolled in the section you put yourself forward for.
+
+-   You *don't* have to be enrolled in a DoSS program to put yourself forward for the role, though it may be of more interest/use to you if you are.
+
+PDF version of ad [here](https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/student-rep-ad-w22.pdf).
+
+![](images/Student%20Rep%20Ad%20(Winter%202022).png)
+
+
 
 # Work study
 
