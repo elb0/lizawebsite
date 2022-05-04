@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: STA303 Winter 2021: A note from the Prof</title>
@@ -1863,7 +1864,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2399,7 +2403,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.10.1/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2484,7 +2488,9 @@ For students
 <h1>STA303 Winter 2021: A note from the Prof</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Information about the final project for STA303 to help prospective employers/clients, interested 2nd cousins and whoever else better understand these student achievements and skills.</p></p>
+<p><p>Information about the final project for STA303 to help prospective
+employers/clients, interested 2nd cousins and whoever else better
+understand these student achievements and skills.</p></p>
 </div>
 
 
@@ -2499,107 +2505,228 @@ For students
 <li><a href="#the-deliverable">The deliverable</a></li>
 </ul></li>
 <li><a href="#skills">Skills demonstrated</a></li>
-<li><a href="#full-assessment-instructions-and-rubric">Full assessment instructions and rubric</a></li>
+<li><a href="#full-assessment-instructions-and-rubric">Full assessment
+instructions and rubric</a></li>
 </ul>
 </nav>
 </div>
-<p>If you’re reading this, you may have been directed to this link by a former student of <a href="https://www.lizabolton.com/">mine</a> in order to provide you with more information about the large project they completed in my course. This page doesn’t have information about specific student projects, but should give you a sense of the kinds of skills students who completed this project will have. You may wish to <a href="#skills">skip directly to the skills description</a>.</p>
-<p><em><strong>One sentence description:</strong> Students merged, wrangled, visualized, summarized and modelled data on hiring, salary and promotion to meet a client brief, and reported on their methods and findings appropriately for a general executive audience and, separately, for a technical audience.</em></p>
+<p>If you’re reading this, you may have been directed to this link by a
+former student of <a href="https://www.lizabolton.com/">mine</a> in
+order to provide you with more information about the large project they
+completed in my course. This page doesn’t have information about
+specific student projects, but should give you a sense of the kinds of
+skills students who completed this project will have. You may wish to <a
+href="#skills">skip directly to the skills description</a>.</p>
+<p><em><strong>One sentence description:</strong> Students merged,
+wrangled, visualized, summarized and modelled data on hiring, salary and
+promotion to meet a client brief, and reported on their methods and
+findings appropriately for a general executive audience and, separately,
+for a technical audience.</em></p>
 <h2 id="but-first-some-context">But first, some context</h2>
-<p><em>STA303: Methods of Data Analysis II</em> is a course delivered by the <a href="https://www.statistics.utoronto.ca/">Department of Statistical Sciences at the University of Toronto</a>.</p>
-<p>In Winter 2021 (January to April), STA303 was run completely online due to COVID-19. Students rose to this challenge remarkably well, but it was a significant challenge to wellbeing and focus, none-the-less.</p>
-<p>STA303 is a communication- and application-focused course where students learn:</p>
+<p><em>STA303: Methods of Data Analysis II</em> is a course delivered by
+the <a href="https://www.statistics.utoronto.ca/">Department of
+Statistical Sciences at the University of Toronto</a>.</p>
+<p>In Winter 2021 (January to April), STA303 was run completely online
+due to COVID-19. Students rose to this challenge remarkably well, but it
+was a significant challenge to wellbeing and focus, none-the-less.</p>
+<p>STA303 is a communication- and application-focused course where
+students learn:</p>
 <ul>
 <li><p>to merge, wrangle, summarize and visualize data,</p></li>
-<li><p>about several statistical modelling approaches and how to choose and implement these, as well as</p></li>
-<li><p>how to write about their methods and results for a range of audiences.</p></li>
+<li><p>about several statistical modelling approaches and how to choose
+and implement these, as well as</p></li>
+<li><p>how to write about their methods and results for a range of
+audiences.</p></li>
 </ul>
-<p>The models covered include: linear mixed models, generalized linear models, generalized linear mixed models and generalized additive models.</p>
+<p>The models covered include: linear mixed models, generalized linear
+models, generalized linear mixed models and generalized additive
+models.</p>
 <h2 id="project-task-summary">Project task summary</h2>
-<p>I’ve included full information on this assessment at the end of this page, but it is not needed to understand it. The project was worth 30% of students’ final grades and students could choose to complete it individually or as a team. <strong>Teamwork</strong> was recommended, but the task was the same either way. Teams were not required as students had good reasons for completing individually, such as being located in a challenging time zone, lack of access to internet appropriate for calling, or other caring or work obligations that made scheduling meetings untenable.</p>
-<p>Students were consulting for Black Saber Software, analyzing their hiring and employee data and tasked with <strong>creating a report appropriate for the Board of Directors on the topic of gender parity in hiring, wages and promotion</strong>. Note: Black Saber isn’t a real company, it would be massively reckless to provide 600 people with employee data with this level of detail. It would be very easy to identify individuals from data like this. That said, this dataset was simulated based on real research and employment trends and draws on my own consulting experiences.</p>
-<p>Each team or individual created a consulting company for the purposes of this activity and to register their group/individual status completed a pseudo-NDA, of which the only real part was reminding them that they had already agreed to several codes of conduct as part of their enrolment at U of T and made clear my expectations of their professionalism. It also gave them a chance to familiarize themselves with a common requirement for consulting.</p>
+<p>I’ve included full information on this assessment at the end of this
+page, but it is not needed to understand it. The project was worth 30%
+of students’ final grades and students could choose to complete it
+individually or as a team. <strong>Teamwork</strong> was recommended,
+but the task was the same either way. Teams were not required as
+students had good reasons for completing individually, such as being
+located in a challenging time zone, lack of access to internet
+appropriate for calling, or other caring or work obligations that made
+scheduling meetings untenable.</p>
+<p>Students were consulting for Black Saber Software, analyzing their
+hiring and employee data and tasked with <strong>creating a report
+appropriate for the Board of Directors on the topic of gender parity in
+hiring, wages and promotion</strong>. Note: Black Saber isn’t a real
+company, it would be massively reckless to provide 600 people with
+employee data with this level of detail. It would be very easy to
+identify individuals from data like this. That said, this dataset was
+simulated based on real research and employment trends and draws on my
+own consulting experiences.</p>
+<p>Each team or individual created a consulting company for the purposes
+of this activity and to register their group/individual status completed
+a pseudo-NDA, of which the only real part was reminding them that they
+had already agreed to several codes of conduct as part of their
+enrolment at U of T and made clear my expectations of their
+professionalism. It also gave them a chance to familiarize themselves
+with a common requirement for consulting.</p>
 <h3 id="the-deliverable">The deliverable</h3>
 <p>The final submission was a report that included:</p>
 <ul>
 <li>a cover page</li>
 <li>an executive summary (2 pages max)</li>
 <li>a technical report</li>
-<li>consultant bio(s) (note: these bios were meant to be ‘fun’ illustrations of their aspirations and interests and are not necessarily accurate), and</li>
+<li>consultant bio(s) (note: these bios were meant to be ‘fun’
+illustrations of their aspirations and interests and are not necessarily
+accurate), and</li>
 <li>a company ethics statement.</li>
 </ul>
-<p>Students were tasked to answer the research questions posed by the client, communicate their findings in ways appropriate to the audience for each section of the report, choose appropriate methods and create professional visualizations and tables to explain their results.</p>
-<p>Reports were written in a reproducible R Markdown file (a code and text file type popular for use with the programming language R). Students were provided with a basic template that they could choose to use.</p>
+<p>Students were tasked to answer the research questions posed by the
+client, communicate their findings in ways appropriate to the audience
+for each section of the report, choose appropriate methods and create
+professional visualizations and tables to explain their results.</p>
+<p>Reports were written in a reproducible R Markdown file (a code and
+text file type popular for use with the programming language R).
+Students were provided with a basic template that they could choose to
+use.</p>
 <h2 id="skills">Skills demonstrated</h2>
-<p>Students who completed this project to a reasonable standard can do the following (organized under broad headings):</p>
-<h4 id="statistical-reasoning-and-knowledge">Statistical reasoning and knowledge</h4>
+<p>Students who completed this project to a reasonable standard can do
+the following (organized under broad headings):</p>
+<h4 id="statistical-reasoning-and-knowledge">Statistical reasoning and
+knowledge</h4>
 <ul>
-<li><p>Develop relevant research questions that can be explored/answered statistically.</p></li>
-<li><p>Merge large datasets programmatically and wrangle them appropriately to create meaningful new variables, where relevant.</p></li>
-<li><p>Choose and create appropriate data visualizations and summaries.</p></li>
-<li><p>Choose appropriate statistical models and check their assumptions.</p></li>
+<li><p>Develop relevant research questions that can be explored/answered
+statistically.</p></li>
+<li><p>Merge large datasets programmatically and wrangle them
+appropriately to create meaningful new variables, where
+relevant.</p></li>
+<li><p>Choose and create appropriate data visualizations and
+summaries.</p></li>
+<li><p>Choose appropriate statistical models and check their
+assumptions.</p></li>
 <li><p>Justify their choice of methods in writing.</p></li>
-<li><p>Accurately describe results, including size and direction of effect through confidence intervals, where relevant.</p></li>
-<li><p>Identify and discuss strengths and limitations of their statistical approaches.</p></li>
+<li><p>Accurately describe results, including size and direction of
+effect through confidence intervals, where relevant.</p></li>
+<li><p>Identify and discuss strengths and limitations of their
+statistical approaches.</p></li>
 </ul>
-<h4 id="ethical-professional-practice">Ethical professional practice</h4>
+<h4 id="ethical-professional-practice">Ethical professional
+practice</h4>
 <ul>
-<li><p>Understand and put into their own words aspects of the <a href="https://ssc.ca/sites/default/files/data/Members/public/Accreditation/ethics_e.pdf">Statistical Society of Canada Code of Ethical Statistical Practice</a>. (Demonstrated through the code of conduct they wrote for their ‘company’.)</p></li>
-<li><p>Report findings truthfully and accurately, even when they are not what a stakeholder ‘wants to hear’.</p></li>
+<li><p>Understand and put into their own words aspects of the <a
+href="https://ssc.ca/sites/default/files/data/Members/public/Accreditation/ethics_e.pdf">Statistical
+Society of Canada Code of Ethical Statistical Practice</a>.
+(Demonstrated through the code of conduct they wrote for their
+‘company’.)</p></li>
+<li><p>Report findings truthfully and accurately, even when they are not
+what a stakeholder ‘wants to hear’.</p></li>
 <li><p>Identify potential sources of algorithmic bias.</p></li>
 </ul>
 <h4 id="writing">Writing</h4>
 <ul>
-<li><p>Write appropriately for different audiences, i.e. an executive summary for executives with limited statistical knowledge and a technical report for fellow analysts (though not necessarily ones familiar with R).</p></li>
+<li><p>Write appropriately for different audiences, i.e. an executive
+summary for executives with limited statistical knowledge and a
+technical report for fellow analysts (though not necessarily ones
+familiar with R).</p></li>
 <li><p>Format a report with a logical structure.</p></li>
-<li><p>Work within length constraints to prioritize expressing the key information from a series of analyses.</p></li>
+<li><p>Work within length constraints to prioritize expressing the key
+information from a series of analyses.</p></li>
 </ul>
 <h4 id="programming">Programming</h4>
 <ul>
-<li><p>Create reproducible code and suppress code appropriately in a final ‘human-readable’ report. I.e., no error outputs in the final PDF or raw variable names used.</p></li>
-<li><p>Use data wrangling and visualization functions and packages (largely dplyr and ggplot2, if that means anything to you).</p></li>
+<li><p>Create reproducible code and suppress code appropriately in a
+final ‘human-readable’ report. I.e., no error outputs in the final PDF
+or raw variable names used.</p></li>
+<li><p>Use data wrangling and visualization functions and packages
+(largely dplyr and ggplot2, if that means anything to you).</p></li>
 <li><p>Comment on and organize their code logically.</p></li>
 </ul>
 <h4 id="general">General</h4>
 <ul>
 <li><p>Construct and label tables and figures professionally.</p></li>
-<li><p>Be resilient in the face of challenges, especially when it comes to troubleshooting code bugs.</p></li>
-<li><p>Ask for help when they need it while also taking responsibility for their work.</p></li>
+<li><p>Be resilient in the face of challenges, especially when it comes
+to troubleshooting code bugs.</p></li>
+<li><p>Ask for help when they need it while also taking responsibility
+for their work.</p></li>
 </ul>
-<h2 id="full-assessment-instructions-and-rubric">Full assessment instructions and rubric</h2>
-<p>Note: If you’re a fellow instructor and interested in using any of this, reach out! I am happy to share originals, etc.</p>
+<h2 id="full-assessment-instructions-and-rubric">Full assessment
+instructions and rubric</h2>
+<p>Note: If you’re a fellow instructor and interested in using any of
+this, reach out! I am happy to share originals, etc.</p>
 <h4 id="client-emails">“Client” emails</h4>
-<h5 id="email-1-text-for-screen-readerseasier-reading-follows">Email 1 (text for screen readers/easier reading follows)</h5>
+<h5 id="email-1-text-for-screen-readerseasier-reading-follows">Email 1
+(text for screen readers/easier reading follows)</h5>
 <p><img src="images/sta3030_w21_email-1.png" /></p>
 <p>Hi,</p>
-<p>Thanks again for the great work on the Pax Aurora project last year. I’m reaching out with another piece of work I’m hoping you can take on.</p>
-<p>Internally, people have been raising concerns about potential bias in our hiring and remuneration processes. I don’t think there is much to it, but I want to be able to report to the Board that we’ve had external statisticians take a look and that everything is totally above board. That said, several companies in our area have had bad press about this recently, nasty complaints from staff to reporters, etc. and I want to ensure we’re out ahead of any potential issues. Obviously, I value your discretion and don’t want this mentioned more widely. NDAs will be required from anyone working on the project.</p>
-<p>I’ll be able to provide: Hiring data for our new grad program (we have a new selection pipeline that is AI-automated up to the final interviews), and Data about promotion and salary for our entire staff. Let me know if you have any questions, and if you’re ready to get the ball rolling, please complete this NDA (docx or pdf) and submit them through our NDA portal. After that, I’ll reach out with the data. Would be great if the final deliverable could have a summary targeted for the Board of Directors, as well as a more technical piece for our data team to look over as well.</p>
-<p>I assume same fee structure as last time applies? That will be fine on our end. Will pay hourly with a cap at 40 hours unless otherwise discussed.</p>
+<p>Thanks again for the great work on the Pax Aurora project last year.
+I’m reaching out with another piece of work I’m hoping you can take
+on.</p>
+<p>Internally, people have been raising concerns about potential bias in
+our hiring and remuneration processes. I don’t think there is much to
+it, but I want to be able to report to the Board that we’ve had external
+statisticians take a look and that everything is totally above board.
+That said, several companies in our area have had bad press about this
+recently, nasty complaints from staff to reporters, etc. and I want to
+ensure we’re out ahead of any potential issues. Obviously, I value your
+discretion and don’t want this mentioned more widely. NDAs will be
+required from anyone working on the project.</p>
+<p>I’ll be able to provide: Hiring data for our new grad program (we
+have a new selection pipeline that is AI-automated up to the final
+interviews), and Data about promotion and salary for our entire staff.
+Let me know if you have any questions, and if you’re ready to get the
+ball rolling, please complete this NDA (docx or pdf) and submit them
+through our NDA portal. After that, I’ll reach out with the data. Would
+be great if the final deliverable could have a summary targeted for the
+Board of Directors, as well as a more technical piece for our data team
+to look over as well.</p>
+<p>I assume same fee structure as last time applies? That will be fine
+on our end. Will pay hourly with a cap at 40 hours unless otherwise
+discussed.</p>
 <p>Best,</p>
 <p>Gideon Blake</p>
 <p>Chief People Officer | Black Saber Software</p>
-<h5 id="email-2-text-for-screen-readerseasier-reading-follows">Email 2 (text for screen readers/easier reading follows)</h5>
+<h5 id="email-2-text-for-screen-readerseasier-reading-follows">Email 2
+(text for screen readers/easier reading follows)</h5>
 <p><img src="images/sta3030_w21_email-2.png" /></p>
 <p><strong>Email from Gideon:</strong></p>
 <p>Hi again, great to know that you’re on board for this project.</p>
-<p>The data team set something up for you to get the data. I’ve forwarded the details they sent, see below, all the descriptions of the data are there.</p>
-<p>According to the legal team, it was better to only give you data for our current employees, so those are the only people in that data. Generally, we have a pretty good retention rate, though.</p>
-<p>One of my People and Talent guys mentioned that we don’t collect data on ethnicity/race but that the team is considering it for EDI initiatives after a conference they went to, and he said it might also be related to salary. Once again, I don’t think anything like that will be an issue for us.</p>
-<p>The board wants to hear that our hiring, promotion and salary processes are all fair, and based on talent and value to the company. They’re especially interested in the hiring pipeline as we’ve been trialling an AI service that screens applications and then invites candidates to submit a pre-recorded video that the system rates for relevant features. Candidates are also invited to do a timed technical coding task and submit a writing sample and these are also assessed by the system. More on that in the docs, too.</p>
-<p>Let me know if you have any questions, looking forward to the report on April 21.</p>
+<p>The data team set something up for you to get the data. I’ve
+forwarded the details they sent, see below, all the descriptions of the
+data are there.</p>
+<p>According to the legal team, it was better to only give you data for
+our current employees, so those are the only people in that data.
+Generally, we have a pretty good retention rate, though.</p>
+<p>One of my People and Talent guys mentioned that we don’t collect data
+on ethnicity/race but that the team is considering it for EDI
+initiatives after a conference they went to, and he said it might also
+be related to salary. Once again, I don’t think anything like that will
+be an issue for us.</p>
+<p>The board wants to hear that our hiring, promotion and salary
+processes are all fair, and based on talent and value to the company.
+They’re especially interested in the hiring pipeline as we’ve been
+trialling an AI service that screens applications and then invites
+candidates to submit a pre-recorded video that the system rates for
+relevant features. Candidates are also invited to do a timed technical
+coding task and submit a writing sample and these are also assessed by
+the system. More on that in the docs, too.</p>
+<p>Let me know if you have any questions, looking forward to the report
+on April 21.</p>
 <p>Best,</p>
 <p>Gideon Blake<br />
 Chief People Officer | Black Saber Software </p>
 <p><strong>Forwarded email:</strong></p>
 <p>Hi G,</p>
-<p>The team has prepped the documentation you asked for, the consultants can access the data by running `devtools::install_github(“sta303-bolton/sta303project”)`. Data dictionary attached.</p>
+<p>The team has prepped the documentation you asked for, the consultants
+can access the data by running
+`devtools::install_github(“sta303-bolton/sta303project”)`. Data
+dictionary attached.</p>
 <p>Best,<br />
 V</p>
 <p>Valin Hess<br />
 VP Data | Black Saber Software </p>
 <h4 id="r-package">R package</h4>
-<p>The project package can be installed by running: <code>devtools::install_github("sta303-bolton/sta303project")</code>. Also viewable on <a href="https://github.com/sta303-bolton/sta303project" class="uri">https://github.com/sta303-bolton/sta303project</a>.</p>
+<p>The project package can be installed by running:
+<code>devtools::install_github("sta303-bolton/sta303project")</code>.
+Also viewable on <a
+href="https://github.com/sta303-bolton/sta303project"
+class="uri">https://github.com/sta303-bolton/sta303project</a>.</p>
 <p>The package contains:</p>
 <ul>
 <li>An R markdown template for reports</li>
@@ -2609,8 +2736,10 @@ VP Data | Black Saber Software </p>
 <ul>
 <li><p><a href="pdfs/sta303_project_rubric.pdf">Rubric</a></p></li>
 <li><p><a href="pdfs/Data-dictionary.pdf">Data dictionary</a></p></li>
-<li><p><a href="pdfs/Black%20Saber%20NDA.pdf">“NDA” (not a real NDA)</a></p></li>
-<li><p><a href="pdfs/STA303-Final-Project.pdf">Template with instructions/tips</a></p></li>
+<li><p><a href="pdfs/Black%20Saber%20NDA.pdf">“NDA” (not a real
+NDA)</a></p></li>
+<li><p><a href="pdfs/STA303-Final-Project.pdf">Template with
+instructions/tips</a></p></li>
 </ul>
 <h4 id="submission-information">Submission information</h4>
 <table>
@@ -2643,30 +2772,60 @@ VP Data | Black Saber Software </p>
 </tr>
 <tr class="odd">
 <td>Instructions and submission link</td>
-<td><p><strong>Instructions</strong>: <a href="https://q.utoronto.ca/courses/204826/assignments/506357" class="uri">https://q.utoronto.ca/courses/204826/assignments/506357</a> </p>
+<td><p><strong>Instructions</strong>: <a
+href="https://q.utoronto.ca/courses/204826/assignments/506357"
+class="uri">https://q.utoronto.ca/courses/204826/assignments/506357</a> </p>
 <p><strong>Submission</strong>: On Quercus.</p>
 <ul>
-<li><p>Submission must include PDF of the report AND the Rmd that created the PDF, as well as any additional files (e.g. images or additional R scripts ). You do not need to include the original data.</p></li>
-<li><p>One team member will submit on behalf of the group but all members should be able to see the submission status.</p></li>
+<li><p>Submission must include PDF of the report AND the Rmd that
+created the PDF, as well as any additional files (e.g. images or
+additional R scripts ). You do not need to include the original
+data.</p></li>
+<li><p>One team member will submit on behalf of the group but all
+members should be able to see the submission status.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Late submission policy</td>
-<td><p>For assessments in <strong>Type 1</strong>, late assessments will still be accepted through Crowdmark, but only <strong>if they are your first submission</strong>. You will lose 10 percentage points on the assessment, per day, with submissions accepted for up to 3 days after the due date. I.e., 72 hours after the initial due date.</p>
-<p><strong>Grace period:</strong> Projects submitted before 8:00 p.m. ET on April 21 will have no late penalty applied.</p></td>
+<td><p>For assessments in <strong>Type 1</strong>, late assessments will
+still be accepted through Crowdmark, but only <strong>if they are your
+first submission</strong>. You will lose 10 percentage points on the
+assessment, per day, with submissions accepted for up to 3 days after
+the due date. I.e., 72 hours after the initial due date.</p>
+<p><strong>Grace period:</strong> Projects submitted before 8:00 p.m. ET
+on April 21 will have no late penalty applied.</p></td>
 </tr>
 <tr class="odd">
 <td>Accommodations and extension policy</td>
-<td><p>Please note that as this assessment is due near the very end of the assessment period, there is limited flexibility for accommodations and extensions. While I would love to be able to otherwise, a busy final assessment period will <strong>not</strong> be sufficient reason to grant an extension. </p>
-<p>If you miss a type 1 assessment due to illness or a serious personal emergency, please complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEOKHUU3SzAJJhmOKjJhDWEpUQU1aRjI2SFpSSExZUVhVWEFYVU83VVg3Qy4u"><strong>this form</strong></a>within ONE week of the due date of the assignment. Upon receipt of your form, we will contact you via email within 3 business days to arrange an accommodation. The sooner you can reach out, the better.</p></td>
+<td><p>Please note that as this assessment is due near the very end of
+the assessment period, there is limited flexibility for accommodations
+and extensions. While I would love to be able to otherwise, a busy final
+assessment period will <strong>not</strong> be sufficient reason to
+grant an extension. </p>
+<p>If you miss a type 1 assessment due to illness or a serious personal
+emergency, please complete <a
+href="https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEOKHUU3SzAJJhmOKjJhDWEpUQU1aRjI2SFpSSExZUVhVWEFYVU83VVg3Qy4u"><strong>this
+form</strong></a>within ONE week of the due date of the assignment. Upon
+receipt of your form, we will contact you via email within 3 business
+days to arrange an accommodation. The sooner you can reach out, the
+better.</p></td>
 </tr>
 <tr class="even">
 <td>Regrade requests</td>
-<td>Each member of your company must complete a declaration (download the <a href="https://q.utoronto.ca/courses/204826/files/14404349?wrap=1" title="STA303 project regrade declaration-1.docx">DOCX</a> or <a href="https://q.utoronto.ca/courses/204826/files/14404353?wrap=1" title="STA303 project regrade declaration-1.pdf">PDF</a> version here) and submit these, along with a detailed justification <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEOKHUU3SzAJJhmOKjJhDWEpUNlZPUFQ2TDI3M0ZQWlIyMUlISDZOTzBVVi4u">in this form.</a> <strong>See the form and declaration for full instructions.</strong></td>
+<td>Each member of your company must complete a declaration (download
+the <a href="https://q.utoronto.ca/courses/204826/files/14404349?wrap=1"
+title="STA303 project regrade declaration-1.docx">DOCX</a> or <a
+href="https://q.utoronto.ca/courses/204826/files/14404353?wrap=1"
+title="STA303 project regrade declaration-1.pdf">PDF</a> version here)
+and submit these, along with a detailed justification <a
+href="https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEOKHUU3SzAJJhmOKjJhDWEpUNlZPUFQ2TDI3M0ZQWlIyMUlISDZOTzBVVi4u">in
+this form.</a> <strong>See the form and declaration for full
+instructions.</strong></td>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

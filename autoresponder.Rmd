@@ -1,7 +1,7 @@
 ---
 title: "My autoresponder"
 description: |
-  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2022-01-08*.
+  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2022-05-04*.
 output: 
   distill::distill_article:
     toc: true
@@ -22,73 +22,44 @@ Hi there,
 
 Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save everybody time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online [here](https://www.lizabolton.com/autoresponder.html).
 
-[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.ul} my response. Please note that this is especially the case for references and graduate study inquiries**]{style="background-color: #FFD700"}**---see the form and information below for requesting references.**
+[**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.underline} my response. Please note that this is especially the case for references and graduate study inquiries**]{style="background-color: #FFD700"}**---see the form and information below for requesting references.**
 
-[U of T update from Dec 15: courses are online until Jan 31, 2022.](https://www.utoronto.ca/utogether/covid-19-planning-update)
-
-If your question isn't related to the below, I will respond when I can. Please allow *at least* 24 hours, Monday--Friday, for a response before following up. Do not *expect* answers during evenings, weekends or holidays (Toronto time). I'm still teaching online this semester and that tends to come with a high volume of emails, please be patient with me and kind to yourself.
+If your question isn't related to the below, I will respond when I can. Please allow *at least* 24 hours, Monday--Friday, for a response before following up. Please do not *expect* answers during evenings, weekends or holidays (Toronto time).
 
 Best,\
 Liza
 
-*Last updated 2022-01-08*
+*Last updated 2022-05-04*
+
+-   **Final grades**: We **do not** do ad hoc final grade adjustments unless we have made a *mistake* in your calculation. It is not appropriate to request we change your grade just because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
 
 -   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two 'activities' with me. If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru). I will then accept or decline based on the the information provided.
 
--   **Course enrolment:** I cannot add students to a course, waive prerequisites or move you off a waitlist. Please **reach out to the UG stats team ([ug.statistics\@utoronto.ca](https://www.lizabolton.com/ug.statistics@utoronto.ca))** about questions of this nature.
+-   **If your email is about STA303,** please send it to [sta303\@utoronto.ca](mailto:sta303@utoronto.ca "mailto:sta303@utoronto.ca") instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza. Messages that do not follow the [communication policy](https://sta303-bolton.github.io/sta303-w22-courseguide/syllabus.html#communication-policy "https://sta303-bolton.github.io/sta303-w22-courseguide/syllabus.html#communication-policy") will not be responded to.
+
+-   **No 2022-23 teaching & supervision**
+
+    -   I will be away for research and not teaching during the 2022-23 academic year.
+
+    -   I will not be supervising any **reading courses,** but highly recommend strong final year students look into them. *STA496/497: Readings in Statistics* must be registered for as part of [special enrolment during \~July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx "https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx") (Sharepoint to be updated).
+
+-   **Research/work study/teaching assistant opportunities:**
+
+    -   See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1 "https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1"). The main round of TA recruitment occurs during the summer but there are occasionally emergency postings.
+
+-   **Masters/PhDs:** I am not taking on Masters or PhD students. Please see the graduate section of our Department website for more information: <https://www.statistics.utoronto.ca/graduate>.
+
+-   ***Doing okay?*** Reach out for support!
+
+    -   [My Student Support Program -- My SSP](https://studentlife.utoronto.ca/hwc/myssp) offers mental health support for all U of T students. Free, confidential, immediate support. Available 24/7 in multiple languages. Download the My SSP App or call 1-844-451-9700. [[uoft.me/myssp]{.underline}](http://www.uoft.me/myssp)
+
+    -   Call **Good2Talk**, a free, confidential helpline for people in Ontario. Professional counselling, information and referrals for mental health, addictions and well-being, 24/7/365 [[1-866-925-5454]{.underline}](tel:1-866-925-5454)
+
+```{=html}
+<!-- -->
+```
+-   **Course enrolment:** I cannot add students to a course, waive prerequisites or move you off a waitlist. Please **reach out to the UG stats team ([ug.statistics\@utoronto.ca](https://www.lizabolton.com/ug.statistics@utoronto.ca))** about questions of this nature.
 
     -   [Book an appointment during their office hours](https://outlook.office365.com/owa/calendar/DepartmentofStatisticalSciencesUndergraduate@utoronto.onmicrosoft.com/bookings/ "https://outlook.office365.com/owa/calendar/DepartmentofStatisticalSciencesUndergraduate@utoronto.onmicrosoft.com/bookings/").
 
     -   For grad courses, please email [grad.statistics\@utoronto.ca](mailto:grad.statistics@utoronto.ca).
-
--   **If your email is about STA303,** please send it to [sta303\@utoronto.ca](mailto:sta303@utoronto.ca "mailto:sta303@utoronto.ca") instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza.  Messages that do not follow the [communication policy](https://sta303-bolton.github.io/sta303-w22-courseguide/syllabus.html#communication-policy "https://sta303-bolton.github.io/sta303-w22-courseguide/syllabus.html#communication-policy") will not be responded to.
-
--   **If your email is about STA130 (Fall or Winter)**, please send it to [sta130\@utoronto.ca](mailto:sta130@utoronto.ca) instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza.
-
-    -   Final grades are now available on ACORN.
-
-    -   We **do not** do ad hoc final grade adjustments unless we have made a mistake in your calculation. It is not appropriate to request we change your grade just because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
-
-    -   To **view your final assessment**, you can schedule an appointment with the Statistics Undergraduate Office using [this link](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2FDoSSFinalAssessmentViewings%40utoronto.onmicrosoft.com%2Fbookings%2F&data=04%7C01%7Cliza.bolton%40utoronto.ca%7C4226a600ac5a46b6d89b08d9bc03941e%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C637747545817807363%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=XLX%2BBztLS9zxKRx2kobJLWdecoshFWavtuH3aHPfcBc%3D&reserved=0 "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2FDoSSFinalAssessmentViewings%40utoronto.onmicrosoft.com%2Fbookings%2F&data=04%7C01%7Cliza.bolton%40utoronto.ca%7C4226a600ac5a46b6d89b08d9bc03941e%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C637747545817807363%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=XLX%2BBztLS9zxKRx2kobJLWdecoshFWavtuH3aHPfcBc%3D&reserved=0"). Please note, appointments become bookable 2 days prior, and will be available **Jan 17--28, 2022.**
-
-    -   To **request a regrade for your final assessment** (you must have viewed it first), please complete the [DoSS Regrade Request Form](https://www.statistics.utoronto.ca/resources/resources-students-faculty-staff#current-students-resources-accordion-4 "https://www.statistics.utoronto.ca/resources/resources-students-faculty-staff#current-students-resources-accordion-4") and submit it to the Undergraduate Statistics Office at ug.statistics\@utoronto.ca by **Jan 28, 2022.**\
-
--   ***"I'm on the waitlist for STA303, how can I keep up with the course?"*** Please complete [this form](https://forms.office.com/r/sKWPFFE2Cd "https://forms.office.com/r/sKWPFFE2Cd") to get access to the materials as you wait to see if you can join the course.\
-
-```{=html}
-<!-- -->
-```
--   ***"Will STA303/STA1002 be able to be completed online-only?"*** *Yes*. More information below.
-
-    -   **STA303** will be a flipped course, with content delivered online and opportunities for activities both in-person (after Jan 31, subject to health advice) and online. **All assessments will be completed and submitted online.**
-
-    -   If you are enrolled in an **in-person tutorial**, you will have an option to attend online instead.
-
-    -   Synchronous attendance is NOT required to pass this course, but being able to attend (online) synchronously at the times in the timetable may make things easier for you.
-
-    -   See also <https://www.lizabolton.com/teaching.html>. (Mostly just the same info as above).
-
--   *"Where is your **office**?"*/*"Can I come see you in-person?"* At this stage, I cannot offer in-person office hours nor student meetings in my office. Drop-ins are not currently allowed for any instructors or TAs in Statistical Sciences, unless they have told you they have organized another meeting space for this purpose.
-
--   **Reading courses:** STA496/497: Readings in Statistics must be registered for as part of [special enrolment during July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx "https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx"). I will not be taking on any further students.
-
-    -   If you're thinking about the future, I usually consider taking on a small number of STA497 students for a **half-credit, year long version.**
-
-    -   There is much more information about my past students, research interests and what a course with me might be like on my website: <https://www.lizabolton.com/reading_courses.html>.
-
--   **Research/work study/teaching assistant opportunities:**
-
-    -   See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1 "https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1"). The main round of TA recruitment occurs during the summer but there are occasionally emergency postings.
-
-    -   Some information about opportunities with me on my [website](https://www.lizabolton.com/opportunities.html).
-
--   **Masters/PhDs:** I am not taking on Masters or PhD students. Please see the graduate section of our Department website for more information: <https://www.statistics.utoronto.ca/graduate>.
-
-```{=html}
-<!-- -->
-```
--   ***Doing okay?*** Reach out for support!
-
-    -   [My Student Support Program -- My SSP](https://studentlife.utoronto.ca/hwc/myssp) offers mental health support for all U of T students. Free, confidential, immediate support. Available 24/7 in multiple languages. Download the My SSP App or call 1-844-451-9700. [[uoft.me/myssp]{.ul}](http://www.uoft.me/myssp)
-
-    -   Call **Good2Talk**, a free, confidential helpline for people in Ontario. Professional counselling, information and referrals for mental health, addictions and well-being, 24/7/365 [[1-866-925-5454]{.ul}](tel:1-866-925-5454)

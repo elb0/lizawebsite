@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: Reading courses</title>
@@ -93,8 +94,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/>
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-01-21"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-01-21"/>
+  <meta property="article:published" itemprop="datePublished" content="2022-05-04"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-05-04"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Liza Bolton: Reading courses"/>
@@ -112,7 +113,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Reading courses"]},{"type":"character","attributes":{},"value":["What are they and how do you do one?\n"]},{"type":"character","attributes":{},"value":["2022-01-21"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Reading courses"]},{"type":"character","attributes":{},"value":["What are they and how do you do one?\n"]},{"type":"character","attributes":{},"value":["2022-05-04"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1866,7 +1867,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2402,7 +2406,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.10.1/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2429,7 +2433,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Reading courses","description":"What are they and how do you do one?","authors":[],"publishedDate":"2022-01-21T00:00:00.000+00:00"}
+{"title":"Reading courses","description":"What are they and how do you do one?","authors":[],"publishedDate":"2022-05-04T00:00:00.000-04:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2501,14 +2505,20 @@ For students
 <li><a href="#calendar-description">Calendar description</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
 </ul></li>
-<li><a href="#doing-a-reading-course-with-me">Doing a reading course with <em>me</em></a>
+<li><a href="#doing-a-reading-course-with-me">Doing a reading course
+with <em>me</em></a>
 <ul>
-<li><a href="#topics-and-projects-on-which-im-interested-in-working-with-students">Topics and projects on which I’m interested in working with students</a></li>
-<li><a href="#how-register-your-interest">How register your interest</a></li>
+<li><a
+href="#topics-and-projects-on-which-im-interested-in-working-with-students">Topics
+and projects on which I’m interested in working with students</a></li>
+<li><a href="#how-register-your-interest">How register your
+interest</a></li>
 </ul></li>
 <li><a href="#previous-students">Previous students</a>
 <ul>
-<li><a href="#ethical-professional-practice-for-statisticians-research-group-202122">Ethical Professional Practice for Statisticians research group, 2021–22</a></li>
+<li><a
+href="#ethical-professional-practice-for-statisticians-research-group-202122">Ethical
+Professional Practice for Statisticians research group, 2021–22</a></li>
 <li><a href="#samantha-pierre-202021">Samantha Pierre, 2020–21</a></li>
 <li><a href="#joanna-lo-202021">Joanna Lo, 2020–21</a></li>
 </ul></li>
@@ -2517,30 +2527,75 @@ For students
 </nav>
 </div>
 <h2 id="what-are-reading-courses">What are reading courses?</h2>
-<p>The <a href="https://www.statistics.utoronto.ca/">Department of Statistical Sciences</a> offers <a href="https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1#several-statistics-courses-have-special-enrolment-procedures-so-enrolment-in-these-courses-cannot-be-done-on-acorn-please-select-the-course-you-are-interested-in-from-the-list-below-for-information-on-the-enrolment-process-prerequisites-and-instructions-on-how-to-request-enrolment-accordion-3">STA496/STA497/ST498/STA499: Readings in Statistics</a>. This course allows high achieving statistics students to expand their knowledge in an area/to a level of depth that is usually outside what is offered in other undergraduate statistics courses.</p>
-<p>It can be a great opportunity to test out if you like conducting research and it can help you think about whether you’re interested in graduate level studies. It is also a good way to get a high quality <a href="https://www.lizabolton.com/references.html">reference letter</a> (assuming things go well) for graduate school.</p>
+<p>The <a href="https://www.statistics.utoronto.ca/">Department of
+Statistical Sciences</a> offers <a
+href="https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1#several-statistics-courses-have-special-enrolment-procedures-so-enrolment-in-these-courses-cannot-be-done-on-acorn-please-select-the-course-you-are-interested-in-from-the-list-below-for-information-on-the-enrolment-process-prerequisites-and-instructions-on-how-to-request-enrolment-accordion-3">STA496/STA497/ST498/STA499:
+Readings in Statistics</a>. This course allows high achieving statistics
+students to expand their knowledge in an area/to a level of depth that
+is usually outside what is offered in other undergraduate statistics
+courses.</p>
+<p>It can be a great opportunity to test out if you like conducting
+research and it can help you think about whether you’re interested in
+graduate level studies. It is also a good way to get a high quality <a
+href="https://www.lizabolton.com/references.html">reference letter</a>
+(assuming things go well) for graduate school.</p>
 <h3 id="calendar-description">Calendar description</h3>
-<p><em>Independent study under the direction of a faculty member. Students wishing to take this course must have the permission of the Department of Statistical Sciences and of the prospective supervisor. Not eligible for CR/NCR option.</em></p>
+<p><em>Independent study under the direction of a faculty member.
+Students wishing to take this course must have the permission of the
+Department of Statistical Sciences and of the prospective supervisor.
+Not eligible for CR/NCR option.</em></p>
 <h3 id="prerequisites">Prerequisites</h3>
-<p>At least 1.0 FCE 300+ level STA courses with a minimum grade of 80% in each course.</p>
-<h2 id="doing-a-reading-course-with-me">Doing a reading course with <em>me</em></h2>
-<p>First and foremost, here are some key things to know about my personal policies for reading courses:</p>
+<p>At least 1.0 FCE 300+ level STA courses with a minimum grade of 80%
+in each course.</p>
+<h2 id="doing-a-reading-course-with-me">Doing a reading course with
+<em>me</em></h2>
+<p>First and foremost, here are some key things to know about my
+personal policies for reading courses:</p>
 <ul>
-<li>I only supervise the Fall to Winter (‘year’-long), half credit version of this course.</li>
-<li>I do not supervise reading courses over the Spring/Summer semesters.</li>
-<li>I can only supervise a small number of students in a given year.</li>
-<li>You must come up with a topic proposal in either <strong>applied statistics</strong> or <strong>statistics education</strong> to pitch to me. We will develop it together, but I want you to be interested in the topic and feel ownership of the project.</li>
-<li>You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.</li>
+<li>I only supervise the Fall to Winter (‘year’-long), half credit
+version of this course.</li>
+<li>I do not supervise reading courses over the Spring/Summer
+semesters.</li>
+<li>I can only supervise a small number of students in a given
+year.</li>
+<li>You must come up with a topic proposal in either <strong>applied
+statistics</strong> or <strong>statistics education</strong> to pitch to
+me. We will develop it together, but I want you to be interested in the
+topic and feel ownership of the project.</li>
+<li>You must have completed STA303 and/or some form of TA/RA or other
+engagement (like the ISSC) with me to be eligible. Basically, when I see
+your application, you want for me to recognize your name.</li>
 </ul>
-<h3 id="topics-and-projects-on-which-im-interested-in-working-with-students">Topics and projects on which I’m interested in working with students</h3>
+<h3
+id="topics-and-projects-on-which-im-interested-in-working-with-students">Topics
+and projects on which I’m interested in working with students</h3>
 <p>There are two styles of reading course you could consider:</p>
 <h4 id="project-based">1. Project-based</h4>
-<p>You propose a topic for which data is available that you wish to apply statistical methods to and produce a report. This style of project may be useful if you’re considering a thesis-based Master’s in an applied statistics area as it lets you dip your toe in and see if you like it.</p>
-<p>I tend to be most interested in topics on social and economic issues, but part of the reason I am a Statistician is because I love learning new things. Convince me your topic is interesting and/or relevant to making the world a better place and if I have the right skills to support you, I’ll be interested.</p>
-<p>I do <em>not</em> use a lot of Bayesian, machine learning or time series methods in my own work, and personally use R. Topics using these methods or other programming languages aren’t necessarily ruled out, but you’ll need to demonstrate a plan for reasonable pre-/co-requisite courses and previous experience.</p>
-<p>I am also open to <strong>co-supervising</strong> with faculty from other disciplines for cross-disciplinary work.</p>
+<p>You propose a topic for which data is available that you wish to
+apply statistical methods to and produce a report. This style of project
+may be useful if you’re considering a thesis-based Master’s in an
+applied statistics area as it lets you dip your toe in and see if you
+like it.</p>
+<p>I tend to be most interested in topics on social and economic issues,
+but part of the reason I am a Statistician is because I love learning
+new things. Convince me your topic is interesting and/or relevant to
+making the world a better place and if I have the right skills to
+support you, I’ll be interested.</p>
+<p>I do <em>not</em> use a lot of Bayesian, machine learning or time
+series methods in my own work, and personally use R. Topics using these
+methods or other programming languages aren’t necessarily ruled out, but
+you’ll need to demonstrate a plan for reasonable pre-/co-requisite
+courses and previous experience.</p>
+<p>I am also open to <strong>co-supervising</strong> with faculty from
+other disciplines for cross-disciplinary work.</p>
 <h4 id="literature-and-task-based">2. Literature and task-based</h4>
-<p>You choose a topic, related to one of my interest areas below, and together we create a reading and task list for your to work through across the year. You might write a literature review, prepare a workshop or talk, write blog posts, etc. This is more similar to a traditional course experience than option 1, but is an opportunity to explore a topic not covered in other statistics course, build professional skills relevant to research/future employment.</p>
+<p>You choose a topic, related to one of my interest areas below, and
+together we create a reading and task list for your to work through
+across the year. You might write a literature review, prepare a workshop
+or talk, write blog posts, etc. This is more similar to a traditional
+course experience than option 1, but is an opportunity to explore a
+topic not covered in other statistics course, build professional skills
+relevant to research/future employment.</p>
 <h5 id="topics-areas-of-interest">Topics areas of interest</h5>
 <ul>
 <li><p>ethical professional practice for statisticians</p>
@@ -2548,7 +2603,9 @@ For students
 <li><p>indigenous data sovereignty</p></li>
 <li><p>ethics of web scraping</p></li>
 <li><p>graphicacy and how not to lie with charts</p></li>
-<li><p>sampler platter of ethics topics, e.g. algorithmic bias, disclosure risk, privacy/confidenitality, accessibility, reproducibility, professional codes of conduct</p></li>
+<li><p>sampler platter of ethics topics, e.g. algorithmic bias,
+disclosure risk, privacy/confidenitality, accessibility,
+reproducibility, professional codes of conduct</p></li>
 </ul></li>
 <li><p>statistics education</p>
 <ul>
@@ -2557,75 +2614,137 @@ For students
 <li><p>trauma-informed pedagogy for statistics classrooms</p></li>
 <li><p>online learning (potential data from STA130)</p></li>
 </ul></li>
-<li><p>I may consider some other topics, but the above are best aligned with my current research.</p></li>
+<li><p>I may consider some other topics, but the above are best aligned
+with my current research.</p></li>
 </ul>
 <h3 id="how-register-your-interest">How register your interest</h3>
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
-<p>See the information on the <a href="https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx">Special Enrolment Sharepoint Page for the Department</a>. Note: Applications have <strong>closed</strong> for the 2021–22 year.</p>
+<p>See the information on the <a
+href="https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx">Special
+Enrolment Sharepoint Page for the Department</a>. Note: Applications
+have <strong>closed</strong> for the 2021–22 year.</p>
 <h2 id="previous-students">Previous students</h2>
-<h3 id="ethical-professional-practice-for-statisticians-research-group-202122">Ethical Professional Practice for Statisticians research group, 2021–22</h3>
-<p><strong>Syllabus</strong>: <a href="pdfs/2021_STA497_draft-syllabus-2.pdf">Draft as of 2021-09-20</a></p>
-<p>Meet my students: <a href="https://github.com/ZhixingHong">Zhixing Hong <i class="fab fa-github"></i></a>, <a href="https://thegort.github.io/">David Pham <i class="fab fa-github"></i></a>, <a href="https://github.com/heyhaileyhhh">Qihui Huang <i class="fab fa-github"></i></a></p>
+<h3
+id="ethical-professional-practice-for-statisticians-research-group-202122">Ethical
+Professional Practice for Statisticians research group, 2021–22</h3>
+<p><strong>Syllabus</strong>: <a
+href="pdfs/2021_STA497_draft-syllabus-2.pdf">Draft as of
+2021-09-20</a></p>
+<p>Meet my students: <a href="https://github.com/ZhixingHong">Zhixing
+Hong <i class="fab fa-github"></i></a>, <a
+href="https://thegort.github.io/">David Pham
+<i class="fab fa-github"></i></a>, <a
+href="https://github.com/heyhaileyhhh">Qihui Huang
+<i class="fab fa-github"></i></a></p>
 <h4 id="preliminary-schedule">Preliminary schedule</h4>
-<p>The plan is be to have ~6 meetings each semester, so equivalent to having 12 classes for a normal single-semester, half-credit course. No meetings planned during the final assessment periods.</p>
+<p>The plan is be to have ~6 meetings each semester, so equivalent to
+having 12 classes for a normal single-semester, half-credit course. No
+meetings planned during the final assessment periods.</p>
 <h5 id="fall">Fall</h5>
 <ul>
-<li><p><strong>September 15</strong>: Introductions and discussion of goals and syllabus</p>
+<li><p><strong>September 15</strong>: Introductions and discussion of
+goals and syllabus</p>
 <ul>
 <li><p>Homework tasks:</p>
 <ul>
 <li><p>(Re-)Read at least <strong>ONE</strong> of:</p>
 <ul>
-<li><p><a href="https://ssc.ca/sites/default/files/data/Members/public/Accreditation/ethics_e.pdf">SSC Code of Ethical Statistical Practice</a> **OR**</p></li>
-<li><p><a href="https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx#:~:text=of%20the%20data.-,The%20ethical%20statistician%3A,imputation%20and%20missing%20data%20mechanisms">AMSTAT Ethical Guidelines for Statistical Practice.</a></p></li>
+<li><p><a
+href="https://ssc.ca/sites/default/files/data/Members/public/Accreditation/ethics_e.pdf">SSC
+Code of Ethical Statistical Practice</a> **OR**</p></li>
+<li><p><a
+href="https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx#:~:text=of%20the%20data.-,The%20ethical%20statistician%3A,imputation%20and%20missing%20data%20mechanisms">AMSTAT
+Ethical Guidelines for Statistical Practice.</a></p></li>
 </ul></li>
 </ul>
 <!-- -->
 <ul>
-<li><p>Read and take notes on (it is okay to skim/not understand everything!) at least <strong>ONE</strong> of:</p>
+<li><p>Read and take notes on (it is okay to skim/not understand
+everything!) at least <strong>ONE</strong> of:</p>
 <ul>
-<li><p><a href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01193.x">Ethics in statistical practice and communication: Five recommendations</a> by Andrew Gelman<strong>OR</strong></p></li>
-<li><p><a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922">On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜</a> by Bender, Gebru, McMillian-Major and Shmargaret Shmitchell (who is definitely <em>not</em> Margaret Mitchell, whom <a href="https://www.zdnet.com/article/google-fires-top-ethical-ai-expert-margaret-mitchell/">Google also fired</a>), (~60 minutes) (<em>You might also like this <a href="https://www.youtube.com/watch?v=lsWLSl5xEAQ">video</a> reading group, but totally optional. Please also don’t take this as ‘being ethical gets you fired from Google’, as I think this is more just a notable bump along the way as organizations do try to improve, or at the very least to limit their liability!)</em> <strong>OR</strong></p></li>
-<li><p>Another reading you propose to me by 11:59 a.m. ET this Friday.</p></li>
+<li><p><a
+href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01193.x">Ethics
+in statistical practice and communication: Five recommendations</a> by
+Andrew Gelman<strong>OR</strong></p></li>
+<li><p><a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922">On
+the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+🦜</a> by Bender, Gebru, McMillian-Major and Shmargaret Shmitchell (who
+is definitely <em>not</em> Margaret Mitchell, whom <a
+href="https://www.zdnet.com/article/google-fires-top-ethical-ai-expert-margaret-mitchell/">Google
+also fired</a>), (~60 minutes) (<em>You might also like this <a
+href="https://www.youtube.com/watch?v=lsWLSl5xEAQ">video</a> reading
+group, but totally optional. Please also don’t take this as ‘being
+ethical gets you fired from Google’, as I think this is more just a
+notable bump along the way as organizations do try to improve, or at the
+very least to limit their liability!)</em> <strong>OR</strong></p></li>
+<li><p>Another reading you propose to me by 11:59 a.m. ET this
+Friday.</p></li>
 </ul></li>
-<li><p>Based on these readings, and your own knowledge and interests, do a brainstorm (~15–20 minutes) and then organize it into a mind map (~15–20 minutes) of concepts in ethical practice for statisticians. <strong>Bring it to the next meeting, prepared to chat through it.</strong></p></li>
+<li><p>Based on these readings, and your own knowledge and interests, do
+a brainstorm (~15–20 minutes) and then organize it into a mind map
+(~15–20 minutes) of concepts in ethical practice for statisticians.
+<strong>Bring it to the next meeting, prepared to chat through
+it.</strong></p></li>
 </ul></li>
 </ul></li>
-<li><p><strong>September 29</strong>: Confirm syllabus; Discuss readings and mind maps/brainstorms; Confirm individual topics; Annotated bibliographies</p></li>
-<li><p><strong>October 13</strong>: My example seminar on graphicacy (or other topic TBD)</p></li>
-<li><p><strong>October 27</strong>: Wrap-up from seminar; Bring a reading from your annotated bibliography and present the key points to the group; Mid-year presentation expectations</p>
+<li><p><strong>September 29</strong>: Confirm syllabus; Discuss readings
+and mind maps/brainstorms; Confirm individual topics; Annotated
+bibliographies</p></li>
+<li><p><strong>October 13</strong>: My example seminar on graphicacy (or
+other topic TBD)</p></li>
+<li><p><strong>October 27</strong>: Wrap-up from seminar; Bring a
+reading from your annotated bibliography and present the key points to
+the group; Mid-year presentation expectations</p>
 <p><em>Reading week, no meetings</em></p></li>
-<li><p><strong>November 17</strong>: Writing tips; Annotated bibliography check-in; Midyear presentation check-in</p></li>
-<li><p><strong>December 1</strong>: Mid-year presentations (another date may be organized for presentations, by agreement. If so, this meeting could be replaced by it or used as practice.)</p></li>
+<li><p><strong>November 17</strong>: Writing tips; Annotated
+bibliography check-in; Midyear presentation check-in</p></li>
+<li><p><strong>December 1</strong>: Mid-year presentations (another date
+may be organized for presentations, by agreement. If so, this meeting
+could be replaced by it or used as practice.)</p></li>
 </ul>
 <h5 id="winter">Winter</h5>
 <ul>
-<li><p><strong>January 11</strong>: Research progress check, annotated bibliography feedback (1-1 meetings)</p></li>
+<li><p><strong>January 11</strong>: Research progress check, annotated
+bibliography feedback (1-1 meetings)</p></li>
 <li><p><strong>January 25</strong>: Student seminar 1</p></li>
 <li><p><strong>February 8</strong>: Student Seminar 2</p></li>
 <li><p><strong>March 1</strong>: Student Seminar 3</p></li>
-<li><p><strong>March 15</strong>: Research progress check (1-1 meetings)</p></li>
-<li><p><strong>March 29</strong>: Final presentation (Another date may be organized for presentations, by agreement. If so, this meeting could be replaced by it or used as practice.)</p></li>
+<li><p><strong>March 15</strong>: Research progress check (1-1
+meetings)</p></li>
+<li><p><strong>March 29</strong>: Final presentation (Another date may
+be organized for presentations, by agreement. If so, this meeting could
+be replaced by it or used as practice.)</p></li>
 </ul>
 <p> </p>
 <p> </p>
 <h3 id="samantha-pierre-202021">Samantha Pierre, 2020–21</h3>
-<p>Title: <em>And the nominees are…An empirical study of the effects of a Tony Award Win and Nomination on a Show’s Success</em></p>
-<p>You can hear Sam discuss the results of her project and her experience undertaking a reading course in her invited talk at the Toronto Data Workshop in May 2021.</p>
+<p>Title: <em>And the nominees are…An empirical study of the effects of
+a Tony Award Win and Nomination on a Show’s Success</em></p>
+<p>You can hear Sam discuss the results of her project and her
+experience undertaking a reading course in her invited talk at the
+Toronto Data Workshop in May 2021.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rFojvBN0qGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<p>Follow Sam on Twitter, <a href="https://twitter.com/WhamBamGAM">@WhamBamGAM</a>.</p>
+<p>Follow Sam on Twitter, <a
+href="https://twitter.com/WhamBamGAM">@WhamBamGAM</a>.</p>
 <h3 id="joanna-lo-202021">Joanna Lo, 2020–21</h3>
-<p>Title: <em>How do consumer attitudes and behaviours change in the light of current events? A comparison of notable events in the United States, 2000–2009</em></p>
+<p>Title: <em>How do consumer attitudes and behaviours change in the
+light of current events? A comparison of notable events in the United
+States, 2000–2009</em></p>
 <h2 id="other">Other</h2>
-<p>Prof. Rohan Alexander has written up two of the reading courses he’s offered and provided the details on his website.</p>
+<p>Prof. Rohan Alexander has written up two of the reading courses he’s
+offered and provided the details on his website.</p>
 <ul>
-<li><a href="https://rohanalexander.com/reading_course-ethics.html">Ethics and Data Science</a></li>
-<li><a href="https://rohanalexander.com/reading_course-nlp.html">Natural Language Processing</a></li>
+<li><a
+href="https://rohanalexander.com/reading_course-ethics.html">Ethics and
+Data Science</a></li>
+<li><a href="https://rohanalexander.com/reading_course-nlp.html">Natural
+Language Processing</a></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

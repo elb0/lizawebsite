@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Liza Bolton: Teaching</title>
@@ -1863,7 +1864,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2399,7 +2403,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.10.1/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2484,36 +2488,73 @@ For students
 <h1>Teaching</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A history of courses I’ve taught and some guidance about what to expect if you take a course with me this year. <em>Last updated: 2021-12-16</em>.</p></p>
+<p><p>A history of courses I’ve taught and some guidance about what to
+expect if you take a course with me this year. <em>Last updated:
+2021-12-16</em>.</p></p>
 </div>
 
 
 <div class="d-article">
 <h2 id="academic-year-202122">Academic year: 2021–22</h2>
-<p>In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and STA303 in the Winter. I am also supervising 3 students in a <a href="https://www.lizabolton.com/reading_courses.html">reading course on ethical practice</a>.</p>
+<p>In 2021-22 I will be teaching STA130 in the Fall, STA490 for the
+whole year and STA303 in the Winter. I am also supervising 3 students in
+a <a href="https://www.lizabolton.com/reading_courses.html">reading
+course on ethical practice</a>.</p>
 <ul>
-<li><p><a href="https://www.utoronto.ca/utogether/covid-19-planning-update"><del>U of T update from Dec 15: courses are online until Jan 31, 2022.</del></a></p></li>
-<li><p><a href="https://www.artsci.utoronto.ca/news/winter-term-update-dean-woodin">Update from Jan 19: courses are hybrid or online until Reading Week and in-person resumes after that.</a></p></li>
-<li><p><strong>R</strong> is the programming language used in these courses.</p></li>
-<li><p>I tend to use and teach a lot of <code>tidyverse</code>, especially <code>dplyr</code> for data wrangling and <code>ggplot</code> for visualization.</p>
+<li><p><a
+href="https://www.utoronto.ca/utogether/covid-19-planning-update"><del>U
+of T update from Dec 15: courses are online until Jan 31,
+2022.</del></a></p></li>
+<li><p><a
+href="https://www.artsci.utoronto.ca/news/winter-term-update-dean-woodin">Update
+from Jan 19: courses are hybrid or online until Reading Week and
+in-person resumes after that.</a></p></li>
+<li><p><strong>R</strong> is the programming language used in these
+courses.</p></li>
+<li><p>I tend to use and teach a lot of <code>tidyverse</code>,
+especially <code>dplyr</code> for data wrangling and <code>ggplot</code>
+for visualization.</p>
 <ul>
 <li><p>If you’re not familiar with these, consider checking out:</p>
 <ul>
-<li><p>chapters 3 and 5 of <a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham &amp; Garret Grolemund, and</p></li>
-<li><p>the <a href="https://dosstoolkit.com/">DoSS Toolkit</a>, especially the modules <a href="https://dosstoolkit.com/#hand-me-my-plyrs">‘Hand me my plyrs’</a> and <a href="https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot">To ggplot or not to ggplot</a>.</p></li>
+<li><p>chapters 3 and 5 of <a href="https://r4ds.had.co.nz/">R for Data
+Science</a> by Hadley Wickham &amp; Garret Grolemund, and</p></li>
+<li><p>the <a href="https://dosstoolkit.com/">DoSS Toolkit</a>,
+especially the modules <a
+href="https://dosstoolkit.com/#hand-me-my-plyrs">‘Hand me my plyrs’</a>
+and <a href="https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot">To
+ggplot or not to ggplot</a>.</p></li>
 </ul></li>
 </ul></li>
-<li><p>Delivery for STA490 and STA303 is subject to change due to the evolving pandemic situation, but <strong>all assessments will be able to be completed and submitted online.</strong> STA130 will remain online regardless as it is officially an online course.</p>
+<li><p>Delivery for STA490 and STA303 is subject to change due to the
+evolving pandemic situation, but <strong>all assessments will be able to
+be completed and submitted online.</strong> STA130 will remain online
+regardless as it is officially an online course.</p>
 <ul>
-<li><p>If you are enrolled in an in-person tutorial, you will have an option to attend online instead.</p></li>
-<li><p>For STA303, synchronous attendance is NOT required to pass the course, but being able to attend (online) synchronously at the times in the timetable may make things easier for you.</p></li>
+<li><p>If you are enrolled in an in-person tutorial, you will have an
+option to attend online instead.</p></li>
+<li><p>For STA303, synchronous attendance is NOT required to pass the
+course, but being able to attend (online) synchronously at the times in
+the timetable may make things easier for you.</p></li>
 </ul></li>
-<li><p>I cannot add students to a course, waive prerequisites or move you off a waitlist. Please reach out to the UG stats team (<a href="mailto:ug.statistics@utoronto.ca">ug.statistics@utoronto.ca</a>) about questions of this nature.</p>
+<li><p>I cannot add students to a course, waive prerequisites or move
+you off a waitlist. Please reach out to the UG stats team (<a
+href="mailto:ug.statistics@utoronto.ca">ug.statistics@utoronto.ca</a>)
+about questions of this nature.</p>
 <ul>
-<li>There will be ways for waitlisted STA130 &amp; STA303 students to access course materials before the enrolment window closes, but you will not be able to complete assessments in this time. Both courses are designed to accommodate this. See my autoresponder for links.</li>
+<li>There will be ways for waitlisted STA130 &amp; STA303 students to
+access course materials before the enrolment window closes, but you will
+not be able to complete assessments in this time. Both courses are
+designed to accommodate this. See my autoresponder for links.</li>
 </ul></li>
-<li><p>Find my latest <a href="https://blog.lizabolton.com/">autoresponder message post</a> for FAQs and other useful information.</p></li>
-<li><p>Please note that while I try to ensure this page is accurate and up-to-date, it is in no way <em>official</em>. ACORN, official time table information and communications from the Department or Faculty are the most accurate sources of information. If they conflict with what is written here, believe <em>them</em>.</p></li>
+<li><p>Find my latest <a
+href="https://blog.lizabolton.com/">autoresponder message post</a> for
+FAQs and other useful information.</p></li>
+<li><p>Please note that while I try to ensure this page is accurate and
+up-to-date, it is in no way <em>official</em>. ACORN, official time
+table information and communications from the Department or Faculty are
+the most accurate sources of information. If they conflict with what is
+written here, believe <em>them</em>.</p></li>
 </ul>
 <table>
 <colgroup>
@@ -2534,73 +2575,114 @@ For students
 </thead>
 <tbody>
 <tr class="odd">
-<td>STA130: An Introduction to Statistical Reasoning and Data Science</td>
+<td>STA130: An Introduction to Statistical Reasoning and Data
+Science</td>
 <td>F</td>
 <td>Online synchronous for lectures and tutorials.</td>
-<td><strong>All</strong> assessments will be completed and submitted online.</td>
-<td><p>The timetable may say I’m teaching section L0201, but Prof. Sam Caetano and I are co-teaching both sections.</p>
-<p>This course is <strong>flipped</strong>, where students watch videos and access resources at times convenient to them, before engaging in a synchronous class (or watching the recording of it).</p></td>
+<td><strong>All</strong> assessments will be completed and submitted
+online.</td>
+<td><p>The timetable may say I’m teaching section L0201, but Prof. Sam
+Caetano and I are co-teaching both sections.</p>
+<p>This course is <strong>flipped</strong>, where students watch videos
+and access resources at times convenient to them, before engaging in a
+synchronous class (or watching the recording of it).</p></td>
 </tr>
 <tr class="even">
-<td>STA490: Statistical Consultation, Communication, and Collaboration</td>
+<td>STA490: Statistical Consultation, Communication, and
+Collaboration</td>
 <td>Y</td>
-<td>Online synchronous for lectures. Choice between online synchronous and in-person synchronous for Tuesday project meetings.</td>
-<td><strong>All</strong> assessments will be completed and submitted online.</td>
-<td><p>This course is required for the Methods and Practice specialist and there is often limited or no places for folks outside that POSt.</p>
-<p>Synchronous attendance at Tuesday and Thursday (online) meetings is graded.</p>
-<p>This course has special enrolment requirements. Contact ug.statistics@utoronto.ca for more information.</p></td>
+<td>Online synchronous for lectures. Choice between online synchronous
+and in-person synchronous for Tuesday project meetings.</td>
+<td><strong>All</strong> assessments will be completed and submitted
+online.</td>
+<td><p>This course is required for the Methods and Practice specialist
+and there is often limited or no places for folks outside that POSt.</p>
+<p>Synchronous attendance at Tuesday and Thursday (online) meetings is
+graded.</p>
+<p>This course has special enrolment requirements. Contact
+ug.statistics@utoronto.ca for more information.</p></td>
 </tr>
 <tr class="odd">
 <td>STA303: Methods of Data Analysis II</td>
 <td>S</td>
-<td>Online synchronous for lectures. Choice between online synchronous and in-person synchronous for tutorials.</td>
-<td><strong>All</strong> assessments will be completed and submitted online.</td>
+<td>Online synchronous for lectures. Choice between online synchronous
+and in-person synchronous for tutorials.</td>
+<td><strong>All</strong> assessments will be completed and submitted
+online.</td>
 <td><p>I am teaching both sections (L0101 and L0201).</p>
-<p>This course is has flipped components, where students can watch videos and access resources at times convenient to them. Expect to have work to do <em>before</em> classes on Wednesdays to prepare.</p>
-<p>If you can’t enrol for an online tutorial because they are full, but you would prefer to meet online, this will be able to be accommodated. See the syllabus and course guide.</p></td>
+<p>This course is has flipped components, where students can watch
+videos and access resources at times convenient to them. Expect to have
+work to do <em>before</em> classes on Wednesdays to prepare.</p>
+<p>If you can’t enrol for an online tutorial because they are full, but
+you would prefer to meet online, this will be able to be accommodated.
+See the syllabus and course guide.</p></td>
 </tr>
 </tbody>
 </table>
 <h2 id="section">2021–22</h2>
 <h3 id="sta130-fall">STA130 (Fall)</h3>
-<p>Co-taught 2 sections of 288 students each with <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano">Prof. Sam Caetano</a>.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="pdfs/STA130_F21_syllabus.pdf">Syllabus</a></p>
+<p>Co-taught 2 sections of 288 students each with <a
+href="https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano">Prof. Sam
+Caetano</a>.</p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="pdfs/STA130_F21_syllabus.pdf">Syllabus</a></p>
 <h3 id="sta490-full-year">STA490 (Full Year)</h3>
-<p>Taught one section of 25 students, course co-designed with <a href="https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon">Michael Moon</a>.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="pdfs/2021_STA490_syllabus.pdf">Syllabus</a></p>
+<p>Taught one section of 25 students, course co-designed with <a
+href="https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon">Michael
+Moon</a>.</p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="pdfs/2021_STA490_syllabus.pdf">Syllabus</a></p>
 <h3 id="sta497-full-year">STA497 (Full year)</h3>
-<p>See more on my <a href="https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122">Readings Course</a> page.</p>
-<p><i class="fas fa-file-alt"></i>  Syllabus: <a href="pdfs/2021_STA497_draft-syllabus-2.pdf">Draft as of 2021-09-20</a></p>
+<p>See more on my <a
+href="https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122">Readings
+Course</a> page.</p>
+<p><i class="fas fa-file-alt"></i>  Syllabus: <a
+href="pdfs/2021_STA497_draft-syllabus-2.pdf">Draft as of
+2021-09-20</a></p>
 <h3 id="sta303-winter">STA303 (Winter)</h3>
-<p>Taught two sections of 300 students each. STA1002 is a grad student version of the course with an enrolment of about 5 students.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/STA303-1002_W22_syllabus.pdf">Syllabus</a></p>
-<p><i class="fas fa-file-alt"></i>  <a href="https://sta303-bolton.github.io/sta303-w22-courseguide/">Course guide</a></p>
-<p><a href="https://forms.office.com/r/sKWPFFE2Cd">Waitlist resources sign-up</a></p>
+<p>Taught two sections of 300 students each. STA1002 is a grad student
+version of the course with an enrolment of about 5 students.</p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/STA303-1002_W22_syllabus.pdf">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="https://sta303-bolton.github.io/sta303-w22-courseguide/">Course
+guide</a></p>
+<p><a href="https://forms.office.com/r/sKWPFFE2Cd">Waitlist resources
+sign-up</a></p>
 <h2 id="section-1">2020–21</h2>
 <h3 id="sta3031002-winter">STA303/1002 (Winter)</h3>
 <p>600 students across 2 sections.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf">Syllabus</a></p>
 <h4 id="course-trailer">Course trailer</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen>
 </iframe>
 <h3 id="st490-year">ST490 (Year)</h3>
 <p>Co-taught with Nathalie Moon, online due to COVID-19 pandemic.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf">Syllabus</a></p>
-<p><a href="https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx">Special enrollment information for STA490 from the department</a></p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf">Syllabus</a></p>
+<p><a
+href="https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx">Special
+enrollment information for STA490 from the department</a></p>
 <h3 id="sta496-year">STA496 (Year)</h3>
 <p>Samantha Pierre</p>
 <p>Joanna Lo</p>
 <h3 id="sta130-fall-1">STA130 (Fall)</h3>
 <p>Co-taught with Nathalie Moon, online due to COVID-19 pandemic.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf">Syllabus</a></p>
 <h2 id="section-2">2019-20</h2>
-<p>Winter 2020 was my first semeter at the University of Toronto. Due to the COVID-19 pandemic, U of T rapidly transitioned online in mid-March.</p>
+<p>Winter 2020 was my first semeter at the University of Toronto. Due to
+the COVID-19 pandemic, U of T rapidly transitioned online in
+mid-March.</p>
 <h3 id="sta130">STA130</h3>
 <p>Co-taught with Nathalie Moon.</p>
-<p><i class="fas fa-file-alt"></i>  <a href="%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a
+href="%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22">Syllabus</a></p>
 <h3 id="sta303">STA303</h3>
 <p>Co-taught with Patrick Brown.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
