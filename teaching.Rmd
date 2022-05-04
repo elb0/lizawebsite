@@ -1,13 +1,19 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2021-12-16*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2022-05-04*.
 output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Academic year: 2022--23
+
+I am not teaching any courses in the 2022--23 academic year.
+
+While I will not be supervising any reading courses, I highly recommend strong final year students look into them. STA496/497: Readings in Statistics must be registered for as part of [special enrolment during ~July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx) (Sharepoint to be updated).
 
 ## Academic year: 2021--22
 
