@@ -1,7 +1,7 @@
 ---
 title: "Current opportunities"
 description: |
-  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2022-01-21*.
+  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2022-05-10*.
 output: 
   distill::distill_article:
     toc: true
@@ -14,21 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Research Assistants
 
-**The Department of Statistical Sciences is currently accepting applications for up to four Research Assistants to provide support to Liza Bolton, Samantha-Jo Caetano, Megan Whitehead-Douglas and Ivan Nguyen.**
-
-The team is looking for up to four undergraduate students to take part in designing and running a statistics-themed online Escape Room event for Department of Statistical Sciences (DoSS) students. This event is a Winter semester extension of the Independent Summer Statistics Community. Students of any year level welcome to apply.
-
-**Duties include:**
-
--   Meetings with Prof. Caetano (main supervisor)
-
--   Planning and developing activities and materials for the Escape Room activity
-
--   Supporting the delivery of the Escape Room Event
-
-**Job Closing Date: Wednesday, January 26, 2022 at 6:00 p.m. ET** 
-
-[**To apply for this position, [please complete this form by 6:00 p.m. ET on January 26.](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2Fr%2FW0YyTUYTy1&data=04%7C01%7Cliza.bolton%40utoronto.ca%7C2a93fac23a404652648708d9dcf19eb2%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C637783752568534584%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=Rz88XMjQtxukeIs1WbvGqI25V9HKVEaupC9obZ7s2fk%3D&reserved=0 "Original URL: https://forms.office.com/r/W0YyTUYTy1. Click or tap if you trust this link.")**]{style="background-color: #FFD700"}
+No RAs currently being recruited.
 
 ### Past/current positions I'm connected with
 
