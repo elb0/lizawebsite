@@ -31,7 +31,7 @@ Liza
 
 *Last updated 2022-05-04*
 
--   **Final grades**: We **do not** do ad hoc final grade adjustments unless we have made a *mistake* in your calculation. It is not appropriate to request we change your grade just because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
+-   **Final grades**: We **do not** do individual final grade adjustments unless we have made a *mistake* in your calculation. It is not appropriate to request we change your grade just because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
 
 -   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two 'activities' with me. If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru). I will then accept or decline based on the the information provided.
 
@@ -55,9 +55,8 @@ Liza
 
     -   Call **Good2Talk**, a free, confidential helpline for people in Ontario. Professional counselling, information and referrals for mental health, addictions and well-being, 24/7/365 [[1-866-925-5454]{.underline}](tel:1-866-925-5454)
 
-```{=html}
 <!-- -->
-```
+
 -   **Course enrolment:** I cannot add students to a course, waive prerequisites or move you off a waitlist. Please **reach out to the UG stats team ([ug.statistics\@utoronto.ca](https://www.lizabolton.com/ug.statistics@utoronto.ca))** about questions of this nature.
 
     -   [Book an appointment during their office hours](https://outlook.office365.com/owa/calendar/DepartmentofStatisticalSciencesUndergraduate@utoronto.onmicrosoft.com/bookings/ "https://outlook.office365.com/owa/calendar/DepartmentofStatisticalSciencesUndergraduate@utoronto.onmicrosoft.com/bookings/").
