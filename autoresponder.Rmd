@@ -1,7 +1,7 @@
 ---
 title: "My autoresponder"
 description: |
-  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2022-05-04*.
+  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2022-06-01*.
 output: 
   distill::distill_article:
     toc: true
@@ -14,34 +14,36 @@ knitr::opts_chunk$set(echo = FALSE)
 
 I get a lot of emails. A lot of similar emails. So, I have an email auto-response on all-year round.
 
-Below is a lightly reformatted version of my current message, just in case you find it easier to access here. Note: This is the version that is internal to U of T, there is a slightly different version for external emails.
+Below is a lightly reformatted version of my current message, just in case you find it easier to access here.
 
 ------------------------------------------------------------------------
 
 Hi there,
 
-Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save everybody time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online [here](https://www.lizabolton.com/autoresponder.html).
+Thanks for reaching out!
+
+**I am currently working from a different timezone, so please allow for potential delays in response.**
+
+I get a lot of the same questions from students, so to hopefully save everybody time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online [here](https://www.lizabolton.com/autoresponder.html).
 
 [**If your email is answered by one of the topics covered below, please consider [this automatic reply]{.underline} my response. Please note that this is especially the case for references and graduate study inquiries**]{style="background-color: #FFD700"}**---see the form and information below for requesting references.**
 
-If your question isn't related to the below, I will respond when I can. Please allow *at least* 24 hours, Monday--Friday, for a response before following up. Please do not *expect* answers during evenings, weekends or holidays (Toronto time).
+If your question isn't related to the below, I will respond when I can. Please allow *at least* 48 hours, Monday--Friday, for a response before following up.
 
 Best,\
 Liza
 
-*Last updated 2022-05-04*
-
--   **Final grades**: We **do not** do individual final grade adjustments unless we have made a *mistake* in your calculation. It is not appropriate to request we change your grade just because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
+*Last updated 2022-06-01*
 
 -   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you, but basically, a good mark in one class is not sufficient and you need to have at least two 'activities' with me. If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru). I will then accept or decline based on the the information provided.
-
--   **If your email is about STA303,** please send it to [sta303\@utoronto.ca](mailto:sta303@utoronto.ca "mailto:sta303@utoronto.ca") instead, or, if you're an enrolled student and your question is about course content/logistics, please post it on Piazza. Messages that do not follow the [communication policy](https://sta303-bolton.github.io/sta303-w22-courseguide/syllabus.html#communication-policy "https://sta303-bolton.github.io/sta303-w22-courseguide/syllabus.html#communication-policy") will not be responded to.
 
 -   **No 2022-23 teaching & supervision**
 
     -   I will be away for research and not teaching during the 2022-23 academic year.
 
     -   I will not be supervising any **reading courses,** but highly recommend strong final year students look into them. *STA496/497: Readings in Statistics* must be registered for as part of [special enrolment during \~July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx "https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx") (Sharepoint to be updated).
+
+-   **Final grades**: We **do not** do individual final grade adjustments unless we have made a *mistake* in your calculation. It is not appropriate to request we change your grade just because you want a higher one, or because you're close to a certain GPA threshold or program requirement.
 
 -   **Research/work study/teaching assistant opportunities:**
 
@@ -54,8 +56,6 @@ Liza
     -   [My Student Support Program -- My SSP](https://studentlife.utoronto.ca/hwc/myssp) offers mental health support for all U of T students. Free, confidential, immediate support. Available 24/7 in multiple languages. Download the My SSP App or call 1-844-451-9700. [[uoft.me/myssp]{.underline}](http://www.uoft.me/myssp)
 
     -   Call **Good2Talk**, a free, confidential helpline for people in Ontario. Professional counselling, information and referrals for mental health, addictions and well-being, 24/7/365 [[1-866-925-5454]{.underline}](tel:1-866-925-5454)
-
-<!-- -->
 
 -   **Course enrolment:** I cannot add students to a course, waive prerequisites or move you off a waitlist. Please **reach out to the UG stats team ([ug.statistics\@utoronto.ca](https://www.lizabolton.com/ug.statistics@utoronto.ca))** about questions of this nature.
 
