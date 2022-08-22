@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2022-05-04*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2022-08-23*.
 output: distill::distill_article
 ---
 
@@ -11,61 +11,35 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Academic year: 2022--23
 
-I am not teaching any courses in the 2022--23 academic year.
+-   (TBC) I will be teaching the Winter semester of STA490.
 
-While I will not be supervising any reading courses, I highly recommend strong final year students look into them. STA496/497: Readings in Statistics must be registered for as part of [special enrolment during ~July](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx) (Sharepoint to be updated).
+-   **R** is the programming language used in my courses.
 
-## Academic year: 2021--22
+    -   I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
 
-In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and STA303 in the Winter. I am also supervising 3 students in a [reading course on ethical practice](https://www.lizabolton.com/reading_courses.html).
+        -   If you're not familiar with these, consider checking out:
 
--   [~~U of T update from Dec 15: courses are online until Jan 31, 2022.~~](https://www.utoronto.ca/utogether/covid-19-planning-update)
+            -   chapters 3 and 5 of [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garret Grolemund, and
 
--  [Update from Jan 19: courses are hybrid or online until Reading Week and in-person resumes after that.](https://www.artsci.utoronto.ca/news/winter-term-update-dean-woodin)
-
--   **R** is the programming language used in these courses.
-
--   I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
-
-    -   If you're not familiar with these, consider checking out:
-
-        -   chapters 3 and 5 of [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garret Grolemund, and
-
-        -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
-
--   Delivery for STA490 and STA303 is subject to change due to the evolving pandemic situation, but **all assessments will be able to be completed and submitted online.** STA130 will remain online regardless as it is officially an online course.
-
-    -   If you are enrolled in an in-person tutorial, you will have an option to attend online instead.
-
-    -   For STA303, synchronous attendance is NOT required to pass the course, but being able to attend (online) synchronously at the times in the timetable may make things easier for you.
+            -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
 
 -   I cannot add students to a course, waive prerequisites or move you off a waitlist. Please reach out to the UG stats team ([ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca)) about questions of this nature.
-
-    -   There will be ways for waitlisted STA130 & STA303 students to access course materials before the enrolment window closes, but you will not be able to complete assessments in this time. Both courses are designed to accommodate this. See my autoresponder for links.
 
 -   Find my latest [autoresponder message post](https://blog.lizabolton.com/) for FAQs and other useful information.
 
 -   Please note that while I try to ensure this page is accurate and up-to-date, it is in no way *official*. ACORN, official time table information and communications from the Department or Faculty are the most accurate sources of information. If they conflict with what is written here, believe *them*.
 
-+--------------------------------------------------------------------+---+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Course                                                             |   | Delivery                                                                                                                   | Assessment                                                  | Notes                                                                                                                                                                                         |
-+====================================================================+===+============================================================================================================================+=============================================================+===============================================================================================================================================================================================+
-| STA130: An Introduction to Statistical Reasoning and Data Science  | F | Online synchronous for lectures and tutorials.                                                                             | **All** assessments will be completed and submitted online. | The timetable may say I'm teaching section L0201, but Prof. Sam Caetano and I are co-teaching both sections.                                                                                  |
-|                                                                    |   |                                                                                                                            |                                                             |                                                                                                                                                                                               |
-|                                                                    |   |                                                                                                                            |                                                             | This course is **flipped**, where students watch videos and access resources at times convenient to them, before engaging in a synchronous class (or watching the recording of it).           |
-+--------------------------------------------------------------------+---+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| STA490: Statistical Consultation, Communication, and Collaboration | Y | Online synchronous for lectures. Choice between online synchronous and in-person synchronous for Tuesday project meetings. | **All** assessments will be completed and submitted online. | This course is required for the Methods and Practice specialist and there is often limited or no places for folks outside that POSt.                                                          |
-|                                                                    |   |                                                                                                                            |                                                             |                                                                                                                                                                                               |
-|                                                                    |   |                                                                                                                            |                                                             | Synchronous attendance at Tuesday and Thursday (online) meetings is graded.                                                                                                                   |
-|                                                                    |   |                                                                                                                            |                                                             |                                                                                                                                                                                               |
-|                                                                    |   |                                                                                                                            |                                                             | This course has special enrolment requirements. Contact ug.statistics\@utoronto.ca for more information.                                                                                      |
-+--------------------------------------------------------------------+---+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| STA303: Methods of Data Analysis II                                | S | Online synchronous for lectures. Choice between online synchronous and in-person synchronous for tutorials.                | **All** assessments will be completed and submitted online. | I am teaching both sections (L0101 and L0201).                                                                                                                                                |
-|                                                                    |   |                                                                                                                            |                                                             |                                                                                                                                                                                               |
-|                                                                    |   |                                                                                                                            |                                                             | This course is has flipped components, where students can watch videos and access resources at times convenient to them. Expect to have work to do *before* classes on Wednesdays to prepare. |
-|                                                                    |   |                                                                                                                            |                                                             |                                                                                                                                                                                               |
-|                                                                    |   |                                                                                                                            |                                                             | If you can't enrol for an online tutorial because they are full, but you would prefer to meet online, this will be able to be accommodated. See the syllabus and course guide.                |
-+--------------------------------------------------------------------+---+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Course                                                             |                                         | Delivery                                                                                                                   | Assessment                                                             | Notes                                                                                                                                                  |
++====================================================================+=========================================+============================================================================================================================+========================================================================+========================================================================================================================================================+
+| STA490: Statistical Consultation, Communication, and Collaboration | Y (Nathalie Moon in Fall, me in Winter) | **Hybrid**                                                                                                                 | **All** assessments will be able to be completed and submitted online. | This course is required for the Methods and Practice specialist and there are often only limited, if not no, places for folks outside that POSt.       |
+|                                                                    |                                         |                                                                                                                            |                                                                        |                                                                                                                                                        |
+|                                                                    |                                         | Online synchronous for lectures. Choice between online synchronous and in-person synchronous for Tuesday project meetings. |                                                                        | **Synchronous attendance** at Tuesday and Thursday (online) meetings is graded.                                                                        |
+|                                                                    |                                         |                                                                                                                            |                                                                        |                                                                                                                                                        |
+|                                                                    |                                         |                                                                                                                            |                                                                        | This course has special enrolment requirements. Contact ug.statistics\@utoronto.ca for more information.                                               |
+|                                                                    |                                         |                                                                                                                            |                                                                        |                                                                                                                                                        |
+|                                                                    |                                         |                                                                                                                            |                                                                        | *Note: In Fall Thursday meetings will be 10\--12, while in Winter they will be 5\--7 p.m. Tuesday meetings will remain at 10\--12 for the whole year.* |
++--------------------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## 2021--22
 
@@ -73,27 +47,27 @@ In 2021-22 I will be teaching STA130 in the Fall, STA490 for the whole year and 
 
 Co-taught 2 sections of 288 students each with [Prof. Sam Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano).
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](pdfs/STA130_F21_syllabus.pdf)
+<i class="fas fa-file-alt"></i>  [Syllabus](pdfs/STA130_F21_syllabus.pdf)
 
 ### STA490 (Full Year)
 
 Taught one section of 25 students, course co-designed with [Michael Moon](https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon).
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](pdfs/2021_STA490_syllabus.pdf)
+<i class="fas fa-file-alt"></i>  [Syllabus](pdfs/2021_STA490_syllabus.pdf)
 
 ### STA497 (Full year)
 
 See more on my [Readings Course](https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122) page.
 
-<i class="fas fa-file-alt"></i>&nbsp; Syllabus: [Draft as of 2021-09-20](pdfs/2021_STA497_draft-syllabus-2.pdf)
+<i class="fas fa-file-alt"></i>  Syllabus: [Draft as of 2021-09-20](pdfs/2021_STA497_draft-syllabus-2.pdf)
 
 ### STA303 (Winter)
 
 Taught two sections of 300 students each. STA1002 is a grad student version of the course with an enrolment of about 5 students.
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/STA303-1002_W22_syllabus.pdf)
+<i class="fas fa-file-alt"></i>  [Syllabus](https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/STA303-1002_W22_syllabus.pdf)
 
-<i class="fas fa-file-alt"></i>&nbsp; [Course guide](https://sta303-bolton.github.io/sta303-w22-courseguide/)
+<i class="fas fa-file-alt"></i>  [Course guide](https://sta303-bolton.github.io/sta303-w22-courseguide/)
 
 [Waitlist resources sign-up](https://forms.office.com/r/sKWPFFE2Cd)
 
@@ -103,7 +77,7 @@ Taught two sections of 300 students each. STA1002 is a grad student version of t
 
 600 students across 2 sections.
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf)
+<i class="fas fa-file-alt"></i>  [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf)
 
 #### Course trailer
 
@@ -115,7 +89,7 @@ Taught two sections of 300 students each. STA1002 is a grad student version of t
 
 Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf)
+<i class="fas fa-file-alt"></i>  [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf)
 
 [Special enrollment information for STA490 from the department](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx)
 
@@ -129,7 +103,7 @@ Joanna Lo
 
 Co-taught with Nathalie Moon, online due to COVID-19 pandemic.
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf)
+<i class="fas fa-file-alt"></i>  [Syllabus](https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf)
 
 ## 2019-20
 
@@ -139,7 +113,7 @@ Winter 2020 was my first semeter at the University of Toronto. Due to the COVID-
 
 Co-taught with Nathalie Moon.
 
-<i class="fas fa-file-alt"></i>&nbsp; [Syllabus](%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22)
+<i class="fas fa-file-alt"></i>  [Syllabus](%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22)
 
 ### STA303
 
