@@ -1,7 +1,7 @@
 ---
 title: "Current opportunities"
 description: |
-  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2022-05-10*.
+  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2022-10-06*.
 output: 
   distill::distill_article:
     toc: true

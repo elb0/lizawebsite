@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2022-08-23*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2022-10-06*.
 output: distill::distill_article
 ---
 
@@ -11,35 +11,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Academic year: 2022--23
 
--   (TBC) I will be teaching the Winter semester of STA490.
+I wil be teaching the Winter semester of STA490. Lectures for this course will be delivered online.
 
 -   **R** is the programming language used in my courses.
 
-    -   I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
+-   I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
 
-        -   If you're not familiar with these, consider checking out:
+    -   If you're not familiar with these, consider checking out:
 
-            -   chapters 3 and 5 of [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garret Grolemund, and
+        -   chapters 3 and 5 of [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garret Grolemund, and
 
-            -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
+        -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
 
--   I cannot add students to a course, waive prerequisites or move you off a waitlist. Please reach out to the UG stats team ([ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca)) about questions of this nature.
-
--   Find my latest [autoresponder message post](https://blog.lizabolton.com/) for FAQs and other useful information.
-
--   Please note that while I try to ensure this page is accurate and up-to-date, it is in no way *official*. ACORN, official time table information and communications from the Department or Faculty are the most accurate sources of information. If they conflict with what is written here, believe *them*.
-
-+--------------------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| Course                                                             |                                         | Delivery                                                                                                                   | Assessment                                                             | Notes                                                                                                                                            |
-+====================================================================+=========================================+============================================================================================================================+========================================================================+==================================================================================================================================================+
-| STA490: Statistical Consultation, Communication, and Collaboration | Y (Nathalie Moon in Fall, me in Winter) | **Hybrid**                                                                                                                 | **All** assessments will be able to be completed and submitted online. | This course is required for the Methods and Practice specialist and there are often only limited, if not no, places for folks outside that POSt. |
-|                                                                    |                                         |                                                                                                                            |                                                                        |                                                                                                                                                  |
-|                                                                    |                                         | Online synchronous for lectures. Choice between online synchronous and in-person synchronous for Tuesday project meetings. |                                                                        | **Synchronous attendance** at Tuesday and Thursday (online) meetings is graded.                                                                  |
-|                                                                    |                                         |                                                                                                                            |                                                                        |                                                                                                                                                  |
-|                                                                    |                                         |                                                                                                                            |                                                                        | This course has special enrolment requirements. Contact ug.statistics\@utoronto.ca for more information.                                         |
-|                                                                    |                                         |                                                                                                                            |                                                                        |                                                                                                                                                  |
-|                                                                    |                                         |                                                                                                                            |                                                                        | *Note: In Fall Thursday meetings will be 10--12, while in Winter they will be 5--7 p.m. Tuesday meetings will remain at 10--12 for the whole year.*  |
-+--------------------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+While I will not be supervising any reading courses, I highly recommend strong final year students look into them. STA496/497: Readings in Statistics must be registered for as part of a special enrolment that usually happens over the summer.
 
 ## 2021--22
 
