@@ -35,6 +35,8 @@ navbar:
       href: talks.html
     - text: "Blog"
       href: https://blog.lizabolton.com
+    - icon: fab fa-mastodon
+      href: https://mas.to/@lizabolton
     - icon: fa fa-twitter
       href: https://twitter.com/Liza_bolton
     - icon: fa fa-github
