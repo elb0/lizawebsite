@@ -1,7 +1,7 @@
 ---
 title: "My autoresponder"
 description: |
-  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2022-10-06*.
+  I have an autoresponder on all year round with answers to FAQs, useful links, and more. You can check the latest version here. *Last updated: 2023-01-11*.
 output: 
   distill::distill_article:
     toc: true
@@ -31,7 +31,7 @@ If your question isn't related to the below, I will respond when I can. Please a
 Best,\
 Liza
 
-*Last updated 2022-10-06*
+*Last updated 2023-01-11*
 
 -   **Graduate school references:** Please read my personal policy [here](https://www.lizabolton.com/references.html) to get a sense of under what circumstances I could write for you. Basically, a good mark in one class is *not* sufficient for me to be able to write a letter that will strengthen your application. *"Why yes, according to their transcript this student did take my course"* isn't a very inspiring recommendation. My basic criteria is that you need to **have at least two distinct 'activities' with me**. If you believe you meet this basic criteria, you can request a reference from me [here](https://forms.office.com/r/XHqjGXjCru). I will then accept or decline based on the information provided.
 
@@ -45,9 +45,8 @@ Liza
 
     -   See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1 "https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1"). The main round of TA recruitment occurs during the summer but there are occasionally emergency postings.
 
-```{=html}
 <!-- -->
-```
+
 -   **Research/work study/teaching assistant opportunities:**
 
     -   See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1 "https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1"). The main round of TA recruitment occurs during the summer but there are occasionally emergency postings.
@@ -64,9 +63,8 @@ Liza
 
     -   I also always recommend [TidyTuesday](https://github.com/rfordatascience/tidytuesday) datasets and you may find Chapter 4 of [Building a Career in Data Science](https://www.manning.com/books/build-a-career-in-data-science) interesting (the authors have made it available for free on that website).
 
-```{=html}
 <!-- -->
-```
+
 -   **Masters/PhDs:** I am not taking on Masters or PhD students. Please see the graduate section of our Department website for more information: <https://www.statistics.utoronto.ca/graduate>.
 
     -   Prospective PhD students, all applications are made through a [central portal](https://www.statistics.utoronto.ca/graduate/phd-application-information "https://www.statistics.utoronto.ca/graduate/phd-application-information"), you don't (to my knowledge) need a sponsoring faculty member, but can check out the team [here](https://www.statistics.utoronto.ca/people/directories/all-faculty?sort_by=ppl_last_name_value&items_per_page=All "https://www.statistics.utoronto.ca/people/directories/all-faculty?sort_by=ppl_last_name_value&items_per_page=All"). You will be able to select up to three potential supervisors at the time of your application (but again note that I'm not taking on students).
