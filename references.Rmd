@@ -12,6 +12,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Please note that this information is relevant to my teaching at the University of Toronto. Please be aware that some of the details and links below will be changing as I transition of my role. For Auckland students, please email me directly.
+
 ## Grad school references
 
 If you're aiming for grad school, you'll most likely need a few Profs to agree to write letters/fill out forms in support of your application. Be prepared for this and start thinking about it early. You should also always ask first, before you put someone's name down. This is also true for job reference etiquette generally.

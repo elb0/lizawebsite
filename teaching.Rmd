@@ -9,7 +9,37 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Academic year: 2022--23
+# University of Auckland 2016, 2017 & 2023
+
+## 2023
+
+### STATS101/108 (half of S2)
+
+I will be part of the teaching team in second semester.
+
+### STATS330 (2nd half of S1)
+
+Co-teaching one stream of 100 students with [Prof. Alain Vandal](https://profiles.auckland.ac.nz/alain-vandal).
+
+[Course information.](https://courseoutline.auckland.ac.nz/dco/course/STATS/330/1233)
+
+-   **R** is the programming language used in my courses.
+
+-   I tend to use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
+
+    -   If you're not familiar with these, consider checking out:
+
+        -   chapters 3 and 5 of [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garret Grolemund, and
+
+        -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
+
+## 2017
+
+In 2017 I was a Professional Teaching Fellow for 6 months, teaching STATS101/101/108: Introduction to Statistics. I was awarded a Department of Statistics Teaching Award (Guest) for my work over this period.
+
+# Univeristy of Toronto 2020-2023
+
+## 2022--23
 
 I wil be teaching the Winter semester of STA490. Lectures for this course will be delivered online.
 

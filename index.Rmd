@@ -1,11 +1,13 @@
 ---
 title: "Hi, I'm Liza!"
 description: |
-  Statistics Enthusiast and Assistant Professor, Teaching Stream
+  Statistics Enthusiast and Educator
 site: distill::distill_website
-image: "images/liza.png"
+image: "images/liza2020.jpg"
 links:
-  - label: U of T profile
+  - label: University of Auckland (2023)
+    url: "https://profiles.auckland.ac.nz/liza-bolton"
+  - label: Univeristy of Toronto (2020-2023)
     url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
 output:
   postcards::trestles
@@ -13,7 +15,19 @@ output:
 
 Hello and kia ora!
 
-I'm a statistics enthusiast and an Assistant Professor, Teaching Stream in the [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) at the University of Toronto, Canada. My statistics education interests include: teaching and assessing ethical professional practice and writing for statisticians, online learning, supporting student mental health, building undergraduate student community, large classroom teaching and innovative assessments.
+I'm a statistics enthusiast and educator in Tāmaki Makaurau \| Auckland, Aotearoa \| New Zealand.
+
+### CV at a glance:
+
+-   👩🏻‍🏫 Professional Teaching Fellow in the Department of Statistics at the University of Auckland (2023)
+
+-   👩🏻‍🏫 Assistant Professor, Teaching Stream in the Department of Statistical Sciences at the University of Toronto (2020-2023)
+
+-   💼 Statistical consultant for a range of business, education and not for-profit organisations, (or as I prefer, Data Ambassador), self-employed (2013-2019)
+
+-   🎓 PhD in Statistics from the University of Auckland (2015-2023 expected): *Longitudinal predictors of mortality inequalities in Aotearoa New Zealand*
+
+My statistics education interests include: teaching and assessing ethical professional practice and writing for statisticians, online learning, supporting student mental health, building undergraduate student community, large classroom teaching and innovative assessments.
 
 My background is in understanding how people's social and economic experiences relate to risk of death in Aotearoa New Zealand, using methods appropriate for longitudinally linked census data. I also used to run a small consulting company, the Data Embassy, working with a range of business, education and not-for-profit clients.
 
@@ -23,7 +37,7 @@ I grew up between Canada and New Zealand and so sometimes my slang is confusing.
 
 -   What are my **pronouns**? [she/her/hers](https://www.mypronouns.org/she-her)
 
--   How should you introduce me for a talk or address emails to me? I honestly prefer just 'Liza', but 'Prof. Bolton' is fine, too.
+-   How should you introduce me for a talk or address emails to me? I honestly prefer just 'Liza'.
 
 -   How do you **pronounce** my name?
 

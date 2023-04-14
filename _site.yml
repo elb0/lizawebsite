@@ -18,19 +18,13 @@ navbar:
     - text: "For students"
       menu:
         - text: "2022–23"
-          href: https://www.lizabolton.com/teaching.html#academic-year-202122
+          href: https://www.lizabolton.com/teaching.html#academic-year-202322
         - text: "General advice"
           href: advice.html
-        - text: "Current opportunities"
-          href: opportunities.html
         - text: "Reference letters"
           href: references.html
-        - text: "Reading courses"
-          href: reading_courses.html
         - text: "My autoresponder"
           href: autoresponder.html
-    - text: "Passions"
-      href: projects.html
     - text: "Talks"
       href: talks.html
     - text: "Blog"
