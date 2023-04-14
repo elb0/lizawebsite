@@ -1,0 +1,9 @@
+---
+title: "Slinky redirect"
+description: | 
+  Go to: https://statsapps.online/slinky/G291726211GQ26/student/.
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+---
