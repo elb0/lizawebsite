@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -458,8 +459,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -788,6 +789,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1029,10 +1031,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1864,9 +1862,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1878,6 +1888,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1977,6 +2012,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1999,7 +2036,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2403,7 +2440,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2497,49 +2534,23 @@ For students
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#grad-school-references"
-id="toc-grad-school-references">Grad school references</a>
+<li><a href="#grad-school-references" id="toc-grad-school-references">Grad school references</a>
 <ul>
-<li><a href="#what-should-you-do-if-you-think-you-fit-my-criteria"
-id="toc-what-should-you-do-if-you-think-you-fit-my-criteria">What should
-you do if you think you fit my criteria?</a></li>
+<li><a href="#what-should-you-do-if-you-think-you-fit-my-criteria" id="toc-what-should-you-do-if-you-think-you-fit-my-criteria">What should you do if you think you fit my criteria?</a></li>
 </ul></li>
-<li><a
-href="#industry-then-grad-school-how-to-ask-about-references-for-a-few-years-from-now"
-id="toc-industry-then-grad-school-how-to-ask-about-references-for-a-few-years-from-now">Industry
-<em>then</em> grad school? How to ask about references for a few years
-from now</a></li>
-<li><a href="#general-tips-and-advice"
-id="toc-general-tips-and-advice">General tips and advice</a></li>
-<li><a href="#references-for-other-things"
-id="toc-references-for-other-things">References for other
-things?</a></li>
+<li><a href="#industry-then-grad-school-how-to-ask-about-references-for-a-few-years-from-now" id="toc-industry-then-grad-school-how-to-ask-about-references-for-a-few-years-from-now">Industry <em>then</em> grad school? How to ask about references for a few years from now</a></li>
+<li><a href="#general-tips-and-advice" id="toc-general-tips-and-advice">General tips and advice</a></li>
+<li><a href="#references-for-other-things" id="toc-references-for-other-things">References for other things?</a></li>
 </ul>
 </nav>
 </div>
-<p>Please note that this information is relevant to my teaching at the
-University of Toronto. Please be aware that some of the details and
-links below will be changing as I transition of my role. For Auckland
-students, please email me directly.</p>
+<p>Please note that this information is relevant to my teaching at the University of Toronto. Please be aware that some of the details and links below will be changing as I transition of my role. For Auckland students, please email me directly.</p>
 <h2 id="grad-school-references">Grad school references</h2>
-<p>If you’re aiming for grad school, you’ll most likely need a few Profs
-to agree to write letters/fill out forms in support of your application.
-Be prepared for this and start thinking about it early. You should also
-always ask first, before you put someone’s name down. This is also true
-for job reference etiquette generally.</p>
-<p>My policy is not to agree to write a reference for students if they
-have not <strong>completed</strong> a course with me.</p>
-<p>To be able to write a reference that would actually strengthen your
-application, AND to have fair criteria considering that I get easily
-100—150 requests per year and can usually only write for about 20–25
-students (I know that sounds small…but it still takes a whole work week
-of time), my usual minimum criteria is at least two out of the following
-activities with me:</p>
+<p>If you’re aiming for grad school, you’ll most likely need a few Profs to agree to write letters/fill out forms in support of your application. Be prepared for this and start thinking about it early. You should also always ask first, before you put someone’s name down. This is also true for job reference etiquette generally.</p>
+<p>My policy is not to agree to write a reference for students if they have not <strong>completed</strong> a course with me.</p>
+<p>To be able to write a reference that would actually strengthen your application, AND to have fair criteria considering that I get easily 100—150 requests per year and can usually only write for about 20–25 students (I know that sounds small…but it still takes a whole work week of time), my usual minimum criteria is at least two out of the following activities with me:</p>
 <ul>
-<li>active on Piazza/office hours + good mark in a standard class-based
-course (like STA303) [PLEAE NOTE, all of this counts as ONE activity and
-one course is not enough by itself unless I have told you
-otherwise],</li>
+<li>active on Piazza/office hours + good mark in a standard class-based course (like STA303) [PLEAE NOTE, all of this counts as ONE activity and one course is not enough by itself unless I have told you otherwise],</li>
 <li>student representative role,</li>
 <li>RA work,</li>
 <li>TA work</li>
@@ -2547,22 +2558,15 @@ otherwise],</li>
 </ul>
 <p>Some examples of students I have said yes to:</p>
 <ul>
-<li>several students who had high marks in STA303 and were active and
-doing well in STA490 with me,</li>
-<li>students who had done STA303 and gone on to do great work as TAs or
-peer mentors for STA130 when I was teaching, and</li>
-<li>a student who had done STA303 and was working on a reading course
-with me.</li>
+<li>several students who had high marks in STA303 and were active and doing well in STA490 with me,</li>
+<li>students who had done STA303 and gone on to do great work as TAs or peer mentors for STA130 when I was teaching, and</li>
+<li>a student who had done STA303 and was working on a reading course with me.</li>
 </ul>
 <p>Further things to keep in mind:</p>
 <ul>
-<li><p>I need at least 3–5 week’s notice before your reference is
-due.</p></li>
+<li><p>I need at least 3–5 week’s notice before your reference is due.</p></li>
 <li><p>I will write in support of 3 programs per student.</p></li>
-<li><p>I will only agree if I can write you a <em>strong</em> letter.
-Anything less is a waste of your and my time. Example of things I am
-frequently asked to rate about students that a good grade alone won’t
-tell me:</p>
+<li><p>I will only agree if I can write you a <em>strong</em> letter. Anything less is a waste of your and my time. Example of things I am frequently asked to rate about students that a good grade alone won’t tell me:</p>
 <ul>
 <li><p>Clarity of Goals for Graduate Study</p></li>
 <li><p>Oral Expression in English</p></li>
@@ -2570,79 +2574,36 @@ tell me:</p>
 <li><p>Ability to Work with Others</p></li>
 <li><p>Research Potential</p></li>
 <li><p>Motivation</p></li>
-<li><p>“Humility” and “sense of humour” are other examples that I
-personally hate, but your chosen program(s) might ask.</p></li>
+<li><p>“Humility” and “sense of humour” are other examples that I personally hate, but your chosen program(s) might ask.</p></li>
 </ul></li>
-<li><p>If offered (i.e., if there is a tick box), <strong>please waive
-your right to access the report</strong>. (You can ask me directly if I
-am comfortable sharing it with you.) This is usually just for American
-schools, you can read more <a
-href="https://blog.prepscholar.com/should-you-waive-right-to-review-letters-of-recommendation">here</a>.</p></li>
-<li><p>DON’T offer to write a draft for me (I don’t accept this, and
-schools may ask you to declare something like “I confirm that I will not
-write any portion of this evaluation, nor will I have any involvement in
-its drafting or submission.” anyways), DO provide lots of specific
-details, examples and relevant files when completing the request form or
-subsequent details form (there is a second form if I approve you first
-request). Tell me enough that I could approve/write this even if I got
-partial amnesia.</p></li>
+<li><p>If offered (i.e., if there is a tick box), <strong>please waive your right to access the report</strong>. (You can ask me directly if I am comfortable sharing it with you.) This is usually just for American schools, you can read more <a href="https://blog.prepscholar.com/should-you-waive-right-to-review-letters-of-recommendation">here</a>.</p></li>
+<li><p>DON’T offer to write a draft for me (I don’t accept this, and schools may ask you to declare something like “I confirm that I will not write any portion of this evaluation, nor will I have any involvement in its drafting or submission.” anyways), DO provide lots of specific details, examples and relevant files when completing the request form or subsequent details form (there is a second form if I approve you first request). Tell me enough that I could approve/write this even if I got partial amnesia.</p></li>
 </ul>
-<h3 id="what-should-you-do-if-you-think-you-fit-my-criteria">What should
-you do if you think you fit my criteria?</h3>
-<p><span style="background-color: #FFD700">If you believe you meet my
-basic criteria, you can request a reference from me <a
-href="https://forms.office.com/r/ycetDQdnFP">here</a>.</span> I will
-then accept or decline based on the the information provided.</p>
-<h2
-id="industry-then-grad-school-how-to-ask-about-references-for-a-few-years-from-now">Industry
-<em>then</em> grad school? How to ask about references for a few years
-from now</h2>
-<p>Several students have very sensibly asked what they should do if they
-plan to work for a year or two before grad school. A great question and
-my attempt to provide some clarity below.</p>
-<p>So firstly, the ‘two activity criterion’ (from above) still applies,
-but you don’t need to fill out the form <em>now</em>.</p>
+<h3 id="what-should-you-do-if-you-think-you-fit-my-criteria">What should you do if you think you fit my criteria?</h3>
+<p><span style="background-color: #FFD700">If you believe you meet my basic criteria, you can request a reference from me <a href="https://forms.office.com/r/ycetDQdnFP">here</a>.</span> I will then accept or decline based on the the information provided.</p>
+<h2 id="industry-then-grad-school-how-to-ask-about-references-for-a-few-years-from-now">Industry <em>then</em> grad school? How to ask about references for a few years from now</h2>
+<p>Several students have very sensibly asked what they should do if they plan to work for a year or two before grad school. A great question and my attempt to provide some clarity below.</p>
+<p>So firstly, the ‘two activity criterion’ (from above) still applies, but you don’t need to fill out the form <em>now</em>.</p>
 <h4 id="what-you-should-do-now">What you should do <em>now</em>:</h4>
 <ul>
-<li><p>IFF (if and only if) you meet my criteria, let me know that this
-is what you’re considering. Do it via <strong>email</strong> so a few
-years from now when you ask and I search your name, I’ll have a record
-of the conversation.<br />
+<li><p>IFF (if and only if) you meet my criteria, let me know that this is what you’re considering. Do it via <strong>email</strong> so a few years from now when you ask and I search your name, I’ll have a record of the conversation.<br />
 </p></li>
-<li><p>Create a folder/document with notes about the things I might know
-about you.</p>
+<li><p>Create a folder/document with notes about the things I might know about you.</p>
 <ul>
-<li>Save copies of any assignments you’re particularly proud of (like a
-STA130/STA303/STA490 final project) and make note of whether you did it
-as a group, what the grade you got was etc. Don’t assume future you will
-remember this. Future me definitely won’t!</li>
+<li>Save copies of any assignments you’re particularly proud of (like a STA130/STA303/STA490 final project) and make note of whether you did it as a group, what the grade you got was etc. Don’t assume future you will remember this. Future me definitely won’t!</li>
 </ul></li>
 </ul>
-<h4 id="what-you-should-do-when-youre-planning-to-apply">What you should
-do when you’re <em>planning to apply</em>:</h4>
+<h4 id="what-you-should-do-when-youre-planning-to-apply">What you should do when you’re <em>planning to apply</em>:</h4>
 <ul>
-<li>Make sure you plan ahead and get a sense of the deadlines from
-programs you are interested in. Aim to get back in touch with me (see
-next point) 5–6 weeks before your first due date.</li>
-<li>Check back on this page to see what my request instructions are
-(i.e., there is currently a request form linked above) and follow any
-instructions provided. This is where your notes will come in handy! You
-can even add a link to the folder (make sure it is not password
-protected) as part of the request.</li>
+<li>Make sure you plan ahead and get a sense of the deadlines from programs you are interested in. Aim to get back in touch with me (see next point) 5–6 weeks before your first due date.</li>
+<li>Check back on this page to see what my request instructions are (i.e., there is currently a request form linked above) and follow any instructions provided. This is where your notes will come in handy! You can even add a link to the folder (make sure it is not password protected) as part of the request.</li>
 </ul>
 <h2 id="general-tips-and-advice">General tips and advice</h2>
-<p>See my general advice <a
-href="https://www.lizabolton.com/advice.html#reference-letters">here</a>.</p>
+<p>See my general advice <a href="https://www.lizabolton.com/advice.html#reference-letters">here</a>.</p>
 <h2 id="references-for-other-things">References for other things?</h2>
-<p>This will be on a bit more of a case-by-case basis. I really do want
-to support as many of you as I can! Email me directly to discuss
-jobs/scholarships/internships etc. <strong>Please keep in mind, if all I
-can say about you is that “Student X took my course and got grade Y”,
-I’m not going to be very useful to you.</strong></p>
-<p>Please also note that you should also always ask first, before you
-put someone’s name down.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>This will be on a bit more of a case-by-case basis. I really do want to support as many of you as I can! Email me directly to discuss jobs/scholarships/internships etc. <strong>Please keep in mind, if all I can say about you is that “Student X took my course and got grade Y”, I’m not going to be very useful to you.</strong></p>
+<p>Please also note that you should also always ask first, before you put someone’s name down.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

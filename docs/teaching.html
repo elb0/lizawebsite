@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -458,8 +459,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -788,6 +789,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1029,10 +1031,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1864,9 +1862,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1878,6 +1888,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1977,6 +2012,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1999,7 +2036,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2403,7 +2440,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2488,140 +2525,96 @@ For students
 <h1>Teaching</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A history of courses I’ve taught and some guidance about what to
-expect if you take a course with me this year. <em>Last updated:
-2022-10-06</em>.</p></p>
+<p><p>A history of courses I’ve taught and some guidance about what to expect if you take a course with me this year. <em>Last updated: 2022-10-06</em>.</p></p>
 </div>
 
 
 <div class="d-article">
-<h1 id="university-of-auckland-2016-2017-2023">University of Auckland
-2016, 2017 &amp; 2023</h1>
+<h1 id="university-of-auckland-2016-2017-2023">University of Auckland 2016, 2017 &amp; 2023</h1>
 <h2 id="section">2023</h2>
-<h3 id="stats101108-half-of-s2">STATS101/108 (half of S2)</h3>
+<h3 id="stats-101108-1st-half-of-s2">STATS 101/108 (1st half of S2)</h3>
+<p>This course has recently undergone a significant rewrite by the STATS 10x team including Anna Fergusson, Thomas Lumley, Emma Lehrke, Lars Thomsen and others. It has a focus on interactive lectures and modern data considerations.</p>
 <p>I will be part of the teaching team in second semester.</p>
-<h3 id="stats330-2nd-half-of-s1">STATS330 (2nd half of S1)</h3>
-<p>Co-teaching one stream of 100 students with <a
-href="https://profiles.auckland.ac.nz/alain-vandal">Prof. Alain
-Vandal</a>.</p>
-<p><a
-href="https://courseoutline.auckland.ac.nz/dco/course/STATS/330/1233">Course
-information.</a></p>
+<p>More information on the course is available in the <a href="https://courseoutline.auckland.ac.nz/dco/course/STATS/101/1235">Course outline</a>. There are multiple course codes as this is an important service course for Science, Arts and Business students.</p>
+<h3 id="stats-369-1st-half-of-s2">STATS 369 (1st half of S2)</h3>
+<p>This course has been developed by Thomas Lumley (Department of Statistics), with additional teaching and development by Lisa Chen (Statistics), David Welch (Computer Science), Yalu Wen (Statistics).</p>
+<p><em>This is a course on predictive modelling using real data. STATS 369 is required for the major in Data Science but is also taken by undergraduate students from other majors in Science, Engineering, and Commerce who are interested in careers involving large-scale data analysis and modelling. This course is good preparation for anyone wanting to do postgraduate study in Data Science. We emphasise understanding the modelling techniques in addition to being able to apply them using R. The predictive techniques covered include linear regression and discrimination, tree-based models, and neural networks. The course also covers the data cleaning and manipulation needed to prepare real-world data for analysis and some of the ethical issues that arise from the use of automated predictive models. The skills developed in this course are particularly useful for those wishing to have a career involving data science and predictive modelling, which are areas in high demand.</em></p>
+<p>~ Course description from the <a href="https://courseoutline.auckland.ac.nz/dco/course/STATS/369/1235">Course outline</a></p>
+<h3 id="stats-150150g-2-weeks-of-s2">STATS 150/150G (2 weeks of S2)</h3>
+<p>This course is coordinated by Stephanie Budget. I am teaching the first 5 classes on media reports and surveys and polls.</p>
+<p><em>STATS 150 aims to prepare anyone, regardless of whether or not they have any background in statistics, to become a critical consumer of statistical information. STATS 150 will be useful for aspiring journalists, politicians, political scientists, sociologists, lawyers, public communicators, health personnel, conservationists, environmental scientists, business people, marketers, engineers, and scientists. It examines the uses, limitations, and abuses of statistical information in a variety of activities such as polling, public health, sport, law, marketing, and the environment. The statistical concepts and thinking underlying data-based arguments will be explored. The interpretation and critical evaluation of statistically-based reports as well as the construction of statistically sound arguments and reports will be emphasised. Some course material will be drawn from topics currently in the news.</em></p>
+<p>~ Course description from the the <a href="https://courseoutline.auckland.ac.nz/dco/course/STATS/150/1235">Course outline</a></p>
+<h3 id="stats-330-2nd-half-of-s1">STATS 330 (2nd half of S1)</h3>
+<p>Co-teaching one stream of 100 students with <a href="https://profiles.auckland.ac.nz/alain-vandal">Prof. Alain Vandal</a>.</p>
+<p><a href="https://courseoutline.auckland.ac.nz/dco/course/STATS/330/1233">Course information.</a></p>
 <ul>
-<li><p><strong>R</strong> is the programming language used in my
-courses.</p></li>
-<li><p>I tend to use and teach a lot of <code>tidyverse</code>,
-especially <code>dplyr</code> for data wrangling and <code>ggplot</code>
-for visualization.</p>
+<li><p><strong>R</strong> is the programming language used in my courses.</p></li>
+<li><p>I tend to use and teach a lot of <code>tidyverse</code>, especially <code>dplyr</code> for data wrangling and <code>ggplot</code> for visualization.</p>
 <ul>
 <li><p>If you’re not familiar with these, consider checking out:</p>
 <ul>
-<li><p>chapters 3 and 5 of <a href="https://r4ds.had.co.nz/">R for Data
-Science</a> by Hadley Wickham &amp; Garret Grolemund, and</p></li>
-<li><p>the <a href="https://dosstoolkit.com/">DoSS Toolkit</a>,
-especially the modules <a
-href="https://dosstoolkit.com/#hand-me-my-plyrs">‘Hand me my plyrs’</a>
-and <a href="https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot">To
-ggplot or not to ggplot</a>.</p></li>
+<li><p>chapters 3 and 5 of <a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham &amp; Garret Grolemund, and</p></li>
+<li><p>the <a href="https://dosstoolkit.com/">DoSS Toolkit</a>, especially the modules <a href="https://dosstoolkit.com/#hand-me-my-plyrs">‘Hand me my plyrs’</a> and <a href="https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot">To ggplot or not to ggplot</a>.</p></li>
 </ul></li>
 </ul></li>
 </ul>
 <h2 id="section-1">2017</h2>
-<p>In 2017 I was a Professional Teaching Fellow for 6 months, teaching
-STATS101/101/108: Introduction to Statistics. I was awarded a Department
-of Statistics Teaching Award (Guest) for my work over this period.</p>
-<h1 id="univeristy-of-toronto-2020-2023">Univeristy of Toronto
-2020-2023</h1>
+<p>In 2017 I was a Professional Teaching Fellow for 6 months, teaching STATS101/101/108: Introduction to Statistics. I was awarded a Department of Statistics Teaching Award (Guest) for my work over this period.</p>
+<h1 id="univeristy-of-toronto-2020-2023">Univeristy of Toronto 2020-2023</h1>
 <h2 id="section-2">2022–23</h2>
-<p>I wil be teaching the Winter semester of STA490. Lectures for this
-course will be delivered online.</p>
+<p>I wil be teaching the Winter semester of STA490. Lectures for this course will be delivered online.</p>
 <ul>
-<li><p><strong>R</strong> is the programming language used in my
-courses.</p></li>
-<li><p>I tend to use and teach a lot of <code>tidyverse</code>,
-especially <code>dplyr</code> for data wrangling and <code>ggplot</code>
-for visualization.</p>
+<li><p><strong>R</strong> is the programming language used in my courses.</p></li>
+<li><p>I tend to use and teach a lot of <code>tidyverse</code>, especially <code>dplyr</code> for data wrangling and <code>ggplot</code> for visualization.</p>
 <ul>
 <li><p>If you’re not familiar with these, consider checking out:</p>
 <ul>
-<li><p>chapters 3 and 5 of <a href="https://r4ds.had.co.nz/">R for Data
-Science</a> by Hadley Wickham &amp; Garret Grolemund, and</p></li>
-<li><p>the <a href="https://dosstoolkit.com/">DoSS Toolkit</a>,
-especially the modules <a
-href="https://dosstoolkit.com/#hand-me-my-plyrs">‘Hand me my plyrs’</a>
-and <a href="https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot">To
-ggplot or not to ggplot</a>.</p></li>
+<li><p>chapters 3 and 5 of <a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham &amp; Garret Grolemund, and</p></li>
+<li><p>the <a href="https://dosstoolkit.com/">DoSS Toolkit</a>, especially the modules <a href="https://dosstoolkit.com/#hand-me-my-plyrs">‘Hand me my plyrs’</a> and <a href="https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot">To ggplot or not to ggplot</a>.</p></li>
 </ul></li>
 </ul></li>
 </ul>
-<p>While I will not be supervising any reading courses, I highly
-recommend strong final year students look into them. STA496/497:
-Readings in Statistics must be registered for as part of a special
-enrolment that usually happens over the summer.</p>
+<p>While I will not be supervising any reading courses, I highly recommend strong final year students look into them. STA496/497: Readings in Statistics must be registered for as part of a special enrolment that usually happens over the summer.</p>
 <h2 id="section-3">2021–22</h2>
 <h3 id="sta130-fall">STA130 (Fall)</h3>
-<p>Co-taught 2 sections of 288 students each with <a
-href="https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano">Prof. Sam
-Caetano</a>.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="pdfs/STA130_F21_syllabus.pdf">Syllabus</a></p>
+<p>Co-taught 2 sections of 288 students each with <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano">Prof. Sam Caetano</a>.</p>
+<p><i class="fas fa-file-alt"></i>  <a href="pdfs/STA130_F21_syllabus.pdf">Syllabus</a></p>
 <h3 id="sta490-full-year">STA490 (Full Year)</h3>
-<p>Taught one section of 25 students, course co-designed with <a
-href="https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon">Michael
-Moon</a>.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="pdfs/2021_STA490_syllabus.pdf">Syllabus</a></p>
+<p>Taught one section of 25 students, course co-designed with <a href="https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon">Michael Moon</a>.</p>
+<p><i class="fas fa-file-alt"></i>  <a href="pdfs/2021_STA490_syllabus.pdf">Syllabus</a></p>
 <h3 id="sta497-full-year">STA497 (Full year)</h3>
-<p>See more on my <a
-href="https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122">Readings
-Course</a> page.</p>
-<p><i class="fas fa-file-alt"></i>  Syllabus: <a
-href="pdfs/2021_STA497_draft-syllabus-2.pdf">Draft as of
-2021-09-20</a></p>
+<p>See more on my <a href="https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122">Readings Course</a> page.</p>
+<p><i class="fas fa-file-alt"></i>  Syllabus: <a href="pdfs/2021_STA497_draft-syllabus-2.pdf">Draft as of 2021-09-20</a></p>
 <h3 id="sta303-winter">STA303 (Winter)</h3>
-<p>Taught two sections of 300 students each. STA1002 is a grad student
-version of the course with an enrolment of about 5 students.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/STA303-1002_W22_syllabus.pdf">Syllabus</a></p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="https://sta303-bolton.github.io/sta303-w22-courseguide/">Course
-guide</a></p>
-<p><a href="https://forms.office.com/r/sKWPFFE2Cd">Waitlist resources
-sign-up</a></p>
+<p>Taught two sections of 300 students each. STA1002 is a grad student version of the course with an enrolment of about 5 students.</p>
+<p><i class="fas fa-file-alt"></i>  <a href="https://sta303-bolton.github.io/sta303-w22-courseguide/other-files/STA303-1002_W22_syllabus.pdf">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a href="https://sta303-bolton.github.io/sta303-w22-courseguide/">Course guide</a></p>
+<p><a href="https://forms.office.com/r/sKWPFFE2Cd">Waitlist resources sign-up</a></p>
 <h2 id="section-4">2020–21</h2>
 <h3 id="sta3031002-winter">STA303/1002 (Winter)</h3>
 <p>600 students across 2 sections.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA303-1002_syllabus_W21.pdf">Syllabus</a></p>
 <h4 id="course-trailer">Course trailer</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BxxGtcxtX80" frameborder="0" allowfullscreen>
 </iframe>
 <h3 id="st490-year">ST490 (Year)</h3>
 <p>Co-taught with Nathalie Moon, online due to COVID-19 pandemic.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf">Syllabus</a></p>
-<p><a
-href="https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx">Special
-enrollment information for STA490 from the department</a></p>
+<p><i class="fas fa-file-alt"></i>  <a href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA490Y1%202020-21.pdf">Syllabus</a></p>
+<p><a href="https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx">Special enrollment information for STA490 from the department</a></p>
 <h3 id="sta496-year">STA496 (Year)</h3>
 <p>Samantha Pierre</p>
 <p>Joanna Lo</p>
 <h3 id="sta130-fall-1">STA130 (Fall)</h3>
 <p>Co-taught with Nathalie Moon, online due to COVID-19 pandemic.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a href="https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1%20Fall%202020.pdf">Syllabus</a></p>
 <h2 id="section-5">2019-20</h2>
-<p>Winter 2020 was my first semeter at the University of Toronto. Due to
-the COVID-19 pandemic, U of T rapidly transitioned online in
-mid-March.</p>
+<p>Winter 2020 was my first semeter at the University of Toronto. Due to the COVID-19 pandemic, U of T rapidly transitioned online in mid-March.</p>
 <h3 id="sta130">STA130</h3>
 <p>Co-taught with Nathalie Moon.</p>
-<p><i class="fas fa-file-alt"></i>  <a
-href="%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22">Syllabus</a></p>
+<p><i class="fas fa-file-alt"></i>  <a href="%22https://www.statistics.utoronto.ca/sites/www.statistics.utoronto.ca/files/STA130H1S.pdf%22">Syllabus</a></p>
 <h3 id="sta303">STA303</h3>
 <p>Co-taught with Patrick Brown.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

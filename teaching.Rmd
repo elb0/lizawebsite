@@ -13,11 +13,31 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## 2023
 
-### STATS101/108 (half of S2)
+### STATS 101/108 (1st half of S2)
+
+This course has recently undergone a significant rewrite by the STATS 10x team including Anna Fergusson, Thomas Lumley, Emma Lehrke, Lars Thomsen and others. It has a focus on interactive lectures and modern data considerations.
 
 I will be part of the teaching team in second semester.
 
-### STATS330 (2nd half of S1)
+More information on the course is available in the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/101/1235). There are multiple course codes as this is an important service course for Science, Arts and Business students.
+
+### STATS 369 (1st half of S2)
+
+This course has been developed by Thomas Lumley (Department of Statistics), with additional teaching and development by Lisa Chen (Statistics), David Welch (Computer Science), Yalu Wen (Statistics).
+
+*This is a course on predictive modelling using real data. STATS 369 is required for the major in Data Science but is also taken by undergraduate students from other majors in Science, Engineering, and Commerce who are interested in careers involving large-scale data analysis and modelling. This course is good preparation for anyone wanting to do postgraduate study in Data Science. We emphasise understanding the modelling techniques in addition to being able to apply them using R. The predictive techniques covered include linear regression and discrimination, tree-based models, and neural networks. The course also covers the data cleaning and manipulation needed to prepare real-world data for analysis and some of the ethical issues that arise from the use of automated predictive models. The skills developed in this course are particularly useful for those wishing to have a career involving data science and predictive modelling, which are areas in high demand.*
+
+\~ Course description from the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/369/1235)
+
+### STATS 150/150G (2 weeks of S2)
+
+This course is coordinated by Stephanie Budget. I am teaching the first 5 classes on media reports and surveys and polls.
+
+*STATS 150 aims to prepare anyone, regardless of whether or not they have any background in statistics, to become a critical consumer of statistical information. STATS 150 will be useful for aspiring journalists, politicians, political scientists, sociologists, lawyers, public communicators, health personnel, conservationists, environmental scientists, business people, marketers, engineers, and scientists. It examines the uses, limitations, and abuses of statistical information in a variety of activities such as polling, public health, sport, law, marketing, and the environment. The statistical concepts and thinking underlying data-based arguments will be explored. The interpretation and critical evaluation of statistically-based reports as well as the construction of statistically sound arguments and reports will be emphasised. Some course material will be drawn from topics currently in the news.*
+
+\~ Course description from the the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/150/1235)
+
+### STATS 330 (2nd half of S1)
 
 Co-teaching one stream of 100 students with [Prof. Alain Vandal](https://profiles.auckland.ac.nz/alain-vandal).
 
