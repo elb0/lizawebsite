@@ -58,7 +58,9 @@ A lightning talk about using colour when plotting data with `ggplot`.
 xaringanExtra::embed_xaringan(url = "https://www.dataembassy.co.nz/Liza-colours-in-R#1", ratio = "16:9")
 ```
 
-## _Lotto...you're doing it wrong!_, an interview with the Project
+## _Lotto...you're doing it wrong!_, an interview with The Project NZ
+
+_2018-09-21_
 
 > After hearing that FORTY Kiwis won Lotto first division this week we thought... what are the chances of that?!
 >
