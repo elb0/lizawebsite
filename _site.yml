@@ -23,20 +23,16 @@ navbar:
           href: advice.html
         - text: "Reference letters"
           href: references.html
-        - text: "My autoresponder"
-          href: autoresponder.html
     - text: "Talks"
       href: talks.html
     - text: "Blog"
       href: https://blog.lizabolton.com
     - icon: fab fa-mastodon
       href: https://mas.to/@lizabolton
-    - icon: fa fa-twitter
-      href: https://twitter.com/Liza_bolton
     - icon: fa fa-github
       href: https://github.com/elb0
     - icon: fa fa-linkedin
       href: https://www.linkedin.com/in/lizabolton/
     - icon: fa fa-paper-plane
-      href: mailto:liza.bolton@utoronto.ca
+      href: mailto:liza.bolton@auckland.ac.nz
 output: distill::distill_article

@@ -5,7 +5,7 @@ description: |
 site: distill::distill_website
 image: "images/liza2020.jpg"
 links:
-  - label: University of Auckland (2023)
+  - label: University of Auckland (current)
     url: "https://profiles.auckland.ac.nz/liza-bolton"
   - label: Univeristy of Toronto (2020-2023)
     url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
@@ -19,7 +19,7 @@ I'm a statistics enthusiast and educator in Tāmaki Makaurau \| Auckland, Aotear
 
 ### CV at a glance:
 
--   👩🏻‍🏫 Professional Teaching Fellow in the Department of Statistics at the University of Auckland (2023)
+-   👩🏻‍🏫 Professional Teaching Fellow in the Department of Statistics at the University of Auckland (2023-)
 
 -   👩🏻‍🏫 Assistant Professor, Teaching Stream in the Department of Statistical Sciences at the University of Toronto (2020-2023)
 

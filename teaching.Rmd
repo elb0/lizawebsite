@@ -29,9 +29,9 @@ This course has been developed by Thomas Lumley (Department of Statistics), with
 
 \~ Course description from the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/369/1235)
 
-### STATS 150/150G (2 weeks of S2)
+### STATS 150/150G (1st 5 classes of S2)
 
-This course is coordinated by Stephanie Budget. I am teaching the first 5 classes on media reports and surveys and polls.
+This course is coordinated by Stephanie Budgett. I am teaching the first 5 classes on media reports and surveys and polls.
 
 *STATS 150 aims to prepare anyone, regardless of whether or not they have any background in statistics, to become a critical consumer of statistical information. STATS 150 will be useful for aspiring journalists, politicians, political scientists, sociologists, lawyers, public communicators, health personnel, conservationists, environmental scientists, business people, marketers, engineers, and scientists. It examines the uses, limitations, and abuses of statistical information in a variety of activities such as polling, public health, sport, law, marketing, and the environment. The statistical concepts and thinking underlying data-based arguments will be explored. The interpretation and critical evaluation of statistically-based reports as well as the construction of statistically sound arguments and reports will be emphasised. Some course material will be drawn from topics currently in the news.*
 
