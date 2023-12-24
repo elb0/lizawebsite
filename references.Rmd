@@ -1,7 +1,7 @@
 ---
 title: "Reference letters"
 description: | 
-  A guide to requesting reference letters from me.
+  A guide to requesting reference letters from me.  *Last updated: 2023-12-24*.
 output:
   distill::distill_article:
     toc: true
@@ -12,23 +12,21 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Please note that this information is relevant to my teaching at the University of Toronto. Please be aware that some of the details and links below will be changing as I transition of my role. For Auckland students, please email me directly.
-
 ## Grad school references
 
 If you're aiming for grad school, you'll most likely need a few Profs to agree to write letters/fill out forms in support of your application. Be prepared for this and start thinking about it early. You should also always ask first, before you put someone's name down. This is also true for job reference etiquette generally.
 
 My policy is not to agree to write a reference for students if they have not **completed** a course with me.
 
-To be able to write a reference that would actually strengthen your application, AND to have fair criteria considering that I get easily 100---150 requests per year and can usually only write for about 20--25 students (I know that sounds small...but it still takes a whole work week of time), my usual minimum criteria is at least two out of the following activities with me:
+To be able to write a reference that would actually strengthen your application, my usual minimum criteria is at least two out of the following activities with me:
 
--   active on Piazza/office hours + good mark in a standard class-based course (like STA303) [PLEAE NOTE, all of this counts as ONE activity and one course is not enough by itself unless I have told you otherwise],
+-   active on Piazza (or Ed Discussion)/office hours AND good mark in a standard class-based course (like STA303) [PLEAE NOTE, all of this counts as ONE activity and one course is not enough by itself unless I have told you otherwise],
 -   student representative role,
 -   RA work,
 -   TA work
 -   a reading course.
 
-Some examples of students I have said yes to:
+Some examples of students I have said yes to (Univeristy of Toronto):
 
 -   several students who had high marks in STA303 and were active and doing well in STA490 with me,
 -   students who had done STA303 and gone on to do great work as TAs or peer mentors for STA130 when I was teaching, and
@@ -62,7 +60,11 @@ Further things to keep in mind:
 
 ### What should you do if you think you fit my criteria?
 
-[If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/ycetDQdnFP).]{style="background-color: #FFD700"} I will then accept or decline based on the the information provided.
+**I am not currently taking new requests until February 2024.**
+
+Requests sent to the UofT form in the second half of 2023 were not available to me as I am no longer with the University of Toronto. My apologies for not updating the instructions here sooner to reflect that.
+
+[~~If you believe you meet my basic criteria, you can request a reference from me [here](https://forms.office.com/r/ycetDQdnFP).~~]{style="background-color: #FFD700"} ~~I will then accept or decline based on the the information provided.~~
 
 ## Industry *then* grad school? How to ask about references for a few years from now
 
@@ -76,7 +78,7 @@ So firstly, the 'two activity criterion' (from above) still applies, but you don
 
 -   Create a folder/document with notes about the things I might know about you.
 
-    -   Save copies of any assignments you're particularly proud of (like a STA130/STA303/STA490 final project) and make note of whether you did it as a group, what the grade you got was etc. Don't assume future you will remember this. Future me definitely won't!
+    -   Save copies of any assignments you're particularly proud of (like a STA130/STA303/STA490 final project (UofT)) and make note of whether you did it as a group, what the grade you got was etc. Don't assume future you will remember this. Future me definitely won't!
 
 #### What you should do when you're *planning to apply*:
 

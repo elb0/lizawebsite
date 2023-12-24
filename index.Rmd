@@ -7,7 +7,7 @@ image: "images/liza2020.jpg"
 links:
   - label: University of Auckland (current)
     url: "https://profiles.auckland.ac.nz/liza-bolton"
-  - label: Univeristy of Toronto (2020-2023)
+  - label: Univeristy of Toronto (2020–2023)
     url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
 output:
   postcards::trestles

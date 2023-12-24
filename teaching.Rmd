@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2022-10-06*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2023-12-24*.
 output: distill::distill_article
 ---
 
@@ -9,7 +9,37 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# University of Auckland 2016, 2017 & 2023
+# University of Auckland 2016, 2017 & 2023---present
+
+## 2024 {#academic-year-2024}
+
+The following are subject to change, but this is the current plan.
+
+### Southwest University, Chongqing, China - teaching partnership (Semester 1)
+
+A short course as part of the partnership between SWU and UoA.
+
+### STATS 101/108 (Semester 2)
+
+*Intended for anyone who will ever have to collect or make sense of data, either in their career or private life. Steps involved in conducting a statistical investigation are studied with the main emphasis being on data analysis and the background concepts necessary for successfully analysing data, extrapolating from patterns in data to more generally applicable conclusions and communicating results to others. Other topics include probability; confidence intervals, statistical significance, t-tests, and p-values; nonparametric methods; one-way analysis of variance, simple linear regression, correlation, tables of counts and the chi-square test.*
+
+More information on the course is available in the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/101/1245). There are multiple course codes as this is an important service course for Science, Arts and Business students.
+
+### STATS 330 (Semester 2)
+
+-   **R** is the programming language used. Familiarity from STATS 201/208 is expected.
+
+-   I use and teach a lot of `tidyverse`, especially `dplyr` for data wrangling and `ggplot` for visualization.
+
+    -   If you're not familiar with these, consider checking out:
+
+        -   chapters 3 and 5 of [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham & Garret Grolemund, and
+
+        -   the [DoSS Toolkit](https://dosstoolkit.com/), especially the modules ['Hand me my plyrs'](https://dosstoolkit.com/#hand-me-my-plyrs) and [To ggplot or not to ggplot](https://dosstoolkit.com/#to-ggplot-or-not-to-ggplot).
+
+*STATS 330 further develops ideas introduced in STATS 201/208, giving a synthesis and broader understanding of generalised linear models and related methods. Simulation-based procedures, including bootstrapping and cross-validation, are introduced as a means to provide robust inference, investigate the consequences of assumption violations, and solve goodness-of-fit and model-selection problems. Particular focus is placed on how the modelling procedure varies depending on whether the analysis aims to explain an underlying process or predict future observations. Students will learn to implement all methods taught in R, the widely used, open-source software environment for statistical computing. Emphasis is on practical application, providing students with a versatile statistical toolbox useful for a range of fields in both academia and industry, including almost all subjects in Business and Economics, along with any experimental or social science. It is also a useful complement to Computer Science.*
+
+\~ Course description from the [course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/330/1245)
 
 ## 2023
 
@@ -17,7 +47,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 This course has recently undergone a significant rewrite by the STATS 10x team including Anna Fergusson, Thomas Lumley, Emma Lehrke, Lars Thomsen and others. It has a focus on interactive lectures and modern data considerations.
 
-I will be part of the teaching team in second semester.
+I was of the teaching team in second semester.
 
 More information on the course is available in the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/101/1235). There are multiple course codes as this is an important service course for Science, Arts and Business students.
 
@@ -31,7 +61,7 @@ This course has been developed by Thomas Lumley (Department of Statistics), with
 
 ### STATS 150/150G (1st 5 classes of S2)
 
-This course is coordinated by Stephanie Budgett. I am teaching the first 5 classes on media reports and surveys and polls.
+This course is coordinated by Stephanie Budgett. I taught the first 5 classes on media reports and surveys and polls.
 
 *STATS 150 aims to prepare anyone, regardless of whether or not they have any background in statistics, to become a critical consumer of statistical information. STATS 150 will be useful for aspiring journalists, politicians, political scientists, sociologists, lawyers, public communicators, health personnel, conservationists, environmental scientists, business people, marketers, engineers, and scientists. It examines the uses, limitations, and abuses of statistical information in a variety of activities such as polling, public health, sport, law, marketing, and the environment. The statistical concepts and thinking underlying data-based arguments will be explored. The interpretation and critical evaluation of statistically-based reports as well as the construction of statistically sound arguments and reports will be emphasised. Some course material will be drawn from topics currently in the news.*
 
