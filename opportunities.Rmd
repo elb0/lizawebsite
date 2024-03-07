@@ -1,0 +1,57 @@
+---
+title: "Current opportunities"
+description: |
+  Any TA, RA or work study opportunities with me (and sometimes selected colleagues) will be listed here. *Last updated: 2022-10-06*.
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Research Assistants
+
+No RAs currently being recruited.
+
+### Past/current positions I'm connected with
+
+-   Ethical Professional Practice (2021--22)
+
+    -   **Lead RA**: Our team is looking for one to two lead RAs to provide coordination and research support for a project on the development and implementation of teaching materials on ethical practice for 6 undergraduate courses. The larger project will also seek to identify additional complementary programming for career development and mentoring. This project will run until March, 2022.
+    
+    -  **Undergraduate RA cohort**: A group of undergraduate RAs we recrutied to work together over a short research intenstive in April 2022. 
+
+-   ISSC RAs (2020, 2021, 2022)
+
+    -   The Independent Summer Statistics Community (ISSC) is a community for Department of Statistical Sciences undergraduate students. Some of the RA roles related included:
+
+        -   Undergraduate and graduate program evaluation
+
+        -   Sports analytics workshop development
+
+        -   Python student learning community
+        
+        -   Designing a statistics escape room
+
+# Work study
+
+No work study students currently being recruited.
+
+### Past/current positions I'm connected with
+
+-   Ethical Statistical Practice & Career Education Assistant (2021--22)
+
+# Teaching Assistants
+
+See the [Department Website for full information](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1#teaching-assistants-accordion-1).
+
+Each summer these advertisements go up. I don't oversee the hiring, but I do love to know if you've applied and I am happy to answer questions about the course format and what the experience would be like. I can't answer questions about eligibility/visas etc.
+
+There are also occasionally emergency postings outside of the usual summer recruitment drive.
+
+-   STA130 accepts undergraduate students as TAs, but grad students are given priority. R users in other disciplines with a good statistical grounding are also encouraged to apply.
+-   STA303 accepts Masters students and above. R users in other disciplines with a good statistical grounding are also encouraged to apply.
+-   STA490 accepts PhD students in Statistical Sciences.

@@ -1,0 +1,21 @@
+---
+title: "Hi, I'm Liza"
+image: "images/liza.png"
+links:
+  - label: Department of Statistical Sciences profile
+    url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
+  - label: Twitter
+    url: "https://twitter.com/Liza_Bolton"
+  - label: GitHub
+    url: "https://github.com/elb0"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/lizabolton/"
+output:
+  postcards::trestles
+---
+ 
+Hello and kia ora! 
+
+__How do you pronounce my name?__ ![Google's pronunciation for Liza Koshy is the same as mine. Search "pronounce liza" if you want to hear it.](images/pronunciation.png){width=100% .external}
+
+My last name is Bolton (__bowl__·tn), and the pronunciation Google provides is correct for that, too.

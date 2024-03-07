@@ -1,0 +1,111 @@
+---
+title: "Talks and media"
+description: |
+  Sometimes I say stuff. Actually, quite often...but sometimes it's worth sharing!
+output: distill::distill_article
+---
+
+## Data Aotearoa workshop for data journos
+
+*2024-03-08*
+
+Direct link: <https://lizabolton.github.io/data-aotearoa-2024/>
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://lizabolton.github.io/data-aotearoa-2024/#/title-slide",
+  ratio = "16:9"
+)
+```
+
+## Data democratisation panel, Science Communicators Association of New Zealand 
+
+*2023-11-17*
+
+Facilitator: Dacia Herbulock
+Panellists: Keith Ng, Karatiana Taiuru, Liza Bolton
+
+[2023 Science Communicators Association of New Zealand Conference: *Techtopia: Navigating the power, potential and perils of technology in science communication*](https://www.scanz.co.nz/2023-conference) in Te Whanganui-a-Tara Wellington, Aotearoa New Zealand
+
+Watch the video on [YouTube](https://www.youtube.com/watch?v=8cBOIyoISbY&list=FLaNRURNtIY08GxfUJz0PVaQ).
+
+See post with resources and links [here](https://blog.lizabolton.com/posts/2023-11-15-scanz/).
+
+![](https://blog.lizabolton.com/posts/2023-11-15-scanz/images/bog.png)
+
+## `learnr` *Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers*, Computation and Data Science Education Community of Practice
+
+*2022-02-04*
+
+See the blog post [here](https://blog.lizabolton.com/posts/2022-02-04-learnr-interactives-or-how-i-learned-to-stop-worrying-and-turn-my-students-into-pixelated-farmers/) for more
+
+### Slides
+
+Direct link: <https://bolton-cds-w22.netlify.app/#1>
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://bolton-cds-w22.netlify.app/",
+  ratio = "16:9"
+)
+```
+
+## *Panel on teaching data-focused topics*, Toronto Data Workshop
+
+*2020-12-17*
+
+Big thank you to [Rohan Alexander](https://rohanalexander.com/) for organising this panel on teaching data-focussed topics. This was one of my favourite talks I've ever done because I got to get creative with it. Unfortunately my use of music kept getting Rohan copyright stuck on YouTube. Sorry, Rohan!
+
+<iframe width="560" height="450" src="https://www.youtube.com/embed/c3R6pZisvm0?start=894" allowfullscreen>
+
+</iframe>
+
+My bit starts at 14:51 but I'd highly recommend the other speakers' sections!
+
+#### Fellow panellists:
+
+-   [Nathalie Moon, Univeristy of Toronto](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon)
+-   [Maria Tackett, Duke University](https://www.mariatackett.net/)
+-   [Teon Brooks, Mozilla Firefox](https://teonbrooks.com/)
+
+## *Everything you need to fall in love with Statistics*, an interview with [storyo.co](https://www.storyo.co/)
+
+*2019-07-11*
+
+> I met Liza (pronounced Lie-zuh, like Liza Minnelli) at the R-Ladies meetup in Auckland, New Zealand where she was giving a talk on colour palettes. If you ever meet Liza, you will see that it is absolutely impossible to not get a massive positive energy recharge after talking to her. Liza is currently doing her PhD in Statistics, running a consultancy called The Data Embassy, speaking at events, teaching, mentoring. It would be my absolute pleasure to learn more about Liza and share her wonderful story.
+
+[Read the full interview here](https://www.storyo.co/stories/liza-bolton)
+
+## *Don't cha wish your ggplot had colours like me?*, R Ladies Auckland
+
+*2019-06-12*
+
+A lightning talk about using colour when plotting data with `ggplot`.
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://www.dataembassy.co.nz/Liza-colours-in-R#1", ratio = "16:9")
+```
+
+## _Lotto...you're doing it wrong!_, an interview with The Project NZ
+
+_2018-09-21_
+
+> After hearing that FORTY Kiwis won Lotto first division this week we thought... what are the chances of that?!
+>
+> So we invited statistician, Liza Bolton, onto the show to tell us her top 5 tips for winning at Lotto AKA... you're doing it wrong!
+
+![Image description: Screen capture of me (Liza) --- white, fem, brunette with shoulder length hair and circle glasses --- frowning with a TV graphic saying "You're playing lotto wrong" and "Don't play lotto".](images/2018-project-lotto.jpeg)
+
+[Watch on Facebook (\~4 mins)](https://www.facebook.com/TheProjectNZ/videos/2233885323501095/)
+
+## *The Cambridge Analytica fallout*, an interview with RNZ
+
+*2018-03-21*
+
+> Social media giant Facebook is having a rough week, it's stocks plummeting and a "please explain" from congress following reports a political consulting firm kept data on millions of its users.
+>
+> The Cambridge Analytica files have caused a huge fallout, its CEO now suspended, after a UK newspaper revealed the company used underhanded tricks to sway election campaigns.
+>
+> It's a complicated investigation so here to explain why it's causing so much concern is Liza Bolton, from the Statistics department at the University of Auckland.
+
+[Listen here (\~11 minutes)](https://www.rnz.co.nz/national/programmes/afternoons/audio/2018637066/the-cambridge-analytica-fallout)

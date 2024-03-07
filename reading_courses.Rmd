@@ -1,0 +1,180 @@
+---
+title: "Reading courses"
+description: |
+  What are they and how do you do one?
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What are reading courses?
+
+The [Department of Statistical Sciences](https://www.statistics.utoronto.ca/) offers [STA496/STA497/ST498/STA499: Readings in Statistics](https://www.statistics.utoronto.ca/current-students/special-enrolment-courses-sta490y1-sta492h1-sta496h1sta497h1#several-statistics-courses-have-special-enrolment-procedures-so-enrolment-in-these-courses-cannot-be-done-on-acorn-please-select-the-course-you-are-interested-in-from-the-list-below-for-information-on-the-enrolment-process-prerequisites-and-instructions-on-how-to-request-enrolment-accordion-3). This course allows high achieving statistics students to expand their knowledge in an area/to a level of depth that is usually outside what is offered in other undergraduate statistics courses.
+
+It can be a great opportunity to test out if you like conducting research and it can help you think about whether you're interested in graduate level studies. It is also a good way to get a high quality [reference letter](https://www.lizabolton.com/references.html) (assuming things go well) for graduate school.
+
+### Calendar description
+
+*Independent study under the direction of a faculty member. Students wishing to take this course must have the permission of the Department of Statistical Sciences and of the prospective supervisor. Not eligible for CR/NCR option.*
+
+### Prerequisites
+
+At least 1.0 FCE 300+ level STA courses with a minimum grade of 80% in each course.
+
+## Doing a reading course with *me*
+
+First and foremost, here are some key things to know about my personal policies for reading courses:
+
+-   I only supervise the Fall to Winter ('year'-long), half credit version of this course.
+-   I do not supervise reading courses over the Spring/Summer semesters.
+-   I can only supervise a small number of students in a given year.
+-   You must come up with a topic proposal in either **applied statistics** or **statistics education** to pitch to me. We will develop it together, but I want you to be interested in the topic and feel ownership of the project.
+-   You must have completed STA303 and/or some form of TA/RA or other engagement (like the ISSC) with me to be eligible. Basically, when I see your application, you want for me to recognize your name.
+
+### Topics and projects on which I'm interested in working with students
+
+There are two styles of reading course you could consider:
+
+#### 1. Project-based
+
+You propose a topic for which data is available that you wish to apply statistical methods to and produce a report. This style of project may be useful if you're considering a thesis-based Master's in an applied statistics area as it lets you dip your toe in and see if you like it.
+
+I tend to be most interested in topics on social and economic issues, but part of the reason I am a Statistician is because I love learning new things. Convince me your topic is interesting and/or relevant to making the world a better place and if I have the right skills to support you, I'll be interested.
+
+I do *not* use a lot of Bayesian, machine learning or time series methods in my own work, and personally use R. Topics using these methods or other programming languages aren't necessarily ruled out, but you'll need to demonstrate a plan for reasonable pre-/co-requisite courses and previous experience.
+
+I am also open to **co-supervising** with faculty from other disciplines for cross-disciplinary work.
+
+#### 2. Literature and task-based
+
+You choose a topic, related to one of my interest areas below, and together we create a reading and task list for your to work through across the year. You might write a literature review, prepare a workshop or talk, write blog posts, etc. This is more similar to a traditional course experience than option 1, but is an opportunity to explore a topic not covered in other statistics course, build professional skills relevant to research/future employment.
+
+##### Topics areas of interest
+
+-   ethical professional practice for statisticians
+
+    -   indigenous data sovereignty
+
+    -   ethics of web scraping
+
+    -   graphicacy and how not to lie with charts
+
+    -   sampler platter of ethics topics, e.g. algorithmic bias, disclosure risk, privacy/confidenitality, accessibility, reproducibility, professional codes of conduct
+
+-   statistics education
+
+    -   assessment practices for ethical professional practice
+
+    -   teaching and learning simulation-based inference
+
+    -   trauma-informed pedagogy for statistics classrooms
+
+    -   online learning (potential data from STA130)
+
+-   I may consider some other topics, but the above are best aligned with my current research.
+
+### How register your interest
+
+```{r, echo=FALSE, eval=FALSE}
+<span style="background-color: #FFD700">Please register your interest by __6:00 p.m. ET September 1, 2021__. I will aim to respond to all submitters by September 5.</span>
+
+<span style="background-color: #FFD700">You can register your interest and propose your reading course topic to me using [__this form__](https://forms.office.com/r/wx9Je4vRuf). You will be asked to [__complete this proposal document__](https://utoronto-my.sharepoint.com/:w:/g/personal/liza_bolton_utoronto_ca/ESsQy3JNNqJIkr7ISpmdGVYBRcuP05cmzUlDe0fM9V3WIg?e=fXLhsv) and submit it, as well. (Note: You will need to be signed in with your U of T account to access the form and document.)</span>
+
+```
+
+See the information on the [Special Enrolment Sharepoint Page for the Department](https://utoronto.sharepoint.com/sites/ArtSci-STA/Undergrad/SitePages/Special-Enrolment-Courses--STA490Y1,-STA492H1-and-STA496H1-STA497H1.aspx). Note: Applications have **closed** for the 2021--22 year.
+
+## Previous students
+
+### Ethical Professional Practice for Statisticians research group, 2021--22
+
+**Syllabus**: [Draft as of 2021-09-20](pdfs/2021_STA497_draft-syllabus-2.pdf)
+
+Meet my students: [Zhixing Hong <i class="fab fa-github"></i>](https://github.com/ZhixingHong), [David Pham <i class="fab fa-github"></i>](https://thegort.github.io/), [Qihui Huang <i class="fab fa-github"></i>](https://github.com/heyhaileyhhh)
+
+#### Preliminary schedule
+
+The plan is be to have \~6 meetings each semester, so equivalent to having 12 classes for a normal single-semester, half-credit course. No meetings planned during the final assessment periods.
+
+##### Fall
+
+-   **September 15**: Introductions and discussion of goals and syllabus
+
+    -   Homework tasks:
+
+        -   (Re-)Read at least **ONE** of:
+
+            -   [SSC Code of Ethical Statistical Practice](https://ssc.ca/sites/default/files/data/Members/public/Accreditation/ethics_e.pdf) \*\*OR\*\*
+
+            -   [AMSTAT Ethical Guidelines for Statistical Practice.](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx#:~:text=of%20the%20data.-,The%20ethical%20statistician%3A,imputation%20and%20missing%20data%20mechanisms)
+
+        <!-- -->
+
+        -   Read and take notes on (it is okay to skim/not understand everything!) at least **ONE** of:
+
+            -   [Ethics in statistical practice and communication: Five recommendations](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01193.x) by Andrew Gelman**OR**
+
+            -   [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) by Bender, Gebru, McMillian-Major and Shmargaret Shmitchell (who is definitely *not* Margaret Mitchell, whom [Google also fired](https://www.zdnet.com/article/google-fires-top-ethical-ai-expert-margaret-mitchell/)), (\~60 minutes) (*You might also like this [video](https://www.youtube.com/watch?v=lsWLSl5xEAQ) reading group, but totally optional. Please also don't take this as 'being ethical gets you fired from Google', as I think this is more just a notable bump along the way as organizations do try to improve, or at the very least to limit their liability!)* **OR**
+
+            -   Another reading you propose to me by 11:59 a.m. ET this Friday.
+
+        -   Based on these readings, and your own knowledge and interests, do a brainstorm (\~15--20 minutes) and then organize it into a mind map (\~15--20 minutes) of concepts in ethical practice for statisticians. **Bring it to the next meeting, prepared to chat through it.**
+
+-   **September 29**: Confirm syllabus; Discuss readings and mind maps/brainstorms; Confirm individual topics; Annotated bibliographies
+
+-   **October 13**: My example seminar on graphicacy (or other topic TBD)
+
+-   **October 27**: Wrap-up from seminar; Bring a reading from your annotated bibliography and present the key points to the group; Mid-year presentation expectations
+
+    *Reading week, no meetings*
+
+-   **November 17**: Writing tips; Annotated bibliography check-in; Midyear presentation check-in
+
+-   **December 1**: Mid-year presentations (another date may be organized for presentations, by agreement. If so, this meeting could be replaced by it or used as practice.)
+
+##### Winter
+
+-   **January 11**: Research progress check, annotated bibliography feedback (1-1 meetings)
+
+-   **January 25**: Student seminar 1
+
+-   **February 8**: Student Seminar 2
+
+-   **March 1**: Student Seminar 3
+
+-   **March 15**: Research progress check (1-1 meetings)
+
+-   **March 29**: Final presentation (Another date may be organized for presentations, by agreement. If so, this meeting could be replaced by it or used as practice.)
+
+ 
+
+ 
+
+### Samantha Pierre, 2020--21
+
+Title: *And the nominees are...An empirical study of the effects of a Tony Award Win and Nomination on a Show's Success*
+
+You can hear Sam discuss the results of her project and her experience undertaking a reading course in her invited talk at the Toronto Data Workshop in May 2021.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rFojvBN0qGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+Follow Sam on Twitter, [\@WhamBamGAM](https://twitter.com/WhamBamGAM).
+
+### Joanna Lo, 2020--21
+
+Title: *How do consumer attitudes and behaviours change in the light of current events? A comparison of notable events in the United States, 2000--2009*
+
+## Other
+
+Prof. Rohan Alexander has written up two of the reading courses he's offered and provided the details on his website.
+
+-   [Ethics and Data Science](https://rohanalexander.com/reading_course-ethics.html)
+-   [Natural Language Processing](https://rohanalexander.com/reading_course-nlp.html)
