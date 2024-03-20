@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2023-12-24*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2024-03-19*.
 output: distill::distill_article
 ---
 
@@ -15,9 +15,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The following are subject to change, but this is the current plan.
 
+### Key service roles: 
+
+-   Postgraduate Adviser (Data Science)
+
+-   STATS 101/101G/108 Technical Lead
+
+-   Undergraduate Staff Student Consultative Committee Meeting Chair
+
 ### Southwest University, Chongqing, China - teaching partnership (Semester 1)
 
-A short course as part of the partnership between SWU and UoA.
+A short course as part of the partnership between SWU and UoA. Mid-May to early June.
 
 ### STATS 101/108 (Semester 2)
 

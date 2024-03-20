@@ -5,6 +5,14 @@ description: |
 output: distill::distill_article
 ---
 
+## Are we a-*head* or not? Use and misuse of *per capita* measures
+
+*2024-03-20*
+
+Read the comment on [SCIMEX](https://www.scimex.org/newsfeed/per-capita-needs-to-go-say-researchers).
+
+This is a short 'expert reaction' solicited by the Science Media Centre (NZ) on an published article about issues with, and an alternative to, reporting *per capita* measures. Thomas Lumley also commented, and his thoughts are always a good read!
+
 ## Data Aotearoa workshop for data journos
 
 *2024-03-08*
@@ -96,7 +104,8 @@ _2018-09-21_
 
 ![Image description: Screen capture of me (Liza) --- white, fem, brunette with shoulder length hair and circle glasses --- frowning with a TV graphic saying "You're playing lotto wrong" and "Don't play lotto".](images/2018-project-lotto.jpeg)
 
-[Watch on Facebook (\~4 mins)](https://www.facebook.com/TheProjectNZ/videos/2233885323501095/)
+[~~Watch on Facebook (\~4 mins)~~](https://www.facebook.com/TheProjectNZ/videos/2233885323501095/)
+Unfortunately this video disappeared with The Project NZ.
 
 ## *The Cambridge Analytica fallout*, an interview with RNZ
 
