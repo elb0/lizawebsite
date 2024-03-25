@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2024-03-19*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2024-03-26*.
 output: distill::distill_article
 ---
 
@@ -13,9 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## 2024 {#academic-year-2024}
 
-The following are subject to change, but this is the current plan.
-
-### Key service roles: 
+### Key service roles:
 
 -   Postgraduate Adviser (Data Science)
 
