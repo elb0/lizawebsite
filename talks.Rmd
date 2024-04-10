@@ -5,6 +5,23 @@ description: |
 output: distill::distill_article
 ---
 
+## *~~Dance like nobody’s watching~~🕺<br>Write like nobody’s reading? ✍️:<br>Low-stakes writing, academic reflection & graduate profile capabilities*, Faculty of Science Early Career Research Group Workshop
+
+*2024-04-10*
+
+The Early Career Research Group supports Research Fellows in the Faculty of Science. Many Research Fellows also teach and the team organises this workshop yearly to support people to engage with education research and effective practices.
+
+### Slides
+
+Direct link: <https://lizabolton.github.io/2024-Lowstakes-writing-ECR/#/title-slide>
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://lizabolton.github.io/2024-Lowstakes-writing-ECR/#/title-slide",
+  ratio = "16:9"
+)
+```
+
 ## Are we a-*head* or not? Use and misuse of *per capita* measures
 
 *2024-03-20*
