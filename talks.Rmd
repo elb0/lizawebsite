@@ -2,7 +2,10 @@
 title: "Talks and media"
 description: |
   Sometimes I say stuff. Actually, quite often...but sometimes it's worth sharing!
-output: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ## *~~Dance like nobody’s watching~~🕺<br>Write like nobody’s reading? ✍️:<br>Low-stakes writing, academic reflection & graduate profile capabilities*, Faculty of Science Early Career Research Group Workshop
