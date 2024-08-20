@@ -8,6 +8,43 @@ output:
     toc_depth: 2
 ---
 
+## *Ready Steady Learn*, 95bFM
+
+*2024-08-20*
+
+I dropped into the studio for a quick [Ready Steady Learn](https://feeds.95bfm.com/bfmreadysteadylearn) chat with host Jonny in the lead up to the [Raising the Bar](https://www.rtbevent.com/auckland-24) on August 27.
+
+### Listen [9:30]
+
+Direct link: https://feeds.95bfm.com/link/17730/16774971/200824_Ready_Steady_Learn.mp3 
+
+## *Lies, Damned Lies and Statistics*, Smooth Brain Society
+
+*2024-05-16*
+
+Host: [Dr Sahir Hussain](https://www.linkedin.com/in/sahir-hussain-b7a224190/) 
+
+Cohost: [Alex Marinkovich-Josey](https://www.linkedin.com/in/alex-marinkovich-josey/)
+
+### Description
+
+The use of stats and throwing around numbers in conversation is incredibly common, yet statistics itself is poorly understood. Dr. Liza Bolton from  @universityofauckland discusses the dark art that is statistics. Using examples, she takes us through some misconceptions and dispels the notion that numbers don’t lie. We cover how to identify the best ice cream store, how to not be fooled when stats are mischaracterized in media and politics, why we worship the nat 20 dice roll and is the 27 club for musicians a real thing?
+
+### Watch or listen [1:10:19]
+
+<iframe width="560" height="450" src="https://www.youtube.com/watch?v=KS2pOAnq1bQ" allowfullscreen>
+
+</iframe>
+
+<iframe width="450" height="800" src="https://youtube.com/shorts/uLTEzA3Oyv4" allowfullscreen>
+
+</iframe>
+
+This episode is available where ever you get your podcasts.
+
+- [On the Smooth Brain Society website.](https://smoothbrainsociety.com/2024/05/16/37-lies-damned-lies-and-statistics-dr-liza-bolton/)
+- Also available on [Wellington Access Radio.](https://accessradio.org.nz/shows-podcasts/smooth-brain-society/)
+
 ## *~~Dance like nobody’s watching~~🕺<br>Write like nobody’s reading? ✍️:<br>Low-stakes writing, academic reflection & graduate profile capabilities*, Faculty of Science Early Career Research Group Workshop
 
 *2024-04-10*
@@ -25,7 +62,7 @@ xaringanExtra::embed_xaringan(
 )
 ```
 
-## Are we a-*head* or not? Use and misuse of *per capita* measures
+## *Are we a-head or not? Use and misuse of per capita measures*, Science Media Centre
 
 *2024-03-20*
 
@@ -60,6 +97,7 @@ Watch the video on [YouTube](https://www.youtube.com/watch?v=8cBOIyoISbY&list=FL
 See post with resources and links [here](https://blog.lizabolton.com/posts/2023-11-15-scanz/).
 
 ![](https://blog.lizabolton.com/posts/2023-11-15-scanz/images/bog.png)
+
 
 ## `learnr` *Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers*, Computation and Data Science Education Community of Practice
 
