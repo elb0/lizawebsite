@@ -14,9 +14,11 @@ output:
 
 I dropped into the studio for a quick [Ready Steady Learn](https://feeds.95bfm.com/bfmreadysteadylearn) chat with host Jonny in the lead up to the [Raising the Bar](https://www.rtbevent.com/auckland-24) on August 27.
 
+![](images/2024-bFMstudio.jpeg){fig-alt="Liza, a pale skinned brunette, sitting at the radio studio desk with lots of audio equipment around."}
+
 ### Listen [9:30]
 
-Direct link: https://feeds.95bfm.com/link/17730/16774971/200824_Ready_Steady_Learn.mp3 
+Direct link: https://95bfm.com/bcast/ready-steady-learn-w-liza-bolton-august-20-2024
 
 ## *Lies, Damned Lies and Statistics*, Smooth Brain Society
 
@@ -32,13 +34,7 @@ The use of stats and throwing around numbers in conversation is incredibly commo
 
 ### Watch or listen [1:10:19]
 
-<iframe width="560" height="450" src="https://www.youtube.com/watch?v=KS2pOAnq1bQ" allowfullscreen>
-
-</iframe>
-
-<iframe width="450" height="800" src="https://youtube.com/shorts/uLTEzA3Oyv4" allowfullscreen>
-
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KS2pOAnq1bQ?si=v4esy3_2D-HFIyjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This episode is available where ever you get your podcasts.
 
