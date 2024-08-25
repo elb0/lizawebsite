@@ -83,8 +83,9 @@ xaringanExtra::embed_xaringan(
 
 *2023-11-17*
 
-Facilitator: Dacia Herbulock
-Panellists: Keith Ng, Karatiana Taiuru, Liza Bolton
+**Facilitator**: Dacia Herbulock 
+
+**Panellists**: Keith Ng, Karatiana Taiuru, Liza Bolton
 
 [2023 Science Communicators Association of New Zealand Conference: *Techtopia: Navigating the power, potential and perils of technology in science communication*](https://www.scanz.co.nz/2023-conference) in Te Whanganui-a-Tara Wellington, Aotearoa New Zealand
 
