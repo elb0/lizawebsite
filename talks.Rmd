@@ -8,6 +8,20 @@ output:
     toc_depth: 2
 ---
 
+## *This way or data-way: A survival guide for a world of data*, Raising the Bar Auckland
+
+*2024-08-27*
+
+Blurb: What do motivational posts on LinkedIn have in common with the supposedly small feet of Victorians? Join Dr Liza Bolton as she explores the habits of statistical thinking that can make our day-to-day lives better – from picking a restaurant like a statistician, to why you shouldn’t necessarily believe a bus stop advertisement when it tells you your hometown is one of New Zealand’s most monogamous. There are no mathematics prerequisites here – number lovers and loathers alike are invited on a romp through the good, the bad and the ugly from a world full of data and decisions.
+
+Recorded at [Norma Taps](https://normataps.co.nz/), Auckland.
+
+You can find the [annotated bibliography for this talk on my blog](https://blog.lizabolton.com/posts/2024-08-27-raising-the-bar-annotated-bibliography/).
+
+### Listen [54:07]
+
+Listen on [SoundCloud](https://soundcloud.com/university-of-auckland/this-way-or-data-way-a?in=university-of-auckland/sets/raising-the-bar-auckland-2024&si=3abe747c6c004219844db13d685ae1d7) or [Spotify](https://open.spotify.com/episode/1tmaaDYd0dUyXPBPykxqsd).
+
 ## *Ready Steady Learn*, 95bFM
 
 *2024-08-20*
