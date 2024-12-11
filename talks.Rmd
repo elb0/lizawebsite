@@ -8,6 +8,29 @@ output:
     toc_depth: 2
 ---
 
+## 🤔 That’s questionable: Designing and deploying effective models for generating multiple versions of auto-marked questions
+
+*2024-12-02*
+
+This is joint work with Anna Fergusson, Lars Thomsen, Charlotte Jones-Todd
+
+### Abstract
+Creating automatically marked question banks with a number of versions is popular for both supporting academic integrity and for providing low-stakes assessment opportunities with instant feedback. Short quizzes can engage students in checking their understanding throughout a course and support their preparation for higher-stakes assessments. While auto-marking can help reduce teaching team workload, the creation and maintenance of high-quality and fair question banks can be very demanding. To support this, a range of computational tools exist for creating auto-marked questions and deploying them to assessment platforms (e.g., the R package exams, Grün & Zeileis, 2009). However, while there is guidance for the practical implementation of these tools (e.g., Zeileis et al., 2014), there is very little documentation that explains the design process for developing models that can generate tens or even hundreds of versions of questions. This talk has three aims:
+1) to explore design principles that support pedagogy-first approaches to creating question-generating models,
+2) to share considerations and opportunities with respect to having students analyse data (with iNZight Lite) to answer quiz questions, and
+3) to report on how students are actually using quizzes with multiple versions in a large introductory statistics course, including findings based on data about quiz attempts, as well as reflections from the teaching team.
+
+### Slides
+
+Direct link: <https://lizabolton.github.io/2024-12-02_NZSA-Wellington/#/title-slide>
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://lizabolton.github.io/2024-12-02_NZSA-Wellington/#/title-slide",
+  ratio = "16:9"
+)
+```
+
 ## *This way or data-way: A survival guide for a world of data*, Raising the Bar Auckland
 
 *2024-08-27*
