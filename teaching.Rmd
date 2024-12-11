@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2024-03-26*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2024-12-11*.
 output: distill::distill_article
 ---
 
@@ -11,15 +11,41 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # University of Auckland 2016, 2017 & 2023---present
 
-## 2024 {#academic-year-2024}
+## 2025 {#academic-year-2024}
+
+*Note: I am only teaching a first-year course locally this year, but will also be teaching a third-year data science course in China --- see below.*
 
 ### Key service roles:
 
 -   Postgraduate Adviser (Data Science)
 
--   STATS 101/101G/108 Technical Lead
+-   STATS 101/101G/108 Technical Admin
 
 -   Undergraduate Staff Student Consultative Committee Meeting Chair
+
+### Southwest University, Chongqing, China - teaching partnership (Semester 1)
+
+A short course as part of the partnership between SWU and UoA. Late-April to mid-May (dates TBC).
+
+This course aims to cover the same learning objectives as [STATS 369](https://courseoutline.auckland.ac.nz/dco/course/STATS/369/1255) in Auckland and is a key course for students in the transnational education programme who will complete the Data Science Masters at the University of Auckland.
+
+### STATS 101/108 (Semester 1, 2 & Summer)
+
+*Intended for anyone who will ever have to collect or make sense of data, either in their career or private life. Steps involved in conducting a statistical investigation are studied with the main emphasis being on data analysis and the background concepts necessary for successfully analysing data, extrapolating from patterns in data to more generally applicable conclusions and communicating results to others. Other topics include probability; confidence intervals, statistical significance, t-tests, and p-values; nonparametric methods; one-way analysis of variance, simple linear regression, correlation, tables of counts and the chi-square test.*
+
+More information on the course is available in the [Course outline](https://courseoutline.auckland.ac.nz/dco/course/STATS/101/1253). There are multiple course codes as this is an important service course for Science, Arts and Business students.
+
+## 2024
+
+### Key service roles:
+
+-   Postgraduate Adviser (Data Science)
+
+-   STATS 101/101G/108 Technical Admin
+
+-   Undergraduate Staff Student Consultative Committee Meeting Chair
+
+-   Future Me Year 10 organiser
 
 ### Southwest University, Chongqing, China - teaching partnership (Semester 1)
 

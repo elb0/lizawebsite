@@ -4,8 +4,6 @@ image: "images/liza.png"
 links:
   - label: Department of Statistical Sciences profile
     url: "https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton"
-  - label: Twitter
-    url: "https://twitter.com/Liza_Bolton"
   - label: GitHub
     url: "https://github.com/elb0"
   - label: LinkedIn
