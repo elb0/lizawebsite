@@ -1,7 +1,7 @@
 ---
 title: "Reference letters"
 description: | 
-  A guide to requesting reference letters from me.  *Last updated: 2024-12-11*.
+  A guide to requesting reference letters from me.  *Last updated: 2025-02-12*.
 output:
   distill::distill_article:
     toc: true
@@ -60,14 +60,12 @@ Further things to keep in mind:
 
 ### What should you do if you think you fit my criteria?
 
-**I am not currently taking new requests until February 2025.**
-
-If you meet the criteria above, (and it is after Jan 2025) please send me an email to discuss my support. In this email, it would be great to include as many of the following as you can:
+If you meet the criteria above, please send me an email to discuss my support. In this email, it would be great to include as many of the following as you can:
 
 - A brief summary of your goals for grad school 
   - What do you want to study, where and why? This could be a draft of your personal statement or some bullet points, etc.
 - Your transcript (unofficial is fine)
-- A list of the course you did with me with semester & year
+- A list of the course(s) you did with me, with the semester & year
 - Information about the general timeline 
   - When are things due? How many applications? Please note my usual limit of 3 programmes.
 - Notes on and/or files for assessments from my classes (if relevant)
