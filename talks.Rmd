@@ -8,17 +8,27 @@ output:
     toc_depth: 2
 ---
 
-## 🤔 *That’s questionable: Designing and deploying effective models for generating multiple versions of auto-marked questions*, New Zealand Statistical Association (NZSA) 2024 Conference
+## Scrapping the Census, media comments
+
+*2024-06-18*
+
+![Census pack with letter delivered by mail by 2023 Census, Stats NZ. Copyright 2023. Licensed under CC BY 4.0.](images/2023-Census-DL-pack-being-retrie.png)
+
+On 18 June, [Statistics Minister Dr Shane Reti announced](https://www.beehive.govt.nz/release/sharpened-focus-quality-economic-population-stats) a new apporach for the census and administrative data in Aotearoa New Zealand.
+
+I was asked for a comment by the Science Media Centre, which you can find [here](https://www.sciencemediacentre.co.nz/2025/06/18/nationwide-census-scrapped-expert-reaction/), among excellent comments from Lara Graves, Tahu Kukutai and other experts I would recommend following in this area.
+
+This comment was picked up in a 📃 [1News article](https://www.1news.co.nz/2025/06/18/five-yearly-census-to-be-scrapped/) (very nice of them to give me the 'last word') and resulted in an interview with Joel Armstrong on 95bFM (🔊 [audio link](https://95bfm.com/bcast/concerns-regarding-moving-away-from-census-to-collect-national-data-w-the-university-of-auckland%E2%80%99s) + 📃[associated write up](https://95bfm.com/news/concerns-raised-for-minority-communities-over-scrapping-the-census)) and Joel Maxwell for Stuff ( 📃 [article link](https://www.stuff.co.nz/nz-news/360736670/stats-nz-confirms-experts-take-scrapping-census-permanent-reduction-quality-some-data)).
+
+## 🤔 *That's questionable: Designing and deploying effective models for generating multiple versions of auto-marked questions*, New Zealand Statistical Association (NZSA) 2024 Conference
 
 *2024-12-02*
 
 *This is joint work with Anna Fergusson, Lars Thomsen, Charlotte Jones-Todd.*
 
 ### Abstract
-Creating automatically marked question banks with a number of versions is popular for both supporting academic integrity and for providing low-stakes assessment opportunities with instant feedback. Short quizzes can engage students in checking their understanding throughout a course and support their preparation for higher-stakes assessments. While auto-marking can help reduce teaching team workload, the creation and maintenance of high-quality and fair question banks can be very demanding. To support this, a range of computational tools exist for creating auto-marked questions and deploying them to assessment platforms (e.g., the R package exams, Grün & Zeileis, 2009). However, while there is guidance for the practical implementation of these tools (e.g., Zeileis et al., 2014), there is very little documentation that explains the design process for developing models that can generate tens or even hundreds of versions of questions. This talk has three aims:
-1) to explore design principles that support pedagogy-first approaches to creating question-generating models,
-2) to share considerations and opportunities with respect to having students analyse data (with iNZight Lite) to answer quiz questions, and
-3) to report on how students are actually using quizzes with multiple versions in a large introductory statistics course, including findings based on data about quiz attempts, as well as reflections from the teaching team.
+
+Creating automatically marked question banks with a number of versions is popular for both supporting academic integrity and for providing low-stakes assessment opportunities with instant feedback. Short quizzes can engage students in checking their understanding throughout a course and support their preparation for higher-stakes assessments. While auto-marking can help reduce teaching team workload, the creation and maintenance of high-quality and fair question banks can be very demanding. To support this, a range of computational tools exist for creating auto-marked questions and deploying them to assessment platforms (e.g., the R package exams, Grün & Zeileis, 2009). However, while there is guidance for the practical implementation of these tools (e.g., Zeileis et al., 2014), there is very little documentation that explains the design process for developing models that can generate tens or even hundreds of versions of questions. This talk has three aims: 1) to explore design principles that support pedagogy-first approaches to creating question-generating models, 2) to share considerations and opportunities with respect to having students analyse data (with iNZight Lite) to answer quiz questions, and 3) to report on how students are actually using quizzes with multiple versions in a large introductory statistics course, including findings based on data about quiz attempts, as well as reflections from the teaching team.
 
 ### Slides
 
@@ -35,7 +45,7 @@ xaringanExtra::embed_xaringan(
 
 *2024-08-27*
 
-Blurb: What do motivational posts on LinkedIn have in common with the supposedly small feet of Victorians? Join Dr Liza Bolton as she explores the habits of statistical thinking that can make our day-to-day lives better – from picking a restaurant like a statistician, to why you shouldn’t necessarily believe a bus stop advertisement when it tells you your hometown is one of New Zealand’s most monogamous. There are no mathematics prerequisites here – number lovers and loathers alike are invited on a romp through the good, the bad and the ugly from a world full of data and decisions.
+Blurb: What do motivational posts on LinkedIn have in common with the supposedly small feet of Victorians? Join Dr Liza Bolton as she explores the habits of statistical thinking that can make our day-to-day lives better -- from picking a restaurant like a statistician, to why you shouldn't necessarily believe a bus stop advertisement when it tells you your hometown is one of New Zealand's most monogamous. There are no mathematics prerequisites here -- number lovers and loathers alike are invited on a romp through the good, the bad and the ugly from a world full of data and decisions.
 
 Recorded at [Norma Taps](https://normataps.co.nz/), Auckland.
 
@@ -55,30 +65,32 @@ I dropped into the studio for a quick [Ready Steady Learn](https://feeds.95bfm.c
 
 ### Listen [9:30]
 
-Direct link: https://95bfm.com/bcast/ready-steady-learn-w-liza-bolton-august-20-2024
+Direct link: <https://95bfm.com/bcast/ready-steady-learn-w-liza-bolton-august-20-2024>
 
 ## *Lies, Damned Lies and Statistics*, Smooth Brain Society
 
 *2024-05-16*
 
-Host: [Dr Sahir Hussain](https://www.linkedin.com/in/sahir-hussain-b7a224190/) 
+Host: [Dr Sahir Hussain](https://www.linkedin.com/in/sahir-hussain-b7a224190/)
 
 Cohost: [Alex Marinkovich-Josey](https://www.linkedin.com/in/alex-marinkovich-josey/)
 
 ### Description
 
-The use of stats and throwing around numbers in conversation is incredibly common, yet statistics itself is poorly understood. Dr. Liza Bolton from  @universityofauckland discusses the dark art that is statistics. Using examples, she takes us through some misconceptions and dispels the notion that numbers don’t lie. We cover how to identify the best ice cream store, how to not be fooled when stats are mischaracterized in media and politics, why we worship the nat 20 dice roll and is the 27 club for musicians a real thing?
+The use of stats and throwing around numbers in conversation is incredibly common, yet statistics itself is poorly understood. Dr. Liza Bolton from @universityofauckland discusses the dark art that is statistics. Using examples, she takes us through some misconceptions and dispels the notion that numbers don't lie. We cover how to identify the best ice cream store, how to not be fooled when stats are mischaracterized in media and politics, why we worship the nat 20 dice roll and is the 27 club for musicians a real thing?
 
 ### Watch or listen [1:10:19]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KS2pOAnq1bQ?si=v4esy3_2D-HFIyjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KS2pOAnq1bQ?si=v4esy3_2D-HFIyjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 
 This episode is available where ever you get your podcasts.
 
-- [On the Smooth Brain Society website.](https://smoothbrainsociety.com/2024/05/16/37-lies-damned-lies-and-statistics-dr-liza-bolton/)
-- Also available on [Wellington Access Radio.](https://accessradio.org.nz/shows-podcasts/smooth-brain-society/)
+-   [On the Smooth Brain Society website.](https://smoothbrainsociety.com/2024/05/16/37-lies-damned-lies-and-statistics-dr-liza-bolton/)
+-   Also available on [Wellington Access Radio.](https://accessradio.org.nz/shows-podcasts/smooth-brain-society/)
 
-## *~~Dance like nobody’s watching~~🕺<br>Write like nobody’s reading? ✍️:<br>Low-stakes writing, academic reflection & graduate profile capabilities*, Faculty of Science Early Career Research Group Workshop
+## ~~*Dance like nobody's watching*~~*🕺*<br>Write like nobody's reading? ✍️:<br>Low-stakes writing, academic reflection & graduate profile capabilities, Faculty of Science Early Career Research Group Workshop
 
 *2024-04-10*
 
@@ -116,11 +128,11 @@ xaringanExtra::embed_xaringan(
 )
 ```
 
-## Data democratisation panel, Science Communicators Association of New Zealand 
+## Data democratisation panel, Science Communicators Association of New Zealand
 
 *2023-11-17*
 
-**Facilitator**: Dacia Herbulock 
+**Facilitator**: Dacia Herbulock
 
 **Panellists**: Keith Ng, Karatiana Taiuru, Liza Bolton
 
@@ -131,7 +143,6 @@ Watch the video on [YouTube](https://www.youtube.com/watch?v=8cBOIyoISbY&list=FL
 See post with resources and links [here](https://blog.lizabolton.com/posts/2023-11-15-scanz/).
 
 ![](https://blog.lizabolton.com/posts/2023-11-15-scanz/images/bog.png)
-
 
 ## `learnr` *Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers*, Computation and Data Science Education Community of Practice
 
@@ -186,9 +197,9 @@ A lightning talk about using colour when plotting data with `ggplot`.
 xaringanExtra::embed_xaringan(url = "https://www.dataembassy.co.nz/Liza-colours-in-R#1", ratio = "16:9")
 ```
 
-## _Lotto...you're doing it wrong!_, an interview with The Project NZ
+## *Lotto...you're doing it wrong!*, an interview with The Project NZ
 
-_2018-09-21_
+*2018-09-21*
 
 > After hearing that FORTY Kiwis won Lotto first division this week we thought... what are the chances of that?!
 >
@@ -196,8 +207,7 @@ _2018-09-21_
 
 ![Image description: Screen capture of me (Liza) --- white, fem, brunette with shoulder length hair and circle glasses --- frowning with a TV graphic saying "You're playing lotto wrong" and "Don't play lotto".](images/2018-project-lotto.jpeg)
 
-[~~Watch on Facebook (\~4 mins)~~](https://www.facebook.com/TheProjectNZ/videos/2233885323501095/)
-Unfortunately this video disappeared with The Project NZ.
+[~~Watch on Facebook (\~4 mins)~~](https://www.facebook.com/TheProjectNZ/videos/2233885323501095/) Unfortunately this video disappeared with The Project NZ.
 
 ## *The Cambridge Analytica fallout*, an interview with RNZ
 
