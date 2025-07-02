@@ -8,9 +8,13 @@ output:
     toc_depth: 2
 ---
 
-## Scrapping the Census, media comments
+# 2025
 
-*2024-06-18*
+## *Nationwide census scrapped*, Science Media Centre and other media comments
+
+*2025-06-18*
+
+🏷 `media; news; radio; interview; recording available;`
 
 ![Census pack with letter delivered by mail by 2023 Census, Stats NZ. Copyright 2023. Licensed under CC BY 4.0.](images/2023-Census-DL-pack-being-retrie.png)
 
@@ -18,11 +22,13 @@ On 18 June, [Statistics Minister Dr Shane Reti announced](https://www.beehive.go
 
 I was asked for a comment by the Science Media Centre, which you can find [here](https://www.sciencemediacentre.co.nz/2025/06/18/nationwide-census-scrapped-expert-reaction/), among excellent comments from Lara Greaves, Tahu Kukutai and other experts I would recommend following in this area.
 
-This comment was picked up in a 📃 [1News article](https://www.1news.co.nz/2025/06/18/five-yearly-census-to-be-scrapped/) (very nice of them to give me the 'last word') and resulted in an interview with Joel Armstrong on 95bFM (🔊 [audio link](https://95bfm.com/bcast/concerns-regarding-moving-away-from-census-to-collect-national-data-w-the-university-of-auckland%E2%80%99s) + 📃[associated write up](https://95bfm.com/news/concerns-raised-for-minority-communities-over-scrapping-the-census)) and Joel Maxwell for Stuff ( 📃 [article link](https://www.stuff.co.nz/nz-news/360736670/stats-nz-confirms-experts-take-scrapping-census-permanent-reduction-quality-some-data)).
+This comment was picked up in a 📃 [1News article](https://www.1news.co.nz/2025/06/18/five-yearly-census-to-be-scrapped/) (very nice of them to give me the 'last word') and resulted in an interview with Joel Armstrong on 95bFM (📻 [audio link](https://95bfm.com/bcast/concerns-regarding-moving-away-from-census-to-collect-national-data-w-the-university-of-auckland%E2%80%99s) + 📃[associated write up](https://95bfm.com/news/concerns-raised-for-minority-communities-over-scrapping-the-census)) and Joel Maxwell for Stuff ( 📃 [article link](https://www.stuff.co.nz/nz-news/360736670/stats-nz-confirms-experts-take-scrapping-census-permanent-reduction-quality-some-data)).
 
 ## 🤔 *That's questionable: Designing and deploying effective models for generating multiple versions of auto-marked questions*, New Zealand Statistical Association (NZSA) 2024 Conference
 
 *2024-12-02*
+
+🏷 `academic; conference; stats ed; presentation; slides;`
 
 *This is joint work with Anna Fergusson, Lars Thomsen, Charlotte Jones-Todd.*
 
@@ -41,9 +47,13 @@ xaringanExtra::embed_xaringan(
 )
 ```
 
+# 2024
+
 ## *This way or data-way: A survival guide for a world of data*, Raising the Bar Auckland
 
 *2024-08-27*
+
+🏷 `public; presentation; recording available;`
 
 Blurb: What do motivational posts on LinkedIn have in common with the supposedly small feet of Victorians? Join Dr Liza Bolton as she explores the habits of statistical thinking that can make our day-to-day lives better -- from picking a restaurant like a statistician, to why you shouldn't necessarily believe a bus stop advertisement when it tells you your hometown is one of New Zealand's most monogamous. There are no mathematics prerequisites here -- number lovers and loathers alike are invited on a romp through the good, the bad and the ugly from a world full of data and decisions.
 
@@ -59,6 +69,8 @@ Listen on [SoundCloud](https://soundcloud.com/university-of-auckland/this-way-or
 
 *2024-08-20*
 
+🏷 `media; radio; interview; recording available;`
+
 I dropped into the studio for a quick [Ready Steady Learn](https://feeds.95bfm.com/bfmreadysteadylearn) chat with host Jonny in the lead up to the [Raising the Bar](https://www.rtbevent.com/auckland-24) on August 27.
 
 ![](images/2024-bFMstudio.jpeg){fig-alt="Liza, a pale skinned brunette, sitting at the radio studio desk with lots of audio equipment around."}
@@ -70,6 +82,8 @@ Direct link: <https://95bfm.com/bcast/ready-steady-learn-w-liza-bolton-august-20
 ## *Lies, Damned Lies and Statistics*, Smooth Brain Society
 
 *2024-05-16*
+
+🏷 `media; podcast; interview; recording;`
 
 Host: [Dr Sahir Hussain](https://www.linkedin.com/in/sahir-hussain-b7a224190/)
 
@@ -94,6 +108,8 @@ This episode is available where ever you get your podcasts.
 
 *2024-04-10*
 
+🏷 `academic; presentation; slides;`
+
 The Early Career Research Group supports Research Fellows in the Faculty of Science. Many Research Fellows also teach and the team organises this workshop yearly to support people to engage with education research and effective practices.
 
 ### Slides
@@ -111,6 +127,8 @@ xaringanExtra::embed_xaringan(
 
 *2024-03-20*
 
+🏷 `media; news;`
+
 Read the comment on [SCIMEX](https://www.scimex.org/newsfeed/per-capita-needs-to-go-say-researchers).
 
 This is a short 'expert reaction' solicited by the Science Media Centre (NZ) on an published article about issues with, and an alternative to, reporting *per capita* measures. Thomas Lumley also commented, and his thoughts are always a good read!
@@ -118,6 +136,8 @@ This is a short 'expert reaction' solicited by the Science Media Centre (NZ) on 
 ## Data Aotearoa workshop for data journos
 
 *2024-03-08*
+
+🏷 `presentation; slides;`
 
 Direct link: <https://lizabolton.github.io/data-aotearoa-2024/>
 
@@ -128,9 +148,13 @@ xaringanExtra::embed_xaringan(
 )
 ```
 
+# 2023
+
 ## Data democratisation panel, Science Communicators Association of New Zealand
 
 *2023-11-17*
+
+🏷 `conference; presentation; recording;`
 
 **Facilitator**: Dacia Herbulock
 
@@ -144,26 +168,46 @@ See post with resources and links [here](https://blog.lizabolton.com/posts/2023-
 
 ![](https://blog.lizabolton.com/posts/2023-11-15-scanz/images/bog.png)
 
+## *Warrantless searches: Ongoing racial bias evident*, comments for a Sunday Star-Times piece by Eugene Bingham and Sapeer Mayron
+
+*2023-07-30*
+
+🏷 `media; news; interview;`
+
+Eugene and Sapeer did some excellent work on data from an Official Information Act request on warrantless searches. Sapeer and I had a chat about missing data, measuring ethnicity and data collection procedures.
+
+> University of Auckland professional teaching fellow in statistics Liza Bolton says recording ethnicity accurately is a "well-known issue in New Zealand statistics".
+
+🔗 [Link to article on thepost.co.nz](https://www.thepost.co.nz/nz-news/350044771/warrantless-searches-ongoing-racial-bias-evident)
+
+# 2022
+
 ## `learnr` *Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers*, Computation and Data Science Education Community of Practice
 
 *2022-02-04*
+
+🏷 `academic; presentation; stats ed; slides;`
 
 See the blog post [here](https://blog.lizabolton.com/posts/2022-02-04-learnr-interactives-or-how-i-learned-to-stop-worrying-and-turn-my-students-into-pixelated-farmers/) for more
 
 ### Slides
 
-Direct link: <https://bolton-cds-w22.netlify.app/#1>
+Direct link: <https://lizabolton.github.io/pixel-farmers-2022/#1>
 
 ```{r, echo=FALSE}
 xaringanExtra::embed_xaringan(
-  url = "https://bolton-cds-w22.netlify.app/",
+  url = "https://lizabolton.github.io/pixel-farmers-2022/#1",
   ratio = "16:9"
 )
 ```
 
+# 2020
+
 ## *Panel on teaching data-focused topics*, Toronto Data Workshop
 
 *2020-12-17*
+
+🏷 `academic; presentation; stats ed; recording available;`
 
 Big thank you to [Rohan Alexander](https://rohanalexander.com/) for organising this panel on teaching data-focussed topics. This was one of my favourite talks I've ever done because I got to get creative with it. Unfortunately my use of music kept getting Rohan copyright stuck on YouTube. Sorry, Rohan!
 
@@ -179,9 +223,13 @@ My bit starts at 14:51 but I'd highly recommend the other speakers' sections!
 -   [Maria Tackett, Duke University](https://www.mariatackett.net/)
 -   [Teon Brooks, Mozilla Firefox](https://teonbrooks.com/)
 
+# 2019
+
 ## *Everything you need to fall in love with Statistics*, an interview with [storyo.co](https://www.storyo.co/)
 
 *2019-07-11*
+
+🏷️ `interview;`
 
 > I met Liza (pronounced Lie-zuh, like Liza Minnelli) at the R-Ladies meetup in Auckland, New Zealand where she was giving a talk on colour palettes. If you ever meet Liza, you will see that it is absolutely impossible to not get a massive positive energy recharge after talking to her. Liza is currently doing her PhD in Statistics, running a consultancy called The Data Embassy, speaking at events, teaching, mentoring. It would be my absolute pleasure to learn more about Liza and share her wonderful story.
 
@@ -191,15 +239,21 @@ My bit starts at 14:51 but I'd highly recommend the other speakers' sections!
 
 *2019-06-12*
 
+🏷️ `presentation; slides;`
+
 A lightning talk about using colour when plotting data with `ggplot`.
 
 ```{r, echo=FALSE}
 xaringanExtra::embed_xaringan(url = "https://www.dataembassy.co.nz/Liza-colours-in-R#1", ratio = "16:9")
 ```
 
+# 2018
+
 ## *Lotto...you're doing it wrong!*, an interview with The Project NZ
 
 *2018-09-21*
+
+🏷️ `media; news; tv; interview;`
 
 > After hearing that FORTY Kiwis won Lotto first division this week we thought... what are the chances of that?!
 >
@@ -209,9 +263,25 @@ xaringanExtra::embed_xaringan(url = "https://www.dataembassy.co.nz/Liza-colours-
 
 [~~Watch on Facebook (\~4 mins)~~](https://www.facebook.com/TheProjectNZ/videos/2233885323501095/) Unfortunately this video disappeared with The Project NZ.
 
+## *Doctoral spotlight*, the University of Auckland
+
+*2018-05-11*
+
+🏷️ `interview;`
+
+![](https://www.auckland.ac.nz/content/auckland/en/students/academic-information/postgraduate-students/doctoral/doctoralspotlight/Liza-Bolton/jcr:content/leftpar/imagecomponent_1601138809/image.img.1024.medium.jpg/1538356009738.jpg)
+
+An interview about PhD life at the University of Auckland.
+
+> Liza is a statistician and entrepreneur. Find out about her research on mortality inequality in New Zealand, her side hustles and her advice to new candidates.
+
+🔗 [Link](https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/doctoral/doctoralspotlight/Liza-Bolton.html)
+
 ## *The Cambridge Analytica fallout*, an interview with RNZ
 
 *2018-03-21*
+
+🏷️ `media; news; radio; interview; recording available;`
 
 > Social media giant Facebook is having a rough week, it's stocks plummeting and a "please explain" from congress following reports a political consulting firm kept data on millions of its users.
 >
