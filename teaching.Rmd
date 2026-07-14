@@ -2,7 +2,10 @@
 title: "Teaching"
 description: |
   A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2026-07-14*.
-output: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## 2026 {#academic-year-2026}
 
-### Key service roles:
+### Key service roles
 
 -   Postgraduate Adviser (Data Science)
 
@@ -37,7 +40,7 @@ Note: The delivery of these courses is the same.
 
 *Note: I am only teaching a first-year course locally this year, but will also be teaching a third-year data science course in China --- see below.*
 
-### Key service roles:
+### Key service roles
 
 -   Postgraduate Adviser (Data Science)
 
