@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2024-12-11*.
+  A history of courses I've taught and some guidance about what to expect if you take a course with me this year. *Last updated: 2026-07-14*.
 output: distill::distill_article
 ---
 
@@ -11,9 +11,31 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # University of Auckland 2016, 2017 & 2023---present
 
-## 2025 {#academic-year-2024}
+## 2026 {#academic-year-2026}
 
-*Note: I am only teaching a first-year course locally this year, but will also be teaching a third-year data science course in China --- see below.*
+### Key service roles:
+
+-   Postgraduate Adviser (Data Science)
+
+-   STATS 101/101G/108 Technical Admin
+
+-   Undergraduate Staff Student Consultative Committee Meeting Chair
+
+### STATS 220 (Semester 1)
+[Course catalogue information](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=STATS%20220&clear=6)
+
+
+### STATS 101/108 (Semester 2)
+
+[Course catalogue information (101)](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=STATS%20101&clear=6)
+
+[Course catalogue information (108)](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=STATS%20108&clear=6)
+
+Note: The delivery of these courses is the same.
+
+## 2025 {#academic-year-2025}
+
+*Note: I am only teaching a first-year course locally this year, but will also be teaching a third-year data science course in China --- see below.*
 
 ### Key service roles:
 
@@ -29,7 +51,7 @@ A short course as part of the partnership between SWU and UoA. Late-April to mid
 
 This course aims to cover the same learning objectives as [STATS 369](https://courseoutline.auckland.ac.nz/dco/course/STATS/369/1255) in Auckland and is a key course for students in the transnational education programme who will complete the Data Science Masters at the University of Auckland.
 
-### STATS 101/108 (Semester 1, 2 & Summer)
+### STATS 101/108 (Semester 1 & 2)
 
 *Intended for anyone who will ever have to collect or make sense of data, either in their career or private life. Steps involved in conducting a statistical investigation are studied with the main emphasis being on data analysis and the background concepts necessary for successfully analysing data, extrapolating from patterns in data to more generally applicable conclusions and communicating results to others. Other topics include probability; confidence intervals, statistical significance, t-tests, and p-values; nonparametric methods; one-way analysis of variance, simple linear regression, correlation, tables of counts and the chi-square test.*
 

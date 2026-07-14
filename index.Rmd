@@ -3,7 +3,7 @@ title: "Hi, I'm Liza!"
 description: |
   Statistics Enthusiast and Educator
 site: distill::distill_website
-image: "images/liza2020.jpg"
+image: "images/liza2025.png"
 links:
   - label: University of Auckland
     url: "https://profiles.auckland.ac.nz/liza-bolton"

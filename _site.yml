@@ -17,16 +17,12 @@ navbar:
       href: teaching.html
     - text: "For students"
       menu:
-        - text: "2025"
-          href: https://www.lizabolton.com/teaching.html#2025
         - text: "General advice"
           href: advice.html
         - text: "Reference letters"
           href: references.html
     - text: "Talks"
       href: talks.html
-    - text: "Blog"
-      href: https://blog.lizabolton.com
     - icon: fa fa-github
       href: https://github.com/elb0
     - icon: fa fa-linkedin
